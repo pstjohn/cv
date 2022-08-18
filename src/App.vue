@@ -9,7 +9,13 @@
       <div class="document-footer"></div>
     </div>
     <footer>
-      <a href="https://github.com/pstjohn/cv">view source</a>
+      <p>
+        Looking for a PDF? Use your browser's
+        <a href="#" id="print-button" onclick="window.print();return false;"
+          >print dialog.
+        </a>
+      </p>
+      <p><a href="https://github.com/pstjohn/cv">view source</a></p>
     </footer>
   </div>
 </template>
