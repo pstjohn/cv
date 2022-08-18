@@ -1,0 +1,103 @@
+// @use 'bootstrap/scss/bootstrap' with (
+//   $grid-gutter-width: 0rem
+// );
+
+@import 'mixins';
+@import 'colors';
+
+// https://stackoverflow.com/questions/53232638/bootstrap-4-printing-uses-medium-breakpoint
+
+footer {
+  padding: 30px;
+  padding-top: 60px;
+  text-align: center;
+
+  a {
+    line-height: 1.6;
+    color: $text-color-secondary;
+    font-size: 13px;
+  }
+}
+
+@media print {
+  @page {
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  body {
+    min-width: 992px !important;
+    margin: 0;
+  }
+
+  .document-header,
+  .document-footer {
+    display: none;
+  }
+
+  .float-lg-end {
+    float: right !important;
+  }
+
+  .d-lg-inline {
+    display: inline !important;
+  }
+}
+
+@media screen {
+  .wrapper {
+    @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+    background: $theme-color;
+    align-items: stretch;
+    // display: flex;
+  }
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.document-header,
+.document-footer {
+  background: $theme-color;
+  height: 30px;
+}
+
+body {
+  font-family: 'Raleway';
+  color: $text-color-secondary;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen {
+  body {
+    background: $smoky-white;
+  }
+}
+
+footer {
+  padding: 30px;
+  padding-top: 60px;
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+p {
+  line-height: 1.5;
+}

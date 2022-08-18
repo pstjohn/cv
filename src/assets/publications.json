@@ -1,0 +1,2557 @@
+{
+    "items": [
+        {
+            "id": "12694622/CS6XKMMX",
+            "type": "article-journal",
+            "title": "A Review and Perspective on Particulate Matter Indices Linking Fuel Composition to Particulate Emissions from Gasoline Engines",
+            "container-title": "SAE International Journal of Fuels and Lubricants",
+            "volume": "15",
+            "issue": "1",
+            "DOI": "10.4271/04-15-01-0001",
+            "author": [
+                {
+                    "family": "Leach",
+                    "given": "Felix"
+                },
+                {
+                    "family": "Chapman",
+                    "given": "Elana"
+                },
+                {
+                    "family": "Jetter",
+                    "given": "Jeff J."
+                },
+                {
+                    "family": "Rubino",
+                    "given": "Lauretta"
+                },
+                {
+                    "family": "Christensen",
+                    "given": "Earl D."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Fioroni",
+                    "given": "Gina M."
+                },
+                {
+                    "family": "McCormick",
+                    "given": "Robert L."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        10
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/PTXFQ8WS",
+            "type": "article-journal",
+            "title": "Multi-objective goal-directed optimization of de novo stable organic radicals for aqueous redox flow batteries",
+            "container-title": "Nature Machine Intelligence",
+            "DOI": "10.1038/s42256-022-00506-3",
+            "author": [
+                {
+                    "family": "Sowndarya S. V.",
+                    "given": "Shree"
+                },
+                {
+                    "family": "Law",
+                    "given": "Jeffery"
+                },
+                {
+                    "family": "Tripp",
+                    "given": "Charles"
+                },
+                {
+                    "family": "Duplyakin",
+                    "given": "Dmitry"
+                },
+                {
+                    "family": "Skordilis",
+                    "given": "Erotokritos"
+                },
+                {
+                    "family": "Biagioni",
+                    "given": "David"
+                },
+                {
+                    "family": "Paton",
+                    "given": "Robert"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/ZJVL5HY6",
+            "type": "article-journal",
+            "title": "Bioderived ether design for low emission and high reactivity transport fuels",
+            "container-title": "Sustainable Energy & Fuels",
+            "DOI": "10.26434/chemrxiv-2021-8cjd5",
+            "author": [
+                {
+                    "family": "Cho",
+                    "given": "Jaeyoung"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Yeonjoon"
+                },
+                {
+                    "family": "Etz",
+                    "given": "Brian"
+                },
+                {
+                    "family": "Fioroni",
+                    "given": "Gina"
+                },
+                {
+                    "family": "Naser",
+                    "given": "Nimal"
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Junqing"
+                },
+                {
+                    "family": "Xiang",
+                    "given": "Zhanhong"
+                },
+                {
+                    "family": "Hays",
+                    "given": "Cameron"
+                },
+                {
+                    "family": "Alegre-Requena",
+                    "given": "Juan"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Zigler",
+                    "given": "Bradley"
+                },
+                {
+                    "family": "McEnally",
+                    "given": "Charles"
+                },
+                {
+                    "family": "Pfefferle",
+                    "given": "Lisa"
+                },
+                {
+                    "family": "McCormick",
+                    "given": "Robert"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/FX687RSR",
+            "type": "article-journal",
+            "title": "Bayesian Inference for Integrating Yarrowia lipolytica Multiomics Datasets with Metabolic Modeling",
+            "container-title": "ACS Synthetic Biology",
+            "DOI": "10.1021/acssynbio.1c00267",
+            "note": "Publisher: American Chemical Society (ACS)",
+            "author": [
+                {
+                    "family": "McNaughton",
+                    "given": "Andrew D."
+                },
+                {
+                    "family": "Bredeweg",
+                    "given": "Erin L."
+                },
+                {
+                    "family": "Manzer",
+                    "given": "James"
+                },
+                {
+                    "family": "Zucker",
+                    "given": "Jeremy"
+                },
+                {
+                    "family": "Munoz Munoz",
+                    "given": "Nathalie"
+                },
+                {
+                    "family": "Burnet",
+                    "given": "Meagan C."
+                },
+                {
+                    "family": "Nakayasu",
+                    "given": "Ernesto S."
+                },
+                {
+                    "family": "Pomraning",
+                    "given": "Kyle R."
+                },
+                {
+                    "family": "Merkley",
+                    "given": "Eric D."
+                },
+                {
+                    "family": "Dai",
+                    "given": "Ziyu"
+                },
+                {
+                    "family": "Chrisler",
+                    "given": "William B."
+                },
+                {
+                    "family": "Baker",
+                    "given": "Scott E."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Kumar",
+                    "given": "Neeraj"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        10
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/DK2V393W",
+            "type": "article-journal",
+            "title": "Predicting energy and stability of known and hypothetical crystals using graph neural network",
+            "container-title": "Patterns",
+            "page": "100361",
+            "DOI": "10.1016/j.patter.2021.100361",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Pandey",
+                    "given": "Shubham"
+                },
+                {
+                    "family": "Qu",
+                    "given": "Jiaxing"
+                },
+                {
+                    "family": "Stevanovic",
+                    "given": "Vladan"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Gorai",
+                    "given": "Prashun"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        9
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/LP7GDHZQ",
+            "type": "article-journal",
+            "title": "Property predictions demonstrate that structural diversity can improve the performance of polyoxymethylene ethers as potential bio-based diesel fuels",
+            "container-title": "Fuel",
+            "page": "120509",
+            "volume": "295",
+            "DOI": "10.1016/j.fuel.2021.120509",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Bartholet",
+                    "given": "Danielle L."
+                },
+                {
+                    "family": "Arellano-Treviño",
+                    "given": "Martha A."
+                },
+                {
+                    "family": "Chan",
+                    "given": "Fan Liang"
+                },
+                {
+                    "family": "Lucas",
+                    "given": "Stephen"
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Junqing"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Alleman",
+                    "given": "Teresa L."
+                },
+                {
+                    "family": "McEnally",
+                    "given": "Charles S."
+                },
+                {
+                    "family": "Pfefferle",
+                    "given": "Lisa D."
+                },
+                {
+                    "family": "Ruddy",
+                    "given": "Daniel A."
+                },
+                {
+                    "family": "Windom",
+                    "given": "Bret"
+                },
+                {
+                    "family": "Foust",
+                    "given": "Thomas D."
+                },
+                {
+                    "family": "Reardon",
+                    "given": "Kenneth F."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        7
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/X5NKGP8N",
+            "type": "article-journal",
+            "title": "Thermodynamic and Kinetic Modeling of Co-utilization of Glucose and Xylose for 2,3-BDO Production by Zymomonas mobilis",
+            "container-title": "Frontiers in Bioengineering and Biotechnology",
+            "volume": "9",
+            "DOI": "10.3389/fbioe.2021.707749",
+            "note": "Publisher: Frontiers Media SA",
+            "author": [
+                {
+                    "family": "Wu",
+                    "given": "Chao"
+                },
+                {
+                    "family": "Spiller",
+                    "given": "Ryan"
+                },
+                {
+                    "family": "Dowe",
+                    "given": "Nancy"
+                },
+                {
+                    "family": "Bomble",
+                    "given": "Yannick J."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        7
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/HT9ZNU5B",
+            "type": "article-journal",
+            "title": "Understanding how chemical structure affects ignition-delay-time ϕ-sensitivity",
+            "container-title": "Combustion and Flame",
+            "page": "377– 387",
+            "volume": "225",
+            "DOI": "10.1016/j.combustflame.2020.11.004",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Messerly",
+                    "given": "Richard A."
+                },
+                {
+                    "family": "Luecke",
+                    "given": "Jon H."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Etz",
+                    "given": "Brian D."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Yeonjoon"
+                },
+                {
+                    "family": "Zigler",
+                    "given": "Bradley T."
+                },
+                {
+                    "family": "McCormick",
+                    "given": "Robert L."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        3
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/FRHRME7Z",
+            "type": "article-journal",
+            "title": "Biochemical Production with Purified Cell-Free Systems",
+            "container-title": "Biochemical Engineering Journal",
+            "page": "107002",
+            "volume": "166",
+            "DOI": "10.1016/j.bej.2018.07.016",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Rollin",
+                    "given": "Joseph A."
+                },
+                {
+                    "family": "Bomble",
+                    "given": "Yannick J."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Stark",
+                    "given": "Addison K."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/GIFYW88N",
+            "type": "article-journal",
+            "title": "Importance of Engineered and Learned Molecular Representations in Predicting Organic Reactivity, Selectivity, and Chemical Properties",
+            "container-title": "Accounts of Chemical Research",
+            "page": "827– 836",
+            "volume": "54",
+            "issue": "4",
+            "DOI": "10.1021/acs.accounts.0c00745",
+            "note": "Publisher: American Chemical Society (ACS)",
+            "author": [
+                {
+                    "family": "Gallegos",
+                    "given": "Liliana C."
+                },
+                {
+                    "family": "Luchini",
+                    "given": "Guilian"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                },
+                {
+                    "family": "Paton",
+                    "given": "Robert S."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/4PFVV7SL",
+            "type": "article-journal",
+            "title": "Investigation of structural effects of aromatic compounds on sooting tendency with mechanistic insight into ethylphenol isomers",
+            "container-title": "Proceedings of the Combustion Institute",
+            "page": "1143–1151",
+            "volume": "38",
+            "issue": "1",
+            "DOI": "10.1016/j.proci.2020.06.321",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Kim",
+                    "given": "Yeonjoon"
+                },
+                {
+                    "family": "Etz",
+                    "given": "Brian D."
+                },
+                {
+                    "family": "Fioroni",
+                    "given": "Gina M."
+                },
+                {
+                    "family": "Hays",
+                    "given": "Cameron K."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Messerly",
+                    "given": "Richard A."
+                },
+                {
+                    "family": "Vyas",
+                    "given": "Shubham"
+                },
+                {
+                    "family": "Beekley",
+                    "given": "Brian P."
+                },
+                {
+                    "family": "Guo",
+                    "given": "Facheng"
+                },
+                {
+                    "family": "McEnally",
+                    "given": "Charles S."
+                },
+                {
+                    "family": "Pfefferle",
+                    "given": "Lisa D."
+                },
+                {
+                    "family": "McCormick",
+                    "given": "Robert L."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/P7ENKWM3",
+            "type": "article-journal",
+            "title": "Elucidating the chemical pathways responsible for the sooting tendency of 1 and 2-phenylethanol",
+            "container-title": "Proceedings of the Combustion Institute",
+            "page": "1327–1334",
+            "volume": "38",
+            "issue": "1",
+            "DOI": "10.1016/j.proci.2020.06.072",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Etz",
+                    "given": "Brian D."
+                },
+                {
+                    "family": "Fioroni",
+                    "given": "Gina M."
+                },
+                {
+                    "family": "Messerly",
+                    "given": "Richard A."
+                },
+                {
+                    "family": "Rahimi",
+                    "given": "Mohammad J."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Robichaud",
+                    "given": "David J."
+                },
+                {
+                    "family": "Christensen",
+                    "given": "Earl D."
+                },
+                {
+                    "family": "Beekley",
+                    "given": "Brian P."
+                },
+                {
+                    "family": "McEnally",
+                    "given": "Charles S."
+                },
+                {
+                    "family": "Pfefferle",
+                    "given": "Lisa D."
+                },
+                {
+                    "family": "Xuan",
+                    "given": "Yuan"
+                },
+                {
+                    "family": "Vyas",
+                    "given": "Shubham"
+                },
+                {
+                    "family": "Paton",
+                    "given": "Robert S."
+                },
+                {
+                    "family": "McCormick",
+                    "given": "Robert L."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/VAI49MKB",
+            "type": "article-journal",
+            "title": "Advances in integrative structural biology: Towards understanding protein complexes in their cellular context",
+            "container-title": "Computational and Structural Biotechnology Journal",
+            "page": "214– 225",
+            "volume": "19",
+            "DOI": "10.1016/j.csbj.2020.11.052",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Ziegler",
+                    "given": "Samantha J."
+                },
+                {
+                    "family": "Mallinson",
+                    "given": "Sam J.B."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Bomble",
+                    "given": "Yannick J."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/Y4BLS2NK",
+            "type": "article-journal",
+            "title": "Real-time prediction of 1H and 13C chemical shifts with DFT accuracy using a 3D graph neural network",
+            "container-title": "Chemical Science",
+            "page": "12012– 12026",
+            "volume": "12",
+            "issue": "36",
+            "DOI": "10.1039/d1sc03343c",
+            "note": "Publisher: Royal Society of Chemistry (RSC)",
+            "author": [
+                {
+                    "family": "Guan",
+                    "given": "Yanfei"
+                },
+                {
+                    "family": "Shree Sowndarya",
+                    "given": "S. V."
+                },
+                {
+                    "family": "Gallegos",
+                    "given": "Liliana C."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Paton",
+                    "given": "Robert S."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/2V5Z2RDH",
+            "type": "article-journal",
+            "title": "A quantitative metric for organic radical stability and persistence using thermodynamic and kinetic features",
+            "container-title": "Chemical Science",
+            "DOI": "10.1039/d1sc02770k",
+            "note": "Publisher: Royal Society of Chemistry (RSC)",
+            "author": [
+                {
+                    "family": "Sowndarya S. V.",
+                    "given": "Shree"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Paton",
+                    "given": "Robert S."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/8TAPGR3L",
+            "type": "article-journal",
+            "title": "A comparison of computational models for predicting yield sooting index",
+            "container-title": "Proceedings of the Combustion Institute",
+            "page": "1385– 1393",
+            "volume": "38",
+            "issue": "1",
+            "DOI": "10.1016/j.proci.2020.07.009",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Kessler",
+                    "given": "Travis"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Junqing"
+                },
+                {
+                    "family": "McEnally",
+                    "given": "Charles S."
+                },
+                {
+                    "family": "Pfefferle",
+                    "given": "Lisa D."
+                },
+                {
+                    "family": "Mack",
+                    "given": "J. Hunter"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/CHU28QYH",
+            "type": "article-journal",
+            "title": "A perspective on biomass-derived biofuels: From catalyst design principles to fuel properties",
+            "container-title": "Journal of Hazardous Materials",
+            "page": "123198",
+            "volume": "400",
+            "DOI": "10.1016/j.jhazmat.2020.123198",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Kim",
+                    "given": "Yeonjoon"
+                },
+                {
+                    "family": "Thomas",
+                    "given": "Anna E."
+                },
+                {
+                    "family": "Robichaud",
+                    "given": "David J."
+                },
+                {
+                    "family": "Iisa",
+                    "given": "Kristiina"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Etz",
+                    "given": "Brian D."
+                },
+                {
+                    "family": "Fioroni",
+                    "given": "Gina M."
+                },
+                {
+                    "family": "Dutta",
+                    "given": "Abhijit"
+                },
+                {
+                    "family": "McCormick",
+                    "given": "Robert L."
+                },
+                {
+                    "family": "Mukarakate",
+                    "given": "Calvin"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        12
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/FPTBHB2H",
+            "type": "article-journal",
+            "title": "Prediction of Hydroxymethylfurfural Yield in Glucose Conversion through Investigation of Lewis Acid and Organic Solvent Effects",
+            "container-title": "ACS Catalysis",
+            "page": "14707– 14721",
+            "volume": "10",
+            "issue": "24",
+            "DOI": "10.1021/acscatal.0c04245",
+            "note": "Publisher: American Chemical Society (ACS)",
+            "author": [
+                {
+                    "family": "Kim",
+                    "given": "Yeonjoon"
+                },
+                {
+                    "family": "Mittal",
+                    "given": "Ashutosh"
+                },
+                {
+                    "family": "Robichaud",
+                    "given": "David J."
+                },
+                {
+                    "family": "Pilath",
+                    "given": "Heidi M."
+                },
+                {
+                    "family": "Etz",
+                    "given": "Brian D."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Johnson",
+                    "given": "David K."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        11
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/5M5MKKJR",
+            "type": "article-journal",
+            "title": "Quantum chemical calculations for over 200,000 organic radical species and 40,000 associated closed-shell molecules",
+            "container-title": "Scientific Data",
+            "volume": "7",
+            "issue": "1",
+            "DOI": "10.1038/s41597-020-00588-x",
+            "note": "Publisher: Springer Science and Business Media LLC",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Guan",
+                    "given": "Yanfei"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Yeonjoon"
+                },
+                {
+                    "family": "Etz",
+                    "given": "Brian D."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                },
+                {
+                    "family": "Paton",
+                    "given": "Robert S."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        7
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/URLZ8Z2T",
+            "type": "article-journal",
+            "title": "Prediction of organic homolytic bond dissociation enthalpies at near chemical accuracy with sub-second computational cost",
+            "container-title": "Nature Communications",
+            "volume": "11",
+            "issue": "1",
+            "DOI": "10.1038/s41467-020-16201-z",
+            "note": "Publisher: Springer Science and Business Media LLC",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Guan",
+                    "given": "Yanfei"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Yeonjoon"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                },
+                {
+                    "family": "Paton",
+                    "given": "Robert S."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/9QD8SFMN",
+            "type": "article-journal",
+            "title": "Towards quantitative prediction of ignition-delay-time sensitivity on fuel-to-air equivalence ratio",
+            "container-title": "Combustion and Flame",
+            "page": "103–115",
+            "volume": "214",
+            "DOI": "10.1016/j.combustflame.2019.12.019",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Messerly",
+                    "given": "Richard A."
+                },
+                {
+                    "family": "Rahimi",
+                    "given": "Mohammad J."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Luecke",
+                    "given": "Jon H."
+                },
+                {
+                    "family": "Park",
+                    "given": "Ji-Woong"
+                },
+                {
+                    "family": "Huq",
+                    "given": "Nabila A."
+                },
+                {
+                    "family": "Foust",
+                    "given": "Thomas D."
+                },
+                {
+                    "family": "Lu",
+                    "given": "Tianfeng"
+                },
+                {
+                    "family": "Zigler",
+                    "given": "Bradley T."
+                },
+                {
+                    "family": "McCormick",
+                    "given": "Robert L."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/LKBZJEGH",
+            "type": "article-journal",
+            "title": "Software and Methods for Computational Flux Balance Analysis",
+            "container-title": "Metabolic Pathway Engineering",
+            "page": "165– 177",
+            "DOI": "10.1007/978-1-0716-0195-2_13",
+            "note": "ISBN: 9781071601952\nPublisher: Springer US",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Bomble",
+                    "given": "Yannick J."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/64DZDLPC",
+            "type": "patent",
+            "title": "engineered microorganisms for the production of intermediates and final products",
+            "publisher-place": "United States",
+            "event-place": "United States",
+            "URL": "https://patentscope.wipo.int/search/en/detail.jsf?docId=US278278877",
+            "note": "Type: Patent Application",
+            "number": "US 2019/0367865 A1",
+            "author": [
+                {
+                    "family": "Johnson",
+                    "given": "Christopher W"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Beckham",
+                    "given": "Gregg T."
+                },
+                {
+                    "family": "Elmore",
+                    "given": "Joshua R."
+                },
+                {
+                    "family": "Guss",
+                    "given": "Adam M."
+                },
+                {
+                    "family": "Rodriguez",
+                    "given": "Davinia S."
+                },
+                {
+                    "family": "Bentley",
+                    "given": "Gayle J."
+                },
+                {
+                    "family": "Peabody",
+                    "given": "George L."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        12,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/78NPW8SQ",
+            "type": "article-journal",
+            "title": "Performance-advantaged ether diesel bioblendstock production by a priori design",
+            "container-title": "Proceedings of the National Academy of Sciences",
+            "page": "26421–26430",
+            "volume": "116",
+            "issue": "52",
+            "DOI": "10.1073/pnas.1911107116",
+            "note": "Publisher: Proceedings of the National Academy of Sciences",
+            "author": [
+                {
+                    "family": "Huq",
+                    "given": "Nabila A."
+                },
+                {
+                    "family": "Huo",
+                    "given": "Xiangchen"
+                },
+                {
+                    "family": "Hafenstine",
+                    "given": "Glenn R."
+                },
+                {
+                    "family": "Tifft",
+                    "given": "Stephen M."
+                },
+                {
+                    "family": "Stunkel",
+                    "given": "Jim"
+                },
+                {
+                    "family": "Christensen",
+                    "given": "Earl D."
+                },
+                {
+                    "family": "Fioroni",
+                    "given": "Gina M."
+                },
+                {
+                    "family": "Fouts",
+                    "given": "Lisa"
+                },
+                {
+                    "family": "McCormick",
+                    "given": "Robert L."
+                },
+                {
+                    "family": "Cherry",
+                    "given": "Patrick A."
+                },
+                {
+                    "family": "McEnally",
+                    "given": "Charles S."
+                },
+                {
+                    "family": "Pfefferle",
+                    "given": "Lisa D."
+                },
+                {
+                    "family": "Wiatrowski",
+                    "given": "Matthew R."
+                },
+                {
+                    "family": "Benavides",
+                    "given": "P. Thathiana"
+                },
+                {
+                    "family": "Biddy",
+                    "given": "Mary J."
+                },
+                {
+                    "family": "Connatser",
+                    "given": "Raynella M."
+                },
+                {
+                    "family": "Kass",
+                    "given": "Michael D."
+                },
+                {
+                    "family": "Alleman",
+                    "given": "Teresa L."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                },
+                {
+                    "family": "Vardon",
+                    "given": "Derek R."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        12
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/8MFW6NHB",
+            "type": "article-journal",
+            "title": "Bayesian inference of metabolic kinetics from genome-scale multiomics data",
+            "container-title": "PLOS Computational Biology",
+            "page": "e1007424",
+            "volume": "15",
+            "issue": "11",
+            "DOI": "10.1371/journal.pcbi.1007424",
+            "note": "Publisher: Public Library of Science (PLoS)",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Strutz",
+                    "given": "Jonathan"
+                },
+                {
+                    "family": "Broadbelt",
+                    "given": "Linda J."
+                },
+                {
+                    "family": "Tyo",
+                    "given": "Keith E. J."
+                },
+                {
+                    "family": "Bomble",
+                    "given": "Yannick J."
+                }
+            ],
+            "editor": [
+                {
+                    "family": "Maranas",
+                    "given": "Costas D.Editor"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        11
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/5Y7HAKQ3",
+            "type": "article-journal",
+            "title": "Impact of ethanol blending into gasoline on aromatic compound evaporation and particle emissions from a gasoline direct injection engine",
+            "container-title": "Applied Energy",
+            "page": "1618– 1631",
+            "volume": "250",
+            "DOI": "10.1016/j.apenergy.2019.05.030",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Ratcliff",
+                    "given": "Matthew A."
+                },
+                {
+                    "family": "Windom",
+                    "given": "Bret"
+                },
+                {
+                    "family": "Fioroni",
+                    "given": "Gina M."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Burke",
+                    "given": "Stephen"
+                },
+                {
+                    "family": "Burton",
+                    "given": "Jonathan"
+                },
+                {
+                    "family": "Christensen",
+                    "given": "Earl D."
+                },
+                {
+                    "family": "Sindler",
+                    "given": "Petr"
+                },
+                {
+                    "family": "McCormick",
+                    "given": "Robert L."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        9
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/B4H9PTZH",
+            "type": "article-journal",
+            "title": "Development of a Data-Derived Sooting Index Including Oxygen-Containing Fuel Components",
+            "container-title": "Energy & Fuels",
+            "page": "10290– 10296",
+            "volume": "33",
+            "issue": "10",
+            "DOI": "10.1021/acs.energyfuels.9b02458",
+            "note": "Publisher: American Chemical Society (ACS)",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                },
+                {
+                    "family": "McCormick",
+                    "given": "Robert L."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        9
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/8X2L8WQZ",
+            "type": "article-journal",
+            "title": "Innovative Chemicals and Materials from Bacterial Aromatic Catabolic Pathways",
+            "container-title": "Joule",
+            "page": "1523–1537",
+            "volume": "3",
+            "issue": "6",
+            "DOI": "10.1016/j.joule.2019.05.011",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Johnson",
+                    "given": "Christopher W."
+                },
+                {
+                    "family": "Salvachúa",
+                    "given": "Davinia"
+                },
+                {
+                    "family": "Rorrer",
+                    "given": "Nicholas A."
+                },
+                {
+                    "family": "Black",
+                    "given": "Brenna A."
+                },
+                {
+                    "family": "Vardon",
+                    "given": "Derek R."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Cleveland",
+                    "given": "Nicholas S."
+                },
+                {
+                    "family": "Dominick",
+                    "given": "Graham"
+                },
+                {
+                    "family": "Elmore",
+                    "given": "Joshua R."
+                },
+                {
+                    "family": "Grundl",
+                    "given": "Nicholas"
+                },
+                {
+                    "family": "Khanna",
+                    "given": "Payal"
+                },
+                {
+                    "family": "Martinez",
+                    "given": "Chelsea R."
+                },
+                {
+                    "family": "Michener",
+                    "given": "William E."
+                },
+                {
+                    "family": "Peterson",
+                    "given": "Darren J."
+                },
+                {
+                    "family": "Ramirez",
+                    "given": "Kelsey J."
+                },
+                {
+                    "family": "Singh",
+                    "given": "Priyanka"
+                },
+                {
+                    "family": "VanderWall",
+                    "given": "Todd A."
+                },
+                {
+                    "family": "Wilson",
+                    "given": "A. Nolan"
+                },
+                {
+                    "family": "Yi",
+                    "given": "Xiunan"
+                },
+                {
+                    "family": "Biddy",
+                    "given": "Mary J."
+                },
+                {
+                    "family": "Bomble",
+                    "given": "Yannick J."
+                },
+                {
+                    "family": "Guss",
+                    "given": "Adam M."
+                },
+                {
+                    "family": "Beckham",
+                    "given": "Gregg T."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        6
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/GTRJ7MH2",
+            "type": "article-journal",
+            "title": "Message-passing neural networks for high-throughput polymer screening",
+            "container-title": "The Journal of Chemical Physics",
+            "page": "234111",
+            "volume": "150",
+            "issue": "23",
+            "DOI": "10.1063/1.5099132",
+            "note": "Publisher: AIP Publishing",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Phillips",
+                    "given": "Caleb"
+                },
+                {
+                    "family": "Kemper",
+                    "given": "Travis W."
+                },
+                {
+                    "family": "Wilson",
+                    "given": "A. Nolan"
+                },
+                {
+                    "family": "Guan",
+                    "given": "Yanfei"
+                },
+                {
+                    "family": "Crowley",
+                    "given": "Michael F."
+                },
+                {
+                    "family": "Nimlos",
+                    "given": "Mark R."
+                },
+                {
+                    "family": "Larsen",
+                    "given": "Ross E."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        6
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/5IRYVZHM",
+            "type": "article-journal",
+            "title": "Approaches to Computational Strain Design in the Multiomics Era",
+            "container-title": "Frontiers in Microbiology",
+            "volume": "10",
+            "DOI": "10.3389/fmicb.2019.00597",
+            "note": "Publisher: Frontiers Media SA",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Bomble",
+                    "given": "Yannick J."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/7QR8E8VK",
+            "type": "article-journal",
+            "title": "Experimental and theoretical insight into the soot tendencies of the methylcyclohexene isomers",
+            "container-title": "Proceedings of the Combustion Institute",
+            "page": "1083–1090",
+            "volume": "37",
+            "issue": "1",
+            "DOI": "10.1016/j.proci.2018.06.095",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                },
+                {
+                    "family": "Fioroni",
+                    "given": "Gina M."
+                },
+                {
+                    "family": "Park",
+                    "given": "Ji-Woong"
+                },
+                {
+                    "family": "Robichaud",
+                    "given": "David J."
+                },
+                {
+                    "family": "Das",
+                    "given": "Dhrubajyoti D."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Lu",
+                    "given": "Tianfeng"
+                },
+                {
+                    "family": "McEnally",
+                    "given": "Charles S."
+                },
+                {
+                    "family": "Pfefferle",
+                    "given": "Lisa D."
+                },
+                {
+                    "family": "Paton",
+                    "given": "Robert S."
+                },
+                {
+                    "family": "Foust",
+                    "given": "Thomas D."
+                },
+                {
+                    "family": "McCormick",
+                    "given": "Robert L."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/ENRKUDHE",
+            "type": "article-journal",
+            "title": "Tailoring diesel bioblendstock from integrated catalytic upgrading of carboxylic acids: a “fuel property first” approach",
+            "container-title": "Green Chemistry",
+            "page": "5813–5827",
+            "volume": "21",
+            "issue": "21",
+            "DOI": "10.1039/c9gc01820d",
+            "note": "Publisher: Royal Society of Chemistry (RSC)",
+            "author": [
+                {
+                    "family": "Huo",
+                    "given": "Xiangchen"
+                },
+                {
+                    "family": "Huq",
+                    "given": "Nabila A."
+                },
+                {
+                    "family": "Stunkel",
+                    "given": "Jim"
+                },
+                {
+                    "family": "Cleveland",
+                    "given": "Nicholas S."
+                },
+                {
+                    "family": "Starace",
+                    "given": "Anne K."
+                },
+                {
+                    "family": "Settle",
+                    "given": "Amy E."
+                },
+                {
+                    "family": "York",
+                    "given": "Allyson M."
+                },
+                {
+                    "family": "Nelson",
+                    "given": "Robert S."
+                },
+                {
+                    "family": "Brandner",
+                    "given": "David G."
+                },
+                {
+                    "family": "Fouts",
+                    "given": "Lisa"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Christensen",
+                    "given": "Earl D."
+                },
+                {
+                    "family": "Luecke",
+                    "given": "Jon"
+                },
+                {
+                    "family": "Mack",
+                    "given": "J. Hunter"
+                },
+                {
+                    "family": "McEnally",
+                    "given": "Charles S."
+                },
+                {
+                    "family": "Cherry",
+                    "given": "Patrick A."
+                },
+                {
+                    "family": "Pfefferle",
+                    "given": "Lisa D."
+                },
+                {
+                    "family": "Strathmann",
+                    "given": "Timothy J."
+                },
+                {
+                    "family": "Salvachúa",
+                    "given": "Davinia"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                },
+                {
+                    "family": "McCormick",
+                    "given": "Robert L."
+                },
+                {
+                    "family": "Beckham",
+                    "given": "Gregg T."
+                },
+                {
+                    "family": "Vardon",
+                    "given": "Derek R."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/33N2793M",
+            "type": "article-journal",
+            "title": "Sooting tendencies of co-optima test gasolines and their surrogates",
+            "container-title": "Proceedings of the Combustion Institute",
+            "page": "961– 968",
+            "volume": "37",
+            "issue": "1",
+            "DOI": "10.1016/j.proci.2018.05.071",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "McEnally",
+                    "given": "Charles S."
+                },
+                {
+                    "family": "Xuan",
+                    "given": "Yuan"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Das",
+                    "given": "Dhrubajyoti D."
+                },
+                {
+                    "family": "Jain",
+                    "given": "Abhishek"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                },
+                {
+                    "family": "Kwan",
+                    "given": "Thomas A."
+                },
+                {
+                    "family": "Tan",
+                    "given": "Lance K."
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Junqing"
+                },
+                {
+                    "family": "Pfefferle",
+                    "given": "Lisa D."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/738RW7MZ",
+            "type": "article-journal",
+            "title": "Measuring and predicting sooting tendencies of oxygenates, alkanes, alkenes, cycloalkanes, and aromatics on a unified scale",
+            "container-title": "Combustion and Flame",
+            "page": "349– 364",
+            "volume": "190",
+            "DOI": "10.1016/j.combustflame.2017.12.005",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Das",
+                    "given": "Dhrubajyoti D."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "McEnally",
+                    "given": "Charles S."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                },
+                {
+                    "family": "Pfefferle",
+                    "given": "Lisa D."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/4S6V65QK",
+            "type": "article-journal",
+            "title": "Prediction of reaction knockouts to maximize succinate production by Actinobacillus succinogenes",
+            "container-title": "PLOS ONE",
+            "page": "e0189144",
+            "volume": "13",
+            "issue": "1",
+            "DOI": "10.1371/journal.pone.0189144",
+            "note": "Publisher: Public Library of Science (PLoS)",
+            "author": [
+                {
+                    "family": "Nag",
+                    "given": "Ambarish"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Crowley",
+                    "given": "Michael F."
+                },
+                {
+                    "family": "Bomble",
+                    "given": "Yannick J."
+                }
+            ],
+            "editor": [
+                {
+                    "family": "Du",
+                    "given": "ChenyuEditor"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/RZ65LX59",
+            "type": "article-journal",
+            "title": "A Quantitative Model for the Prediction of Sooting Tendency from Molecular Structure",
+            "container-title": "Energy & Fuels",
+            "page": "9983-9990",
+            "volume": "31",
+            "issue": "9",
+            "abstract": "Particulate matter emissions negatively aﬀect public health and global climate, yet newer fuel-eﬃcient gasoline direct injection engines tend to produce more soot than their port-fuel injection counterparts. Fortunately, the search for sustainable biomass-based fuel blendstocks provides an opportunity to develop fuels that suppress soot formation in more eﬃcient engine designs. However, as emissions tests are experimentally cumbersome and the search space for potential bioblendstocks is vast, new techniques are needed to estimate the sooting tendency of a diverse range of compounds. In this study, we develop a quantitative structure−activity relationship (QSAR) model of sooting tendency based on the experimental yield sooting index (YSI), which ranks molecules on a scale from n-hexane, 0, to benzene, 100. The model includes a rigorously deﬁned applicability domain, and the predictive performance is checked using both internal and external validation. Model predictions for compounds in the external test set had a median absolute error of ∼3 YSI units. An investigation of compounds that are poorly predicted by the model lends new insight into the complex mechanisms governing soot formation. Predictive models of soot formation can therefore be expected to play an increasingly important role in the screening and development of next-generation biofuels.",
+            "URL": "https://pubs.acs.org/doi/10.1021/acs.energyfuels.7b00616",
+            "DOI": "10.1021/acs.energyfuels.7b00616",
+            "journalAbbreviation": "Energy Fuels",
+            "language": "en",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Kairys",
+                    "given": "Paul"
+                },
+                {
+                    "family": "Das",
+                    "given": "Dhrubajyoti D."
+                },
+                {
+                    "family": "McEnally",
+                    "given": "Charles S."
+                },
+                {
+                    "family": "Pfefferle",
+                    "given": "Lisa D."
+                },
+                {
+                    "family": "Robichaud",
+                    "given": "David J."
+                },
+                {
+                    "family": "Nimlos",
+                    "given": "Mark R."
+                },
+                {
+                    "family": "Zigler",
+                    "given": "Bradley T."
+                },
+                {
+                    "family": "McCormick",
+                    "given": "Robert L."
+                },
+                {
+                    "family": "Foust",
+                    "given": "Thomas D."
+                },
+                {
+                    "family": "Bomble",
+                    "given": "Yannick J."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seonah"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        9,
+                        21
+                    ]
+                ]
+            },
+            "accessed": {
+                "date-parts": [
+                    [
+                        2022,
+                        8,
+                        7
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/Q36AUGTZ",
+            "type": "article-journal",
+            "title": "Estimation of the Maximum Theoretical Productivity of Fed-Batch Bioreactors",
+            "container-title": "IFAC-PapersOnLine",
+            "page": "9883– 9888",
+            "volume": "50",
+            "issue": "1",
+            "DOI": "10.1016/j.ifacol.2017.08.1605",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Crowley",
+                    "given": "Michael F."
+                },
+                {
+                    "family": "Bomble",
+                    "given": "Yannick J."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        7
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/22LIXLMU",
+            "type": "article-journal",
+            "title": "Metabolic Engineering of Actinobacillus succinogenes Provides Insights into Succinic Acid Biosynthesis",
+            "container-title": "Applied and Environmental Microbiology",
+            "volume": "83",
+            "issue": "17",
+            "DOI": "10.1128/aem.00996-17",
+            "note": "Publisher: American Society for Microbiology",
+            "author": [
+                {
+                    "family": "Guarnieri",
+                    "given": "Michael T."
+                },
+                {
+                    "family": "Chou",
+                    "given": "Yat-Chen"
+                },
+                {
+                    "family": "Salvachúa",
+                    "given": "Davinia"
+                },
+                {
+                    "family": "Mohagheghi",
+                    "given": "Ali"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Peterson",
+                    "given": "Darren J."
+                },
+                {
+                    "family": "Bomble",
+                    "given": "Yannick J."
+                },
+                {
+                    "family": "Beckham",
+                    "given": "Gregg T."
+                }
+            ],
+            "editor": [
+                {
+                    "family": "Atomi",
+                    "given": "HaruyukiEditor"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        6
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/4N9WG7AH",
+            "type": "article-journal",
+            "title": "Efficient estimation of the maximum metabolic productivity of batch systems",
+            "container-title": "Biotechnology for Biofuels",
+            "volume": "10",
+            "issue": "1",
+            "DOI": "10.1186/s13068-017-0709-0",
+            "note": "Publisher: Springer Science and Business Media LLC",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Crowley",
+                    "given": "Michael F."
+                },
+                {
+                    "family": "Bomble",
+                    "given": "Yannick J."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/W34WEQKX",
+            "type": "article-journal",
+            "title": "Succinic acid production from lignocellulosic hydrolysate by Basfia succiniciproducens",
+            "container-title": "Bioresource Technology",
+            "page": "558– 566",
+            "volume": "214",
+            "DOI": "10.1016/j.biortech.2016.05.018",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Salvachúa",
+                    "given": "Davinia"
+                },
+                {
+                    "family": "Smith",
+                    "given": "Holly"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Mohagheghi",
+                    "given": "Ali"
+                },
+                {
+                    "family": "Peterson",
+                    "given": "Darren J."
+                },
+                {
+                    "family": "Black",
+                    "given": "Brenna A."
+                },
+                {
+                    "family": "Dowe",
+                    "given": "Nancy"
+                },
+                {
+                    "family": "Beckham",
+                    "given": "Gregg T."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        8
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/NLAYEW23",
+            "type": "article-journal",
+            "title": "Functional network inference of the suprachiasmatic nucleus",
+            "container-title": "Proceedings of the National Academy of Sciences",
+            "page": "4512– 4517",
+            "volume": "113",
+            "issue": "16",
+            "DOI": "10.1073/pnas.1521178113",
+            "note": "Publisher: Proceedings of the National Academy of Sciences",
+            "author": [
+                {
+                    "family": "Abel",
+                    "given": "John H."
+                },
+                {
+                    "family": "Meeker",
+                    "given": "Kirsten"
+                },
+                {
+                    "family": "Granados-Fuentes",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Wang",
+                    "given": "Thomas J."
+                },
+                {
+                    "family": "Bales",
+                    "given": "Benjamin B."
+                },
+                {
+                    "family": "Doyle",
+                    "given": "Francis J."
+                },
+                {
+                    "family": "Herzog",
+                    "given": "Erik D."
+                },
+                {
+                    "family": "Petzold",
+                    "given": "Linda R."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/6C2HJXDL",
+            "type": "article-journal",
+            "title": "Quantifying Stochastic Noise in Cultured Circadian Reporter Cells",
+            "container-title": "PLOS Computational Biology",
+            "page": "e1004451",
+            "volume": "11",
+            "issue": "11",
+            "DOI": "10.1371/journal.pcbi.1004451",
+            "note": "Publisher: Public Library of Science (PLoS)",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Doyle",
+                    "given": "Francis J."
+                }
+            ],
+            "editor": [
+                {
+                    "family": "Rao",
+                    "given": "Christopher V.Editor"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        11
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/N5R27RP3",
+            "type": "article-journal",
+            "title": "A Coupled Stochastic Model Explains Differences in Cry Knockout Behavior",
+            "container-title": "IEEE Life Sciences Letters",
+            "page": "3– 6",
+            "volume": "1",
+            "issue": "1",
+            "DOI": "10.1109/lls.2015.2439498",
+            "note": "Publisher: Institute of Electrical and Electronics Engineers (IEEE)",
+            "author": [
+                {
+                    "family": "Abel",
+                    "given": "John H."
+                },
+                {
+                    "family": "Widmer",
+                    "given": "Lukas A."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Stelling",
+                    "given": "Jorg"
+                },
+                {
+                    "family": "Doyle",
+                    "given": "Francis J."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        6
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/ZFACNREG",
+            "type": "article-journal",
+            "title": "Amplitude Metrics for Cellular Circadian Bioluminescence Reporters",
+            "container-title": "Biophysical Journal",
+            "page": "2712– 2722",
+            "volume": "107",
+            "issue": "11",
+            "DOI": "10.1016/j.bpj.2014.10.026",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Taylor",
+                    "given": "Stephanie R."
+                },
+                {
+                    "family": "Abel",
+                    "given": "John H."
+                },
+                {
+                    "family": "Doyle",
+                    "given": "Francis J."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        12
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/F5N5CN2D",
+            "type": "article-journal",
+            "title": "Spatiotemporal separation of PER and CRY posttranslational regulation in the mammalian circadian clock",
+            "container-title": "Proceedings of the National Academy of Sciences",
+            "page": "2040– 2045",
+            "volume": "111",
+            "issue": "5",
+            "DOI": "10.1073/pnas.1323618111",
+            "note": "Publisher: Proceedings of the National Academy of Sciences",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Hirota",
+                    "given": "Tsuyoshi"
+                },
+                {
+                    "family": "Kay",
+                    "given": "Steve A."
+                },
+                {
+                    "family": "Doyle",
+                    "given": "Francis J."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/LULPYTBB",
+            "type": "article-journal",
+            "title": "Systems Biology",
+            "container-title": "Modelling Methodology for Physiology and Medicine",
+            "page": "159– 187",
+            "DOI": "10.1016/b978-0-12-411557-6.00008-2",
+            "note": "ISBN: 9780124115576\nPublisher: Elsevier",
+            "author": [
+                {
+                    "family": "Yang",
+                    "given": "Ruoting"
+                },
+                {
+                    "family": "Rodriguez-Fernandez",
+                    "given": "Maria"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Doyle",
+                    "given": "Francis J"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/D433VT54",
+            "type": "article-journal",
+            "title": "Estimating confidence intervals in predicted responses for oscillatory biological models",
+            "container-title": "BMC Systems Biology",
+            "volume": "7",
+            "issue": "1",
+            "DOI": "10.1186/1752-0509-7-71",
+            "note": "Publisher: Springer Science and Business Media LLC",
+            "author": [
+                {
+                    "family": "St. John",
+                    "given": "Peter C"
+                },
+                {
+                    "family": "Doyle",
+                    "given": "Francis J"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2013,
+                        7
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/7Q9JZX7T",
+            "type": "article-journal",
+            "title": "Identification of Small Molecule Activators of Cryptochrome",
+            "container-title": "Science",
+            "page": "1094– 1097",
+            "volume": "337",
+            "issue": "6098",
+            "DOI": "10.1126/science.1223710",
+            "note": "Publisher: American Association for the Advancement of Science (AAAS)",
+            "author": [
+                {
+                    "family": "Hirota",
+                    "given": "T."
+                },
+                {
+                    "family": "Lee",
+                    "given": "J. W."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Sawa",
+                    "given": "M."
+                },
+                {
+                    "family": "Iwaisako",
+                    "given": "K."
+                },
+                {
+                    "family": "Noguchi",
+                    "given": "T."
+                },
+                {
+                    "family": "Pongsawakul",
+                    "given": "P. Y."
+                },
+                {
+                    "family": "Sonntag",
+                    "given": "T."
+                },
+                {
+                    "family": "Welsh",
+                    "given": "D. K."
+                },
+                {
+                    "family": "Brenner",
+                    "given": "D. A."
+                },
+                {
+                    "family": "al",
+                    "given": "et"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        7
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "12694622/KU7QPWZF",
+            "type": "article-journal",
+            "title": "Modification of silk fibroin using diazonium coupling chemistry and the effects on hMSC proliferation and differentiation",
+            "container-title": "Biomaterials",
+            "page": "2829– 2838",
+            "volume": "29",
+            "issue": "19",
+            "DOI": "10.1016/j.biomaterials.2008.03.039",
+            "note": "Publisher: Elsevier BV",
+            "author": [
+                {
+                    "family": "Murphy",
+                    "given": "Amanda R."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Kaplan",
+                    "given": "David L."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2008,
+                        7
+                    ]
+                ]
+            }
+        }
+    ]
+}
