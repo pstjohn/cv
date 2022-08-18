@@ -9,7 +9,7 @@
       <div class="document-footer"></div>
     </div>
     <footer>
-      <a href="TODO">view source</a>
+      <a href="https://github.com/pstjohn/cv">view source</a>
     </footer>
   </div>
 </template>
