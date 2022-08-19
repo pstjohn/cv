@@ -79,6 +79,25 @@ export default {
 </script>
 
 <style lang="scss">
+@media (min-width: 576px) {
+  .location {
+    &:before {
+      content: ' | ';
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .location {
+    display: block;
+  }
+
+  .logo img {
+    width: 55px !important;
+    height: 55px !important;
+  }
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -98,9 +117,6 @@ export default {
 
   .location {
     color: $text-grey;
-    &:before {
-      content: ' | ';
-    }
   }
 
   .logo {
