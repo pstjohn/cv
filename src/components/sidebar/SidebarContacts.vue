@@ -99,6 +99,10 @@ img.obscured {
 }
 
 .contact-list {
+  a {
+    text-decoration: none;
+  }
+
   padding: 0;
   list-style-type: none;
   font-size: 16px;

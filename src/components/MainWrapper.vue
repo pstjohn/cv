@@ -10,7 +10,6 @@
         </p>
       </div>
     </MainSection>
-    <!--//section-->
 
     <MainSection title="Appointments" icon="briefcase">
       <ExperienceCompany
@@ -287,6 +286,31 @@
       <h3>Session Chair</h3>
       <ul>
         <li>(2018) Integrative Systems Biology, AIChE Annual Meeting</li>
+      </ul>
+    </MainSection>
+
+    <MainSection title="Mentorship" icon="users-rectangle">
+      <ul>
+        <li>(2021-Present) Shree Sowndarya S. V., Graduate Student</li>
+        <li>(2021-Present) Jeffery Law, Postdoctoral Researcher</li>
+        <li>
+          (2019) Lauren Stanislaw, Undergraduate Student (currently at
+          University of Victoria)
+        </li>
+        <!-- <li>(2018) Nathan Ruffatti, Undergraduate Student</li> -->
+        <li>(2016) Paul Kairys, Undergraduate Student (currently at ORNL)</li>
+        <li>
+          (2015) Amanda Luan, Undergraduate Student (currently Sr. Lead Product
+          Manager at EA)
+        </li>
+        <li>
+          (2014-2015) Lukas Widmer, Masters Student (currently Sr. Principal
+          Statistical Consultant at Novartis)
+        </li>
+        <li>
+          (2012) Andrew Barisser, Rotation Student (currently Sr. Technical
+          Manager at The Voleon Group)
+        </li>
       </ul>
     </MainSection>
   </div>

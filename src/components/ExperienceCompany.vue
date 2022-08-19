@@ -36,7 +36,6 @@ export default {
     duration() {
       let start = new Date(this.startDate);
       let end = this.endDate == 'Present' ? new Date() : new Date(this.endDate);
-      console.log(start);
       let duration = (end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24);
       let years = Math.floor(duration / 365.25);
       let months = Math.floor((duration - years * 365.25) / 30.4375);

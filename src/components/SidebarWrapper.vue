@@ -51,7 +51,7 @@ import SidebarSection from './sidebar/SidebarSection.vue';
 import SidebarContacts from './sidebar/SidebarContacts.vue';
 import EducationEntry from './sidebar/EducationEntry.vue';
 import SidebarStats from './sidebar/SidebarStats.vue';
-import GithubRepo from './GithubRepo.vue';
+import GithubRepo from './sidebar/GithubRepo.vue';
 export default {
   name: 'SidebarWrapper',
   components: {

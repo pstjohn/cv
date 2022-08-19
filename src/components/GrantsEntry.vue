@@ -9,7 +9,9 @@
         <div class="d-lg-inline float-lg-end">{{ time }}</div>
       </div>
       <div>
-        <div class="d-lg-inline">Total Funding: {{ amount }}</div>
+        <div class="d-lg-inline">
+          Total Funding: <span class="amount" v-text="amount" />
+        </div>
         <div class="d-lg-inline float-lg-end">
           <a :href="link">[More Info]</a>
         </div>
@@ -43,6 +45,10 @@ export default {
   // color: $text-color-secondary;
   .grant-title {
     font-size: 14px;
+  }
+
+  .amount {
+    font-weight: 700;
   }
 }
 </style>

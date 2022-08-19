@@ -85,10 +85,10 @@ export default {
 </script>
 
 <style lang="scss">
-h3.year {
-  margin-left: 10px;
+.year-split .year {
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
-
 .citation-container {
   list-style: none;
   column-count: 2;
@@ -97,8 +97,10 @@ h3.year {
   padding-left: 0rem;
   column-fill: balance;
   font-weight: 300;
+  margin-bottom: 0;
 
   li {
+    position: relative;
     // margin-bottom: 0.5rem;
     break-inside: avoid;
     -webkit-column-break-inside: avoid;
@@ -106,9 +108,9 @@ h3.year {
     -moz-page-break-inside: avoid;
     page-break-inside: avoid;
 
-    .citation {
-      padding: 8px 9px 10px 10px;
-    }
+    // .citation {
+    //   padding: 8px 9px 10px 10px;
+    // }
   }
 }
 </style>

@@ -66,6 +66,10 @@ export default {
   font-weight: 600;
   break-inside: avoid;
 
+  a {
+    text-decoration: none;
+  }
+
   .repo-name {
     margin-left: 0.2rem;
   }
