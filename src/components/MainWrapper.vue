@@ -13,115 +13,137 @@
     <!--//section-->
 
     <MainSection title="Appointments" icon="briefcase">
-      <ExperienceEntry
-        jobTitle="Senior Scientist"
-        department="Biosciences Center"
+      <ExperienceCompany
         company="National Renewable Energy Lab"
-        time="2020-Present"
+        location="Golden, CO"
+        startDate="2015-06-02"
+        endDate="Present"
       >
-        <ul>
-          <li>
-            Received and led a $1.8M dollar research effort across three
-            institutions resulting in high-impact publications in
-            <a
-              class="fst-italic"
-              href="https://doi.org/10.1038/s42256-022-00506-3"
-              >Nature Machine Intelligence</a
-            >
-            and
-            <a
-              class="fst-italic"
-              href="https://doi.org/10.1016/j.patter.2021.100361"
-              >Patterns</a
-            >, and peer-reviewed software for reinforcement learning and
-            optimization.
-          </li>
-          <li>
-            Lead NREL PI on a 3-year, $1M Biological and Environmental Research
-            grant focused on predicting thermotolerance and pH tolerance in
-            microbial biotransformations.
-          </li>
-          <li>
-            Subtask lead for a $275K/year subtask under the
-            <a
-              href="https://www.energy.gov/eere/bioenergy/co-optimization-fuels-engines"
-              >Co-Optimization of Fuels & Engines</a
-            >
-            initiative. Used machine learning and cheminformatics techniques to
-            predict the properties of biofuel candidates.
-          </li>
-        </ul>
-      </ExperienceEntry>
+        <template v-slot:logo>
+          <img :src="require('@/assets/images/nrel-logo.jpg')" />
+        </template>
 
-      <ExperienceEntry
-        jobTitle="Faculty Affiliate"
+        <ExperienceEntry
+          jobTitle="Senior Scientist"
+          department="Biosciences Center"
+          company="National Renewable Energy Lab"
+          time="2020-Present"
+        >
+          <ul>
+            <li>
+              Received and led a $1.8M dollar research effort across three
+              institutions resulting in high-impact publications in
+              <a
+                class="fst-italic"
+                href="https://doi.org/10.1038/s42256-022-00506-3"
+                >Nature Machine Intelligence</a
+              >
+              and
+              <a
+                class="fst-italic"
+                href="https://doi.org/10.1016/j.patter.2021.100361"
+                >Patterns</a
+              >, and peer-reviewed software for reinforcement learning and
+              optimization.
+            </li>
+            <li>
+              Lead NREL PI on a 3-year, $1M Biological and Environmental
+              Research grant focused on predicting thermotolerance and pH
+              tolerance in microbial biotransformations.
+            </li>
+            <li>
+              Subtask lead for a $275K/year subtask under the
+              <a
+                href="https://www.energy.gov/eere/bioenergy/co-optimization-fuels-engines"
+                >Co-Optimization of Fuels & Engines</a
+              >
+              initiative. Used machine learning and cheminformatics techniques
+              to predict the properties of biofuel candidates.
+            </li>
+          </ul>
+        </ExperienceEntry>
+
+        <ExperienceEntry
+          jobTitle="Staff Scientist"
+          department="Biosciences Center"
+          company="National Renewable Energy Lab"
+          time="2017-2020"
+        >
+          <ul>
+            <li>
+              Constructed a quantum chemical database, trained a graph neural
+              network, and deployed a web application for predicting organic
+              molecule bond strengths, resulting in a publication in
+              <span class="fst-italic">Nature Communications</span> and a
+              website (<a href="https://bde.ml.nrel.gov/">bde.ml.nrel.gov</a>)
+              with over 7.7k unique visitors since 2019.
+            </li>
+            <li>
+              Recipient of NREL's
+              <span class="award"
+                ><font-awesome-icon icon="fa-solid fa-award" /> President's
+                Award</span
+              >
+              (2019), given to full-time staff for exceptional achievements.
+            </li>
+          </ul>
+        </ExperienceEntry>
+
+        <ExperienceEntry
+          jobTitle="Postdoctoral Scholar"
+          department="Biosciences Center"
+          company="National Renewable Energy Lab"
+          time="2015-2017"
+        >
+          <ul>
+            <li>
+              Used metabolic modeling to suggest unintuitive reaction knockout
+              to improve yields of muconic acid from glucose. Improved yields in
+              shake flasks from 7% to 41%, matching modeling predictions within
+              a few percent.
+            </li>
+            <li>
+              Recipient of NREL's
+              <span class="award">
+                <font-awesome-icon icon="fa-solid fa-award" /> Director's
+                Award</span
+              >
+              (2017), given to temporary staff for exceptional achievements.
+            </li>
+          </ul>
+        </ExperienceEntry>
+      </ExperienceCompany>
+
+      <ExperienceCompany
         company="Colorado State University"
-        department="Chemistry"
-        time="2021-Present"
+        startDate="2022-01-15"
+        location="Fort Collins, CO"
+        endDate="Present"
       >
-        <ul>
-          <li>
-            Mentored graduate students and postdoctoral researchers in the
-            Chemistry department on machine learning research
-          </li>
-          <li>
-            Co-PI on award for over $20K in computational resources (XSEDE award
-            CHE210034, PI Seonah Kim)
-          </li>
-        </ul>
+        <template v-slot:logo>
+          <img :src="require('@/assets/images/csu-logo.jpg')" />
+        </template>
 
-        <!-- over 20,000 XSEDE award.</p> -->
-      </ExperienceEntry>
+        <ExperienceEntry
+          jobTitle="Faculty Affiliate"
+          company="Colorado State University"
+          department="Chemistry"
+          time="2021-Present"
+        >
+          <ul>
+            <li>
+              Mentored graduate students and postdoctoral researchers in the
+              Chemistry department on machine learning research
+            </li>
+            <li>
+              Co-PI on award for over $20K in computational resources (XSEDE
+              award CHE210034, PI Seonah Kim)
+            </li>
+          </ul>
 
-      <ExperienceEntry
-        jobTitle="Staff Scientist"
-        department="Biosciences Center"
-        company="National Renewable Energy Lab"
-        time="2017-2020"
-      >
-        <ul>
-          <li>
-            Constructed a quantum chemical database, trained a graph neural
-            network, and deployed a web application for predicting organic
-            molecule bond strengths, resulting in a publication in
-            <span class="fst-italic">Nature Communications</span> and a website
-            (<a href="https://bde.ml.nrel.gov/">bde.ml.nrel.gov</a>) with over
-            7.7k unique visitors since 2019.
-          </li>
-          <li>
-            Recipient of NREL's
-            <span class="award"
-              ><font-awesome-icon icon="fa-solid fa-award" /> President's
-              Award</span
-            >
-            (2019), given to full-time staff for exceptional achievements.
-          </li>
-        </ul>
-      </ExperienceEntry>
-
-      <ExperienceEntry
-        jobTitle="Postdoctoral Scholar"
-        department="Biosciences Center"
-        company="National Renewable Energy Lab"
-        time="2015-2017"
-      >
-        <ul>
-          <li>
-            Used metabolic modeling to suggest unintuitive reaction knockout to
-            improve yields of muconic acid from glucose. Improved yields in
-            shake flasks from 7% to 41%, matching modeling predictions within a
-            few percent.
-          </li>
-          <li>
-            Recipient of NREL's
-            <span class="award">
-              <font-awesome-icon icon="fa-solid fa-award" /> Director's
-              Award</span
-            >
-            (2017), given to temporary staff for exceptional achievements.
-          </li>
-        </ul>
-      </ExperienceEntry>
+          <!-- over 20,000 XSEDE award.</p> -->
+        </ExperienceEntry>
+      </ExperienceCompany>
     </MainSection>
 
     <MainSection title="Grants" icon="money-check-dollar">
@@ -275,6 +297,7 @@ import MainSection from './MainSection.vue';
 import MainCitations from './MainCitations.vue';
 import ExperienceEntry from './ExperienceEntry.vue';
 import GrantsEntry from './GrantsEntry.vue';
+import ExperienceCompany from './ExperienceCompany.vue';
 
 export default {
   name: 'MainWrapper',
@@ -283,6 +306,7 @@ export default {
     MainCitations,
     ExperienceEntry,
     GrantsEntry,
+    ExperienceCompany,
   },
 };
 </script>

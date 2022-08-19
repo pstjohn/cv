@@ -6,7 +6,7 @@
       <div class="pronouns">(he/him/his)</div>
 
       <h3 class="tagline">
-        Principle Investigator & Senior Scientist at the National Renewable
+        Principal Investigator & Senior Scientist at the National Renewable
         Energy Lab
       </h3>
     </div>

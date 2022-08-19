@@ -1,5 +1,6 @@
 <template>
   <div class="item">
+    <span class="path-node" />
     <div class="meta">
       <div>
         <h3 class="d-lg-inline">
@@ -8,8 +9,6 @@
         </h3>
         <span class="float-lg-end">{{ time }}</span>
       </div>
-      <!--//upper-row-->
-      <div class="company" v-text="company" />
     </div>
     <!--//meta-->
     <div class="details">
@@ -32,6 +31,21 @@ export default {
 </script>
 
 <style lang="scss">
+.item {
+  position: relative;
+
+  .path-node {
+    position: absolute;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    top: 6px;
+    left: -25px;
+  }
+}
+
 .department {
   color: $text-grey;
   &:before {

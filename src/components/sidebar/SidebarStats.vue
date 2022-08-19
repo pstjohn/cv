@@ -10,6 +10,11 @@
       ><span v-if="stats.ready" v-text="stats.hIndex" />
       <font-awesome-icon v-else spin icon="fa-solid fa-rotate" />*
     </p>
+    <p>
+      <span class="label">total publications: </span
+      ><span v-if="stats.ready" v-text="stats.numPublicationsInWosCc" />
+      <font-awesome-icon v-else spin icon="fa-solid fa-rotate" />*
+    </p>
     <span class="wos">*indexed by Web of Science</span>
   </div>
 </template>
