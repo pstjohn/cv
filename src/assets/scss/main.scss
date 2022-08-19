@@ -7,18 +7,6 @@
 
 // https://stackoverflow.com/questions/53232638/bootstrap-4-printing-uses-medium-breakpoint
 
-footer {
-  padding: 30px;
-  padding-top: 60px;
-  text-align: center;
-
-  a {
-    line-height: 1.6;
-    color: $text-color;
-    font-size: 13px;
-  }
-}
-
 @media print {
   @page {
     margin: 0;
@@ -46,7 +34,11 @@ footer {
   }
 }
 
-@media screen {
+@media only screen {
+  body {
+    background: $smoky-white;
+  }
+
   .wrapper {
     @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
     background: $theme-color;
@@ -75,15 +67,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen {
-  body {
-    background: $smoky-white;
-  }
-}
-
 footer {
   padding: 30px;
   padding-top: 60px;
+  text-align: center;
+
+  a {
+    line-height: 1.6;
+    color: $text-color;
+    font-size: 13px;
+  }
 }
 
 a {

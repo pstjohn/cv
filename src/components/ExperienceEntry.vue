@@ -34,6 +34,10 @@ export default {
 .item {
   position: relative;
 
+  ul {
+    padding-left: 20px;
+  }
+
   .path-node {
     position: absolute;
     display: block;

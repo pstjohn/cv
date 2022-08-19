@@ -137,4 +137,10 @@ export default {
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 992px) {
+  .slot {
+    margin-left: 28px;
+  }
+}
 </style>
