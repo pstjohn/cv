@@ -1,7 +1,11 @@
 <template>
   <div class="sidebar-wrapper">
     <div class="profile-container">
-      <img class="profile" data-src="holder.js/220x220" alt="" />
+      <img
+        class="profile"
+        :src="require('@/assets/images/profile_photo.jpg')"
+        alt=""
+      />
       <h1 class="name">Peter St. John<span class="phd">, PhD</span></h1>
       <div class="pronouns">(he/him/his)</div>
 
@@ -52,6 +56,7 @@ import SidebarContacts from './sidebar/SidebarContacts.vue';
 import EducationEntry from './sidebar/EducationEntry.vue';
 import SidebarStats from './sidebar/SidebarStats.vue';
 import GithubRepo from './sidebar/GithubRepo.vue';
+
 export default {
   name: 'SidebarWrapper',
   components: {
@@ -101,6 +106,11 @@ export default {
     // background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: $text-color;
+
+    .profile {
+      max-width: 220px;
+      max-height: 220px;
+    }
 
     .name {
       font-size: 22px;
