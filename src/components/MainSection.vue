@@ -46,8 +46,8 @@ export default {
   h3 {
     color: $text-color;
     font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
     font-weight: 500;
   }
 

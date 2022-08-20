@@ -30,8 +30,8 @@
         >
           <ul>
             <li>
-              Received and led a $1.8M dollar research effort across three
-              institutions resulting in high-impact publications in
+              Proposed, planned, and executed a $1.8M dollar research effort
+              across three institutions resulting in high-impact publications in
               <a
                 class="fst-italic"
                 href="https://doi.org/10.1038/s42256-022-00506-3"
@@ -46,12 +46,11 @@
               optimization.
             </li>
             <li>
-              Lead NREL PI on a 3-year, $1M Biological and Environmental
-              Research grant focused on predicting thermotolerance and pH
-              tolerance in microbial biotransformations.
+              Lead NREL PI on a 3-year, $1M grant focused on predicting
+              thermotolerance and pH tolerance in microbial biotransformations.
             </li>
             <li>
-              Subtask lead for a $275K/year subtask under the
+              Project lead for a $275K/year subtask under the
               <a
                 href="https://www.energy.gov/eere/bioenergy/co-optimization-fuels-engines"
                 >Co-Optimization of Fuels & Engines</a
@@ -73,9 +72,12 @@
               Constructed a quantum chemical database, trained a graph neural
               network, and deployed a web application for predicting organic
               molecule bond strengths, resulting in a publication in
-              <span class="fst-italic">Nature Communications</span> and a
-              website (<a href="https://bde.ml.nrel.gov/">bde.ml.nrel.gov</a>)
-              with over 7.7k unique visitors since 2019.
+              <a href="https://doi.org/10.1038/s41467-020-16201-z"
+                ><span class="fst-italic">Nature Communications</span></a
+              >
+              and a website (<a href="https://bde.ml.nrel.gov/"
+                >bde.ml.nrel.gov</a
+              >) with over 7.7k unique visitors since 2019.
             </li>
             <li>
               Recipient of NREL's
@@ -99,7 +101,10 @@
               Used metabolic modeling to suggest unintuitive reaction knockout
               to improve yields of muconic acid from glucose. Improved yields in
               shake flasks from 7% to 41%, matching modeling predictions within
-              a few percent.
+              a few percent. Published in
+              <a href="https://doi.org/10.1016/j.joule.2019.05.011"
+                ><span class="fst-italic">Joule</span></a
+              >.
             </li>
             <li>
               Recipient of NREL's
@@ -153,23 +158,24 @@
         amount="USD 1,800,000"
         link="https://arpa-e.energy.gov/technologies/projects/end-end-optimization-battery-materials-and-molecules-combining-graph-neural"
         pi="Peter St. John (NREL)"
-        ><p>
+      >
+        <template v-slot:image>
+          <img class="arpae" :src="require('@/assets/images/arpae.svg')" />
+        </template>
+        <p>
           This project was funded under the
           <a
             href="https://arpa-e.energy.gov/technologies/programs/differentiate"
             >DIFFERENTIATE</a
           >
-          program that looked to leverage AI methods to speed up energy
-          innovation. Our project focused on delivering high-quality software
-          for goal-oriented material generation using reinforcement learning,
-          demonstrated on two challenge problems: for organic molecules, we
-          looked to find novel organic radicals for redox flow batteries, while
-          for inorganic materials we optimized interface chemistry for solid
-          state batteries. Currently serving as the Lead PI, with subawards to
-          Colorado School of Mines (Prashun Gorai) and Colorado State University
-          (Rob Paton).
+          program and focused on delivering high-quality software for
+          goal-oriented material generation using reinforcement learning. We
+          demonstrated our method on two challenge problems: finding novel
+          organic radicals for redox flow batteries and optimizing interface
+          chemistry for solid state batteries.
         </p>
       </GrantsEntry>
+
       <GrantsEntry
         title="Novel Systems Approach for Rational Engineering of Robust Microbial Metabolic Pathways"
         time="09-01-2021 to 08-31-2024"
@@ -177,7 +183,11 @@
         amount="USD 969,131"
         pi="Laura Jarboe (ISU)"
         link="https://pamspublic.science.energy.gov/WebPAMSExternal/Interface/Common/ViewPublicAbstract.aspx?rv=e8998df0-6796-4d9c-ad11-40fc9eae0d0d&rtc=24&PRoleId=10"
-        ><p>
+      >
+        <template v-slot:image>
+          <img class="arpae" :src="require('@/assets/images/ber.svg')" />
+        </template>
+        <p>
           This award was funded under
           <a
             href="https://genomicscience.energy.gov/microbial-conversion-2021-awards/"
@@ -188,6 +198,7 @@
           the NREL lead PI, leading Aim 1, Metabolic Systems Modeling.
         </p>
       </GrantsEntry>
+
       <GrantsEntry
         title="STTR Phase I: Robust High-Performance Organic Electro-Optic Materials"
         time="04-15-2021 to 10-31-2022"
@@ -202,6 +213,7 @@
           high-temperature organic electronics.
         </p>
       </GrantsEntry>
+
       <GrantsEntry
         title="Chemistream: Big Data Materials on HPC Clouds"
         time="05-03-2021 to 05-02-2023"

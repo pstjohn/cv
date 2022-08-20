@@ -85,10 +85,6 @@ export default {
 </script>
 
 <style lang="scss">
-.year-split .year {
-  padding-top: 10px;
-  padding-bottom: 5px;
-}
 .citation-container {
   list-style: none;
   column-count: 2;
