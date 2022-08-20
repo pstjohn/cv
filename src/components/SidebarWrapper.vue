@@ -71,7 +71,7 @@ export default {
 
 <style lang="scss">
 .phd {
-  color: $lighter-grey;
+  color: $text-grey;
 }
 
 @media (max-width: 767.98px) {
@@ -107,11 +107,6 @@ export default {
     text-align: center;
     color: $text-color;
 
-    .profile {
-      max-width: 220px;
-      max-height: 220px;
-    }
-
     .name {
       font-size: 22px;
       font-weight: 700;
@@ -129,6 +124,8 @@ export default {
     }
 
     .profile {
+      max-width: 200px;
+      max-height: 200px;
       border-radius: 50%;
       margin-bottom: 15px;
     }

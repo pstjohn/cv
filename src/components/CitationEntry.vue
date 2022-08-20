@@ -59,12 +59,6 @@ export default {
 </script>
 
 <style lang="scss">
-.citation .note {
-  margin-top: 0.2rem;
-  font-size: 12px;
-  color: $text-color;
-}
-
 .has-note {
   width: 5px;
 }
@@ -77,20 +71,26 @@ export default {
   font-family: 'Roboto';
   font-size: 13px;
   position: relative;
-  left: -10px;
-  padding: 5px 9px 5px 10px;
+  font-weight: 400;
+  padding: 5px 10px 5px 10px;
 
   .me {
     font-weight: 700;
     break-inside: avoid;
   }
+
+  .note {
+    margin-top: 0.2rem;
+    font-size: 13px;
+    color: $text-color;
+  }
   // line-height: 15px;
 }
 
 .highlight {
-  border: 1pt solid;
-  border-color: $lighter-grey;
-  padding: 8px 9px 10px 10px;
+  // border: 1pt solid;
+  background-color: $smoky-white;
+  padding: 10px;
 }
 
 .note .citation-count .label {

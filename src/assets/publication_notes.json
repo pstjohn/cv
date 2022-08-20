@@ -1,10 +1,10 @@
 {
-  "10.1038/s42256-022-00506-3": "Integrated quantum chemistry calculations, machine learning predictive models, and reinforcement learning to find new molecules for battery applications.",
+  "10.1038/s42256-022-00506-3": "Integrated quantum chemistry calculations, machine learning predictive models, and reinforcement learning to find new molecules for battery applications. Highlighted in a <a href='https://doi.org/10.1038/s42256-022-00523-2'>News and Views</a> article.",
   "10.1016/j.patter.2021.100361": "Demonstrates the importance of data curation over model connectivity predicting the stability of inorganic materials. Highlighted in a <a href='https://doi.org/10.1016/j.patter.2021.100382'>research preview</a>.",
   "10.1016/j.joule.2019.05.011": "Used metabolic modeling to find reaction knockouts to dramatically improve muconate yields. Has opened up continued improvement in productivity, substrate usage, and muconate-derived products.",
   "10.1038/s41467-020-16201-z": "Developed an interactive web app to serve predictions from an ML model trained on quantum-chemistry calculations.",
   "10.1126/science.1223710": "Built a mathematical model that clarified the role of a key protein in mammalian circadian rhythms.",
   "10.1016/j.combustflame.2017.12.005": "Developed a group-contribution model and built a web application for the prediction of sooting tendency. Available at <a href='https://ysi.ml.nrel.gov/'>https://ysi.ml.nrel.gov/</a>",
   "10.1063/1.5099132": "Our first application of graph neural networks for chemical structure prediction, applied to predicting optoelectronic properties of organic photovoltaics.",
-  "10.1371/journal.pcbi.1007424": "A probablistic programming framework for integrating multiomics measurements with biological prior knowledge. Part of the <a href='https://agilebiofoundry.org/'>Agile BioFoundry</a>'s Learn effort."
+  "10.1371/journal.pcbi.1007424": "A probabilistic programming framework for integrating multiomics measurements with biological prior knowledge. Part of the <a href='https://agilebiofoundry.org/'>Agile BioFoundry</a>'s Learn effort."
 }

@@ -5,15 +5,22 @@
     :key="index"
   >
     <h3 class="year">{{ year_split[0] }}</h3>
-    <ul class="citation-container">
-      <li
-        v-for="(row, index) in year_split[1]"
-        :key="index"
-        class="citation-outer"
+    <div class="citation-container">
+      <masonry-wall
+        :items="year_split[1]"
+        :ssr-columns="1"
+        :column-width="300"
+        :gap="10"
       >
-        <CitationEntry :html="row[1]" :doi="row[0].DOI" :note="row[0].note" />
-      </li>
-    </ul>
+        <template #default="{ item }">
+          <CitationEntry
+            :html="item[1]"
+            :doi="item[0].DOI"
+            :note="item[0].note"
+          />
+        </template>
+      </masonry-wall>
+    </div>
   </div>
 </template>
 
@@ -77,7 +84,7 @@ export default {
       return entry[0];
     }).reverse();
 
-    // console.log(Object.entries(split));
+    // console.log(split);
 
     return { reference_array: split };
   },
@@ -85,28 +92,48 @@ export default {
 </script>
 
 <style lang="scss">
-.citation-container {
-  list-style: none;
-  column-count: 2;
-  column-width: 225px;
-  column-gap: 10px;
-  padding-left: 0rem;
-  column-fill: balance;
-  font-weight: 300;
-  margin-bottom: 0;
-
-  li {
-    position: relative;
-    // margin-bottom: 0.5rem;
-    break-inside: avoid;
-    -webkit-column-break-inside: avoid;
-    -moz-column-break-inside: avoid;
-    -moz-page-break-inside: avoid;
-    page-break-inside: avoid;
-
-    // .citation {
-    //   padding: 8px 9px 10px 10px;
-    // }
-  }
+.year-split {
+  break-inside: avoid-page;
 }
+
+.citation-container {
+  width: calc(100% + 20px);
+  position: relative;
+  left: -10px;
+}
+
+//   display: flex;
+//   flex-direction: column;
+//   flex-wrap: wrap;
+//   height: 100px;
+
+// .citation {
+//   height: 300px;
+// }
+// }
+
+// .citation-container {
+//   list-style: none;
+//   column-count: 2;
+//   column-width: 225px;
+//   column-gap: 10px;
+//   padding-left: 0rem;
+//   column-fill: balance;
+//   font-weight: 300;
+//   margin-bottom: 0;
+
+//   li {
+//     position: relative;
+//     // margin-bottom: 0.5rem;
+//     break-inside: avoid;
+//     -webkit-column-break-inside: avoid;
+//     -moz-column-break-inside: avoid;
+//     -moz-page-break-inside: avoid;
+//     page-break-inside: avoid;
+
+//     // .citation {
+//     //   padding: 8px 9px 10px 10px;
+//     // }
+//   }
+// }
 </style>
