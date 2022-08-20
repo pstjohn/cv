@@ -265,8 +265,8 @@
         </li>
 
         <li class="citation">
-          SWR-19-40: Wilson, N., <span class="me">St. John, P. C.</span>,
-          Crowley, M., (2020, June 19). m2p (Monomers to Polymers)
+          Wilson, N., <span class="me">St. John, P. C.</span>, Crowley, M.,
+          (2020, June 19). m2p (Monomers to Polymers)
           <a href="https://doi.org/10.11578/dc.20200922.9">[doi]</a>
         </li>
 
@@ -383,5 +383,26 @@ export default {
 
 .software .citation {
   margin-bottom: 10px;
+}
+
+ul.citation-container {
+  list-style: none;
+  column-count: 2;
+  column-width: 300px;
+  column-gap: 10px;
+  padding-left: 0rem;
+  column-fill: balance;
+  font-weight: 300;
+  margin-bottom: 0;
+
+  li {
+    position: relative;
+    // margin-bottom: 0.5rem;
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    -moz-page-break-inside: avoid;
+    page-break-inside: avoid;
+  }
 }
 </style>
