@@ -52,6 +52,108 @@
             }
         },
         {
+            "id": "12694622/2DUBY3MH",
+            "type": "article-journal",
+            "title": "Muconic acid production from glucose and xylose in Pseudomonas putida via evolution and metabolic engineering",
+            "container-title": "Nature Communications",
+            "page": "4925",
+            "volume": "13",
+            "issue": "1",
+            "abstract": "Abstract\n            \n              Muconic acid is a bioprivileged molecule that can be converted into direct replacement chemicals for incumbent petrochemicals and performance-advantaged bioproducts. In this study,\n              Pseudomonas putida\n              KT2440 is engineered to convert glucose and xylose, the primary carbohydrates in lignocellulosic hydrolysates, to muconic acid using a model-guided strategy to maximize the theoretical yield. Using adaptive laboratory evolution (ALE) and metabolic engineering in a strain engineered to express the D-xylose isomerase pathway, we demonstrate that mutations in the heterologous D-xylose:H\n              +\n              symporter (XylE), increased expression of a major facilitator superfamily transporter (PP_2569), and overexpression of\n              aroB\n              encoding the native 3-dehydroquinate synthase, enable efficient muconic acid production from glucose and xylose simultaneously. Using the rationally engineered strain, we produce 33.7 g L\n              −1\n              muconate at 0.18 g L\n              −1\n              h\n              −1\n              and a 46% molar yield (92% of the maximum theoretical yield). This engineering strategy is promising for the production of other shikimate pathway-derived compounds from lignocellulosic sugars.",
+            "URL": "https://www.nature.com/articles/s41467-022-32296-y",
+            "DOI": "10.1038/s41467-022-32296-y",
+            "journalAbbreviation": "Nat Commun",
+            "language": "en",
+            "author": [
+                {
+                    "family": "Ling",
+                    "given": "Chen"
+                },
+                {
+                    "family": "Peabody",
+                    "given": "George L."
+                },
+                {
+                    "family": "Salvachúa",
+                    "given": "Davinia"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Young-Mo"
+                },
+                {
+                    "family": "Kneucker",
+                    "given": "Colin M."
+                },
+                {
+                    "family": "Calvey",
+                    "given": "Christopher H."
+                },
+                {
+                    "family": "Monninger",
+                    "given": "Michela A."
+                },
+                {
+                    "family": "Munoz",
+                    "given": "Nathalie Munoz"
+                },
+                {
+                    "family": "Poirier",
+                    "given": "Brenton C."
+                },
+                {
+                    "family": "Ramirez",
+                    "given": "Kelsey J."
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Woodworth",
+                    "given": "Sean P."
+                },
+                {
+                    "family": "Magnuson",
+                    "given": "Jon K."
+                },
+                {
+                    "family": "Burnum-Johnson",
+                    "given": "Kristin E."
+                },
+                {
+                    "family": "Guss",
+                    "given": "Adam M."
+                },
+                {
+                    "family": "Johnson",
+                    "given": "Christopher W."
+                },
+                {
+                    "family": "Beckham",
+                    "given": "Gregg T."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        8,
+                        22
+                    ]
+                ]
+            },
+            "accessed": {
+                "date-parts": [
+                    [
+                        2022,
+                        8,
+                        22
+                    ]
+                ]
+            }
+        },
+        {
             "id": "12694622/PTXFQ8WS",
             "type": "article-journal",
             "title": "Multi-objective goal-directed optimization of de novo stable organic radicals for aqueous redox flow batteries",
