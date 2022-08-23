@@ -53,7 +53,7 @@ export default {
     display: flex;
     align-self: start;
     align-items: center;
-    break-inside: avoid-page;
+    break-inside: avoid;
 
     p {
       margin-bottom: 0;

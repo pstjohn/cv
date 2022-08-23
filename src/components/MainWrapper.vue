@@ -248,34 +248,36 @@
           >
         </li>
       </ul>
-      <h3>Software Records</h3>
-      <ul class="citation-container software">
-        <li class="citation">
-          Tripp, C., <span class="me">St. John, P. C.</span>, Biagioni, D.,
-          Clark, S., Duplyakin, D., Law, J. (2022, April 15). Graph-Env
-          <a href="https://doi.org/10.11578/dc.20220622.3">[doi]</a>
-        </li>
+      <div class="year-split">
+        <h3>Software Records</h3>
+        <ul class="citation-container software">
+          <li class="citation">
+            Tripp, C., <span class="me">St. John, P. C.</span>, Biagioni, D.,
+            Clark, S., Duplyakin, D., Law, J. (2022, April 15). Graph-Env
+            <a href="https://doi.org/10.11578/dc.20220622.3">[doi]</a>
+          </li>
 
-        <li class="citation">
-          Biagioni, D., Skordilis, E., Tripp, C., Duplyakin, D.,
-          <span class="me">St. John, P. C.</span>, (2020, December 17).
-          rlmolecule: A library for general-purpose material and molecular
-          optimization using AlphaZero-style reinforcement learning.
-          <a href="https://doi.org/10.11578/dc.20201221.3">[doi]</a>
-        </li>
+          <li class="citation">
+            Biagioni, D., Skordilis, E., Tripp, C., Duplyakin, D.,
+            <span class="me">St. John, P. C.</span>, (2020, December 17).
+            rlmolecule: A library for general-purpose material and molecular
+            optimization using AlphaZero-style reinforcement learning.
+            <a href="https://doi.org/10.11578/dc.20201221.3">[doi]</a>
+          </li>
 
-        <li class="citation">
-          Wilson, N., <span class="me">St. John, P. C.</span>, Crowley, M.,
-          (2020, June 19). m2p (Monomers to Polymers)
-          <a href="https://doi.org/10.11578/dc.20200922.9">[doi]</a>
-        </li>
+          <li class="citation">
+            Wilson, N., <span class="me">St. John, P. C.</span>, Crowley, M.,
+            (2020, June 19). m2p (Monomers to Polymers)
+            <a href="https://doi.org/10.11578/dc.20200922.9">[doi]</a>
+          </li>
 
-        <li class="citation">
-          <span class="me">St. John, P. C.</span>, (2019, January 14). nfp
-          (Neural Fingerprint) and alfabet
-          <a href="https://doi.org/10.11578/dc.20190731.1">[doi]</a>
-        </li>
-      </ul>
+          <li class="citation">
+            <span class="me">St. John, P. C.</span>, (2019, January 14). nfp
+            (Neural Fingerprint) and alfabet
+            <a href="https://doi.org/10.11578/dc.20190731.1">[doi]</a>
+          </li>
+        </ul>
+      </div>
     </MainSection>
 
     <MainSection title="Presentations" icon="chalkboard-user">

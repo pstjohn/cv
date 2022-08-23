@@ -93,7 +93,7 @@ export default {
 
 <style lang="scss">
 .year-split {
-  break-inside: avoid-page;
+  break-inside: avoid;
 }
 
 .citation-container {

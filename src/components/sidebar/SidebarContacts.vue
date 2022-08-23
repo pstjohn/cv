@@ -10,9 +10,13 @@
         <img class="obscured" src="@/assets/images/phone.svg" />
       </li>
       <li>
+        <font-awesome-icon icon="fa-solid fa-location-dot" />
+        Golden, CO
+      </li>
+      <li>
         <font-awesome-icon icon="fa-solid fa-earth-americas" /><a
-          href="https://www.pcstj.com"
-          >pcstj.com</a
+          href="https://www.pcstj.com/cv"
+          >pcstj.com/cv</a
         >
       </li>
       <li>
