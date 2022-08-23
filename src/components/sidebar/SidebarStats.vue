@@ -15,7 +15,9 @@
       ><span v-if="stats.ready" v-text="stats.numPublicationsInWosCc" />
       <font-awesome-icon v-else spin icon="fa-solid fa-rotate" />*
     </p>
-    <span class="wos">*indexed by Web of Science</span>
+    <span class="wos"
+      >*Web of Science, <span class="wos-date" v-text="date"></span
+    ></span>
   </div>
 </template>
 
@@ -43,6 +45,16 @@ export default {
     const data = await response.json();
     this.stats = data;
   },
+  computed: {
+    date() {
+      let today = new Date();
+      return today.toLocaleDateString('en-us', {
+        year: 'numeric',
+        month: 'numeric',
+        day: 'numeric',
+      });
+    },
+  },
 };
 </script>
 
@@ -64,13 +76,3 @@ export default {
   }
 }
 </style>
-
-// await fetch("https://publons.com/wos-op/api/stats/individual/4486958/", { //
-"headers": { // "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15;
-rv:91.0) Gecko/20100101 Firefox/91.0", // "Accept": "application/json,
-text/javascript, */*; q=0.01", // "Accept-Language": "en-US,en;q=0.5", //
-"X-CSRFToken":
-"wlRNGmTojG89OXceP2ZmGs4Pyv9ODUtb6U5ycI4xhFjZWUmILRIwcKs9EIKCDU98", //
-"X-Requested-With": "XMLHttpRequest", // }, // "referrer":
-"https://publons.com/wos-op/researcher/4486958/peter-st-john/", // "method":
-"GET", // "mode": "cors" // });
