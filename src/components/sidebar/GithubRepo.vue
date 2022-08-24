@@ -23,6 +23,12 @@
     />
     <font-awesome-icon icon="fa-solid fa-code-fork" />
 
+    <div class="badge" v-if="pypi !== 'false'">
+      <a :href="badge_url"
+        ><img :src="badge_svg" alt="PyPI version" height="18"
+      /></a>
+    </div>
+
     <div class="description">
       {{ data.description }}
     </div>
@@ -32,7 +38,13 @@
 <script>
 export default {
   name: 'GithubRepo',
-  props: ['name'],
+  props: {
+    name: String,
+    pypi: {
+      type: String,
+      default: 'false',
+    },
+  },
   data() {
     return {
       data: {
@@ -56,6 +68,12 @@ export default {
     html_url() {
       return `https://github.com/${this.name}`;
     },
+    badge_url() {
+      return `https://badge.fury.io/py/${this.pypi}`;
+    },
+    badge_svg() {
+      return `https://badge.fury.io/py/${this.pypi}.svg`;
+    },
   },
 };
 </script>
@@ -65,6 +83,14 @@ export default {
   font-size: 14px;
   font-weight: 600;
   break-inside: avoid;
+  margin-bottom: 5px;
+
+  .badge {
+    margin-left: 1rem;
+    padding: 0;
+    display: block;
+    text-align: left;
+  }
 
   a {
     text-decoration: none;

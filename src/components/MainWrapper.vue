@@ -42,8 +42,18 @@
                 class="fst-italic"
                 href="https://doi.org/10.1016/j.patter.2021.100361"
                 >Patterns</a
-              >, and peer-reviewed software for reinforcement learning and
-              optimization.
+              >.
+            </li>
+            <li>
+              Lead software architect on peer-reviewed software for
+              reinforcement learning and optimization (
+              <span class="tech"
+                ><a href="https://github.com/NREL/graph-env/"
+                  ><font-awesome-icon icon="fa-brands fa-github" />
+                  NREL/graph-env</a
+                ></span
+              >
+              ) with automated tests and deployment.
             </li>
             <li>
               Lead NREL PI on a 3-year, $1M grant focused on predicting
@@ -69,15 +79,33 @@
         >
           <ul>
             <li>
-              Constructed a quantum chemical database, trained a graph neural
-              network, and deployed a web application for predicting organic
-              molecule bond strengths, resulting in a publication in
+              Constructed a quantum chemical database (<span class="tech"
+                >PostgreSQL</span
+              >), trained a custom graph neural network (<span class="tech"
+                >tensorflow 2 / keras</span
+              >), and deployed a web application (<span class="tech"
+                >FastAPI / Flask</span
+              >) for predicting organic molecule bond strengths, resulting in a
+              publication in
               <a href="https://doi.org/10.1038/s41467-020-16201-z"
                 ><span class="fst-italic">Nature Communications</span></a
               >
               and a website (<a href="https://bde.ml.nrel.gov/"
                 >bde.ml.nrel.gov</a
               >) with over 7.7k unique visitors since 2019.
+            </li>
+            <li>
+              Implemented <span class="tech">CI/CD pipelines</span> to
+              automatically update, test, and deploy new models to website
+              services.
+            </li>
+            <li>
+              Pre-trained a BERT-style natural language processing model on 261M
+              unlabeled protein sequences using over 1024 GPUs (<span
+                class="tech"
+                >torch</span
+              >), fine-tuned resulting model to improve protein annotations on
+              limited data.
             </li>
             <li>
               Recipient of NREL's
@@ -98,10 +126,11 @@
         >
           <ul>
             <li>
-              Used metabolic modeling to suggest unintuitive reaction knockout
-              to improve yields of muconic acid from glucose. Improved yields in
-              shake flasks from 7% to 41%, matching modeling predictions within
-              a few percent. Published in
+              Used metabolic modeling (<span class="tech">Python / cobrapy</span
+              >) to suggest unintuitive reaction knockout to improve yields of
+              muconic acid from glucose. Improved yields in shake flasks from 7%
+              to 41%, matching modeling predictions within a few percent.
+              Published in
               <a href="https://doi.org/10.1016/j.joule.2019.05.011"
                 ><span class="fst-italic">Joule</span></a
               >.
@@ -308,6 +337,10 @@
         <li>(2021-Present) Shree Sowndarya S. V., Graduate Student</li>
         <li>(2021-Present) Jeffery Law, Postdoctoral Researcher</li>
         <li>
+          (2021) Collin Barraugh, Graduate Student (currently Data Scientist at
+          Outside)
+        </li>
+        <li>
           (2019) Lauren Stanislaw, Undergraduate Student (currently at
           University of Victoria)
         </li>
@@ -375,8 +408,14 @@ export default {
   }
 }
 
+.tech,
 .award {
-  font-weight: 600;
+  font-weight: 700;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 .one-column {

@@ -39,13 +39,13 @@
     </SidebarSection>
 
     <SidebarSection title="Software">
-      <GithubRepo name="pstjohn/d3flux" />
-      <GithubRepo name="NREL/nfp" />
-      <GithubRepo name="NREL/alfabet" />
+      <GithubRepo name="pstjohn/d3flux" pypi="d3flux" />
+      <GithubRepo name="NREL/nfp" pypi="nfp" />
+      <GithubRepo name="NREL/alfabet" pypi="alfabet" />
       <GithubRepo name="pstjohn/bde" />
       <GithubRepo name="NREL/rlmolecule" />
-      <GithubRepo name="NREL/graph-env" />
-      <GithubRepo name="opencobra/cobrapy" />
+      <GithubRepo name="NREL/graph-env" pypi="graphenv" />
+      <GithubRepo name="opencobra/cobrapy" pypi="cobra" />
     </SidebarSection>
   </div>
 </template>
