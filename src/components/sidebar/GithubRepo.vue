@@ -48,16 +48,19 @@ export default {
   data() {
     return {
       data: {
-        description: null,
-        stargazers_count: null,
-        forks_count: null,
+        description: 'GitHub API query failed to load',
+        stargazers_count: '?',
+        forks_count: '?',
+        message: null,
       },
       ready: false,
     };
   },
   async created() {
     const response = await fetch(`https://api.github.com/repos/${this.name}`);
-    this.data = await response.json();
+    if (response.status == 200) {
+      this.data = await response.json();
+    }
     if (this.data.message == 'Not Found') {
       this.ready = false;
     } else {

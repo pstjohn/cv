@@ -35,6 +35,16 @@ export default {
   }
 }
 
+.single-page {
+  .section-title {
+    margin-bottom: 10px;
+  }
+
+  .main-section {
+    margin-bottom: 20px;
+  }
+}
+
 .main-section {
   margin-bottom: 45px;
 

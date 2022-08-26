@@ -15,6 +15,8 @@
       </h3>
     </div>
 
+    <div id="singlePageToggle" class="d-print-none"></div>
+
     <SidebarStats />
     <SidebarContacts />
 
@@ -38,15 +40,17 @@
       />
     </SidebarSection>
 
-    <SidebarSection title="Software">
-      <GithubRepo name="pstjohn/d3flux" pypi="d3flux" />
-      <GithubRepo name="NREL/nfp" pypi="nfp" />
-      <GithubRepo name="NREL/alfabet" pypi="alfabet" />
-      <GithubRepo name="pstjohn/bde" />
-      <GithubRepo name="NREL/rlmolecule" />
-      <GithubRepo name="NREL/graph-env" pypi="graphenv" />
-      <GithubRepo name="opencobra/cobrapy" pypi="cobra" />
-    </SidebarSection>
+    <div :class="{ 'd-none': singlePage }">
+      <SidebarSection title="Software">
+        <GithubRepo name="pstjohn/d3flux" pypi="d3flux" />
+        <GithubRepo name="NREL/nfp" pypi="nfp" />
+        <GithubRepo name="NREL/alfabet" pypi="alfabet" />
+        <!-- <GithubRepo name="pstjohn/bde" /> -->
+        <GithubRepo name="NREL/rlmolecule" />
+        <GithubRepo name="NREL/graph-env" pypi="graphenv" />
+        <GithubRepo name="opencobra/cobrapy" pypi="cobra" />
+      </SidebarSection>
+    </div>
   </div>
 </template>
 
@@ -59,6 +63,7 @@ import GithubRepo from './sidebar/GithubRepo.vue';
 
 export default {
   name: 'SidebarWrapper',
+  props: ['singlePage'],
   components: {
     SidebarSection,
     SidebarContacts,
@@ -82,10 +87,13 @@ export default {
 }
 
 @media print, (min-width: 768px) {
+  // .content {
+  //   min-height: 1242px;
+  // }
+
   .sidebar-wrapper {
     position: absolute;
     width: 280px;
-    min-height: 800px;
     height: 100%;
   }
 }
@@ -142,5 +150,17 @@ export default {
 }
 .edu-tag {
   font-weight: 500;
+}
+
+#singlePageToggle {
+  width: 100%;
+  text-align: center;
+}
+
+singlePage-software {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 660px;
 }
 </style>
