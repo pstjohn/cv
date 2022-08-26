@@ -943,50 +943,6 @@
             }
         },
         {
-            "id": "12694622/8TAPGR3L",
-            "type": "article-journal",
-            "title": "A comparison of computational models for predicting yield sooting index",
-            "container-title": "Proceedings of the Combustion Institute",
-            "page": "1385– 1393",
-            "volume": "38",
-            "issue": "1",
-            "DOI": "10.1016/j.proci.2020.07.009",
-            "note": "Publisher: Elsevier BV",
-            "author": [
-                {
-                    "family": "Kessler",
-                    "given": "Travis"
-                },
-                {
-                    "family": "St. John",
-                    "given": "Peter C."
-                },
-                {
-                    "family": "Zhu",
-                    "given": "Junqing"
-                },
-                {
-                    "family": "McEnally",
-                    "given": "Charles S."
-                },
-                {
-                    "family": "Pfefferle",
-                    "given": "Lisa D."
-                },
-                {
-                    "family": "Mack",
-                    "given": "J. Hunter"
-                }
-            ],
-            "issued": {
-                "date-parts": [
-                    [
-                        2021
-                    ]
-                ]
-            }
-        },
-        {
             "id": "12694622/CHU28QYH",
             "type": "article-journal",
             "title": "A perspective on biomass-derived biofuels: From catalyst design principles to fuel properties",
