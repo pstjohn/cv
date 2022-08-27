@@ -11,7 +11,10 @@
       </div>
     </MainSection>
 
-    <MainSection title="Appointments" icon="briefcase">
+    <MainSection
+      :title="singlePage ? 'Experience' : 'Appointments'"
+      icon="briefcase"
+    >
       <ExperienceCompany
         company="National Renewable Energy Lab"
         location="Golden, CO"
@@ -79,25 +82,29 @@
         >
           <ul>
             <li>
-              Constructed a quantum chemical database (<span class="tech"
-                >PostgreSQL</span
-              >), trained a custom graph neural network (<span class="tech"
+              Managed a million+ record <span class="tech">SQL</span> database
+              with pipelines for ML model training. Published in
+              <a
+                class="fst-italic"
+                href="https://doi.org/10.1038/s41597-020-00588-x"
+                >Scientific Data</a
+              >
+            </li>
+            <li>
+              Trained a custom graph neural network (<span class="tech"
                 >tensorflow 2 / keras</span
               >), and deployed a web application (<span class="tech"
                 >FastAPI / Flask</span
-              >) for predicting organic molecule bond strengths, resulting in a
-              publication in
+              >) resulting in a publication in
               <a href="https://doi.org/10.1038/s41467-020-16201-z"
                 ><span class="fst-italic">Nature Communications</span></a
               >
-              and a website (<a href="https://bde.ml.nrel.gov/"
-                >bde.ml.nrel.gov</a
+              and website (<a href="https://bde.ml.nrel.gov/">bde.ml.nrel.gov</a
               >) with over 7.7k unique visitors.
             </li>
             <li>
               Implemented <span class="tech">CI/CD pipelines</span> to
-              automatically update, test, and deploy new models to website
-              services.
+              automatically update, test, and deploy new models
             </li>
             <li>
               Pre-trained a BERT-style natural language processing model on 261M
