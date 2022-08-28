@@ -57,7 +57,7 @@ export default {
     };
   },
   async created() {
-    const token = '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';
+    const token = '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';
     const response = await fetch(`https://api.github.com/repos/${this.name}`, {
       headers: {
         Authorization: `token ${token}`,
