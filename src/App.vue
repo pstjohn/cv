@@ -59,10 +59,6 @@ export default {
   width: 100%;
 }
 
-.wrapper.singlePage {
-  aspect-ratio: 11/8.5;
-}
-
 .software-footer {
   position: absolute;
   right: 0;

@@ -83,7 +83,12 @@ export default {
     };
   },
   async created() {
-    const response = await fetch('https://api.github.com/users/pstjohn');
+    const token = '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';
+    const response = await fetch('https://api.github.com/users/pstjohn', {
+      headers: {
+        Authorization: `token ${token}`,
+      },
+    });
     let data = await response.json();
     this.githubFollowers = data['followers'];
     this.ready = true;

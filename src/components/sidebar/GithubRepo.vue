@@ -57,7 +57,12 @@ export default {
     };
   },
   async created() {
-    const response = await fetch(`https://api.github.com/repos/${this.name}`);
+    const token = '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';
+    const response = await fetch(`https://api.github.com/repos/${this.name}`, {
+      headers: {
+        Authorization: `token ${token}`,
+      },
+    });
     if (response.status == 200) {
       this.data = await response.json();
     }

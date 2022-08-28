@@ -87,10 +87,6 @@ export default {
 }
 
 @media print, (min-width: 768px) {
-  // .content {
-  //   min-height: 1242px;
-  // }
-
   .sidebar-wrapper {
     position: absolute;
     width: 280px;

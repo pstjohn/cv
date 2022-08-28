@@ -43,6 +43,10 @@ export default {
   .main-section {
     margin-bottom: 20px;
   }
+
+  .main-section:last-child {
+    margin-bottom: 0px !important;
+  }
 }
 
 .main-section {
