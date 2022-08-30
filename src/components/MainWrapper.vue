@@ -93,8 +93,9 @@
             <li>
               Trained a custom graph neural network (<span class="tech"
                 >tensorflow 2 / keras</span
-              >), and deployed a web application (<span class="tech"
-                >FastAPI / Flask</span
+              >), and deployed a containerized web application (<span
+                class="tech"
+                >Docker / FastAPI / Flask</span
               >) resulting in a publication in
               <a href="https://doi.org/10.1038/s41467-020-16201-z"
                 ><span class="fst-italic">Nature Communications</span></a
