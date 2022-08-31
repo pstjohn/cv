@@ -15,7 +15,9 @@
           >print dialog.
         </a>
       </p>
-      <p><a href="https://github.com/pstjohn/cv">view source</a></p>
+      <p>
+        Built with Vue3. <a href="https://github.com/pstjohn/cv">view source</a>
+      </p>
     </footer>
   </div>
 
