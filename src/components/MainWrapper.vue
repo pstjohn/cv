@@ -34,42 +34,41 @@
           <ul>
             <li>
               Proposed, planned, and executed a $1.8M dollar research effort
-              across three institutions resulting in publications in
+              across three institutions on deep learning methods (publications
+              in
               <a
                 class="fst-italic"
                 href="https://doi.org/10.1038/s42256-022-00506-3"
-                >Nature Machine Intelligence</a
+                >Nat Mach Intell</a
               >
               and
               <a
                 class="fst-italic"
                 href="https://doi.org/10.1016/j.patter.2021.100361"
                 >Patterns</a
-              >.
+              >.)
             </li>
             <li>
               Lead software architect on peer-reviewed software for
-              reinforcement learning and optimization (
+              reinforcement learning and optimization
               <span class="tech"
                 ><a href="https://github.com/NREL/graph-env/"
                   ><font-awesome-icon icon="fa-brands fa-github" />
                   NREL/graph-env</a
-                ></span
+                >
+                (Python, Tensorflow, CI/CD)</span
               >
-              ) with automated tests and deployment.
             </li>
             <li>
-              Lead NREL PI on a 3-year, $1M grant focused on predicting
-              thermotolerance and pH tolerance in microbial biotransformations.
+              Lead NREL PI on a 3-year, $1M grant grant focused on predicting
+              thermotolerance and pH tolerance of enzymatic transformations
+              <span class="tech">(fairseq, torch)</span>
             </li>
             <li>
-              Project lead for a $275K/year subtask under the
-              <a
-                href="https://www.energy.gov/eere/bioenergy/co-optimization-fuels-engines"
-                >Co-Optimization of Fuels & Engines</a
-              >
-              initiative. Used machine learning and cheminformatics techniques
-              to predict the properties of biofuel candidates.
+              Project lead for a $275K/year Co-Optima subtask, developed
+              explanatory model for particulate emissions for industry
+              stakeholders using machine learning and Bayesian inference
+              <span class="tech">(scikit-learn, pymc)</span>.
             </li>
           </ul>
         </ExperienceEntry>
@@ -82,8 +81,9 @@
         >
           <ul>
             <li>
-              Managed a million+ record <span class="tech">SQL</span> database
-              with pipelines for ML model training. Published in
+              Managed a multi-million record, multi-user
+              <span class="tech">SQL (Postgres)</span> database with pipelines
+              for ML model training. Published in
               <a
                 class="fst-italic"
                 href="https://doi.org/10.1038/s41597-020-00588-x"
