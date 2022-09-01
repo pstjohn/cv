@@ -96,12 +96,12 @@
               >), and deployed a containerized web application (<span
                 class="tech"
                 >Docker / FastAPI / Flask</span
-              >) resulting in a publication in
+              >, <a href="https://bde.ml.nrel.gov/">bde.ml.nrel.gov</a>) on
+              <span class="tech">AWS</span> with over 8k unique users. Published
+              in
               <a href="https://doi.org/10.1038/s41467-020-16201-z"
                 ><span class="fst-italic">Nature Communications</span></a
               >
-              and website (<a href="https://bde.ml.nrel.gov/">bde.ml.nrel.gov</a
-              >) with over 7.7k unique visitors.
             </li>
             <li>
               Implemented <span class="tech">CI/CD pipelines</span> to
