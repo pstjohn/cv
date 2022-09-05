@@ -52,6 +52,65 @@
             }
         },
         {
+            "id": "12694622/FI7N7CKJ",
+            "type": "article-journal",
+            "title": "graphenv: a Python library for reinforcement learningon graph search spaces",
+            "container-title": "Journal of Open Source Software",
+            "page": "4621",
+            "volume": "7",
+            "issue": "77",
+            "abstract": "Many important and challenging problems in combinatorial optimization (CO) can be expressed as graph search problems, in which graph vertices represent full or partial solutions and edges represent decisions that connect them. Graph structure not only introduces strong relational inductive biases for learning (Battaglia et al., 2018) – in this context, by providing a way to explicitly model the value of transitioning (along edges) between one search state (vertex) and the next – but lends itself to problems both with and without clearly defined algebraic structure. For example, classic CO problems on graphs such as the Traveling Salesman Problem (TSP) can be expressed as either pure graph search or integer programs. Other problems, however, such as molecular optimization, do no have concise algebraic formulations and yet are readily implemented as a graph search (V. et al., 2022; Zhou et al., 2019). Such “model-free” problems constitute a large fraction of modern reinforcement learning (RL) research owing to the fact that it is often much easier to write a forward simulation that expresses all of the state transitions and rewards, than to write down the precise mathematical expression of the full optimization problem. In the case of molecular optimization, for example, one can use domain knowledge alongside existing software libraries to model the effect of adding a single bond or atom to an existing but incomplete molecule, and let the RL algorithm build a model of how good a given decision is by “experiencing” the simulated environment many times through. In contrast, a model-based mathematical formulation that fully expresses all the chemical and physical constraints is intractable.",
+            "URL": "https://joss.theoj.org/papers/10.21105/joss.04621",
+            "DOI": "10.21105/joss.04621",
+            "shortTitle": "graphenv",
+            "journalAbbreviation": "JOSS",
+            "language": "en",
+            "author": [
+                {
+                    "family": "Biagioni",
+                    "given": "David"
+                },
+                {
+                    "family": "Tripp",
+                    "given": "Charles Edison"
+                },
+                {
+                    "family": "Clark",
+                    "given": "Struan"
+                },
+                {
+                    "family": "Duplyakin",
+                    "given": "Dmitry"
+                },
+                {
+                    "family": "Law",
+                    "given": "Jeffrey"
+                },
+                {
+                    "family": "John",
+                    "given": "Peter C. St."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        9,
+                        5
+                    ]
+                ]
+            },
+            "accessed": {
+                "date-parts": [
+                    [
+                        2022,
+                        9,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
             "id": "12694622/2DUBY3MH",
             "type": "article-journal",
             "title": "Muconic acid production from glucose and xylose in Pseudomonas putida via evolution and metabolic engineering",

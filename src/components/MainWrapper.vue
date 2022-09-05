@@ -49,8 +49,11 @@
               >.)
             </li>
             <li>
-              Lead software architect on peer-reviewed software for
-              reinforcement learning and optimization
+              Lead software architect on
+              <a href="https://joss.theoj.org/papers/10.21105/joss.04621"
+                >peer-reviewed software</a
+              >
+              for reinforcement learning and optimization
               <span class="tech"
                 ><a href="https://github.com/NREL/graph-env/"
                   ><font-awesome-icon icon="fa-brands fa-github" />
