@@ -3,10 +3,11 @@
     <MainSection title="About Me" icon="user">
       <div class="summary">
         <p>
-          I'm a project lead and senior data scientist at the National Renewable
-          Energy Laboratory working to bring machine learning and statistical
-          inference methods from concept to deployment. Currently working in the
-          fields of metabolic modeling and computational chemistry.
+          I'm a project lead and senior research scientist at the National
+          Renewable Energy Laboratory working to bring machine learning and
+          statistical inference methods from concept to deployment. Currently
+          working in the fields of metabolic modeling and computational
+          chemistry.
         </p>
       </div>
     </MainSection>
