@@ -51,6 +51,16 @@
         >
       </li>
       <li>
+        <img
+          class="fa-svg"
+          src="@/assets/images/semantic-scholar.svg"
+          alt="semantic scholar"
+        /><a
+          href="https://www.semanticscholar.org/author/Peter-C.-St.-John/35351240"
+          >Semantic Scholar</a
+        >
+      </li>
+      <li>
         <font-awesome-icon icon="fa-brands fa-orcid" /><a
           href="https://orcid.org/0000-0002-7928-3722"
           >0000-0002-7928-3722</a
