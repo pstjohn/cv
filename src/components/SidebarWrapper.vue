@@ -46,7 +46,7 @@
         <GithubRepo name="NREL/nfp" pypi="nfp" />
         <GithubRepo name="NREL/alfabet" pypi="alfabet" />
         <!-- <GithubRepo name="pstjohn/bde" /> -->
-        <GithubRepo name="NREL/rlmolecule" />
+        <GithubRepo name="NREL/rlmolecule" pypi="rlmolecule" />
         <GithubRepo name="NREL/graph-env" pypi="graphenv" />
         <GithubRepo name="opencobra/cobrapy" pypi="cobra" />
       </SidebarSection>
