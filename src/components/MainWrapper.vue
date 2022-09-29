@@ -411,7 +411,7 @@ export default {
         { name: 'NREL/nfp', pypi: 'nfp' },
         { name: 'NREL/alfabet', pypi: 'alfabet' },
         // { name: 'pstjohn/bde' },
-        { name: 'NREL/rlmolecule' },
+        { name: 'NREL/rlmolecule', pypi: 'rlmolecule' },
         { name: 'NREL/graph-env', pypi: 'graphenv' },
         { name: 'opencobra/cobrapy', pypi: 'cobra' },
       ],
