@@ -1,7 +1,7 @@
 # My Resume
 
 Based on Vue 3 / Bootstrap 5. Currently live at
-(pcstj.com/cv)[https:/www.pcstj.com/cv]
+[pcstj.com/cv](https://www.pcstj.com/cv)
 
 - pulls paper data in CSL-JSON from zotero (cached via github actions TODO)
 - pulls live h-index / total citations from web of science
