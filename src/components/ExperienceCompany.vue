@@ -94,7 +94,7 @@ export default {
 
   .logo img {
     width: 55px !important;
-    // height: 55px !important;
+    height: auto;
   }
 }
 
@@ -124,7 +124,7 @@ export default {
 
     img {
       width: 40px;
-      height: 40px;
+      height: auto;
     }
   }
 }
