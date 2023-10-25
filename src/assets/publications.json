@@ -1,6 +1,87 @@
 {
     "items": [
         {
+            "id": "12694622/5H9MRWVJ",
+            "type": "article-journal",
+            "title": "PolyID: Artificial Intelligence for Discovering Performance-Advantaged and Sustainable Polymers",
+            "container-title": "Macromolecules",
+            "page": "acs.macromol.3c00994",
+            "abstract": "A necessary transformation for a sustainable economy is the transition from fossil-derived plastics to polymers derived from biomass and waste resources. While renewable feedstocks can enhance material performance through unique chemical moieties, probing the vast material design space by experiment alone is not practically feasible. Here, we develop a machine-learning-based tool, PolyID, to reduce the design space of renewable feedstocks to enable efficient discovery of performanceadvantaged, biobased polymers. PolyID is a multioutput, graph neural network specifically designed to increase accuracy and to enable quantitative structure−property relationship (QSPR) analysis for polymers. It includes a novel domain-of-validity method that was developed and applied to demonstrate how gaps in training data can be filled to improve accuracy. The model was benchmarked with both a 20% held-out subset of the original training data and 22 experimentally synthesized polymers. A mean absolute error for the glass transition temperatures of 19.8 and 26.4 °C was achieved for the test and experimental data sets, respectively. Predictions were made on polymers composed of monomers from four databases that contain biologically accessible small molecules: MetaCyc, MINEs, KEGG, and BiGG. From 1.4 × 106 accessible biobased polymers, we identified five poly(ethylene terephthalate) (PET) analogues with predicted improvements to thermal and transport performance. Experimental validation for one of the PET analogues demonstrated a glass transition temperature between 85 and 112 °C, which is higher than PET and within the predicted range of the PolyID tool. In addition to accurate predictions, we show how the model’s predictions are explainable through analysis of individual bond importance for a biobased nylon. Overall, PolyID can aid the biobased polymer practitioner to navigate the vast number of renewable polymers to discover sustainable materials with enhanced performance.",
+            "URL": "https://pubs.acs.org/doi/10.1021/acs.macromol.3c00994",
+            "DOI": "10.1021/acs.macromol.3c00994",
+            "shortTitle": "PolyID",
+            "journalAbbreviation": "Macromolecules",
+            "language": "en",
+            "author": [
+                {
+                    "family": "Wilson",
+                    "given": "A. Nolan"
+                },
+                {
+                    "family": "St John",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Marin",
+                    "given": "Daniela H."
+                },
+                {
+                    "family": "Hoyt",
+                    "given": "Caroline B."
+                },
+                {
+                    "family": "Rognerud",
+                    "given": "Erik G."
+                },
+                {
+                    "family": "Nimlos",
+                    "given": "Mark R."
+                },
+                {
+                    "family": "Cywar",
+                    "given": "Robin M."
+                },
+                {
+                    "family": "Rorrer",
+                    "given": "Nicholas A."
+                },
+                {
+                    "family": "Shebek",
+                    "given": "Kevin M."
+                },
+                {
+                    "family": "Broadbelt",
+                    "given": "Linda J."
+                },
+                {
+                    "family": "Beckham",
+                    "given": "Gregg T."
+                },
+                {
+                    "family": "Crowley",
+                    "given": "Michael F."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        10,
+                        19
+                    ]
+                ]
+            },
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        10,
+                        25
+                    ]
+                ]
+            }
+        },
+        {
             "id": "12694622/BHV87JH8",
             "type": "article-journal",
             "title": "Plug & play directed evolution of proteins with gradient-based discrete MCMC",
@@ -1690,6 +1771,11 @@
                     ]
                 ]
             }
+        },
+        {
+            "id": "12694622/P724Q7WB",
+            "type": "article",
+            "title": "Wilson et al. - 2023 - PolyID Artificial Intelligence for Discovering Pe.pdf"
         },
         {
             "id": "12694622/BXDITXBN",
