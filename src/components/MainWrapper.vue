@@ -21,6 +21,9 @@
               Working on the Perception ML Foundation team to improve training efficiency and streamline MLOps for
               autonomous vehicles.
             </li>
+            <li>
+              Reduced on-disk dataset size by a factor of 4 while maintaining dataloader speed, a reduction of over 100 TB.
+            </li>            
           </ul>
         </ExperienceEntry>
       </ExperienceCompany>
