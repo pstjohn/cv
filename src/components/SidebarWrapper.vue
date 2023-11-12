@@ -10,8 +10,7 @@
       <div class="pronouns">(he/him/his)</div>
 
       <h3 class="tagline">
-        Principal Investigator & Senior Scientist at the National Renewable
-        Energy Lab
+        Machine Learning Engineer at NVIDIA
       </h3>
     </div>
 
