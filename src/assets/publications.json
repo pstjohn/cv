@@ -1,6 +1,87 @@
 {
     "items": [
         {
+            "id": "12694622/SLQ3P7LS",
+            "type": "article-journal",
+            "title": "Identification and preliminary characterization of conserved uncharacterized proteins from <span style=\"font-variant:small-caps;\"> <i>Chlamydomonas reinhardtii</i> </span> , <span style=\"font-variant:small-caps;\"> <i>Arabidopsis thaliana</i> </span> , and <span style=\"font-variant:small-caps;\"> <i>Setaria viridis</i> </span>",
+            "container-title": "Plant Direct",
+            "page": "e527",
+            "volume": "7",
+            "issue": "12",
+            "abstract": "The rapid accumulation of sequenced plant genomes in the past decade has outpaced the still difficult problem of genome-wide protein-coding gene annotation. A substantial fraction of protein-coding genes in all plant genomes are poorly annotated or unannotated and remain functionally uncharacterized. We identified unannotated proteins in three model organisms representing distinct branches of the green lineage (Viridiplantae): Arabidopsis thaliana (eudicot), Setaria viridis (monocot), and Chlamydomonas reinhardtii (Chlorophyte alga). Using similarity searching, we identified a subset of unannotated proteins that were conserved between these species and defined them as Deep Green proteins. Bioinformatic, genomic, and structural predictions were performed to begin classifying Deep Green genes and proteins. Compared to whole proteomes for each species, the Deep Green set was enriched for proteins with predicted chloroplast targeting signals predictive of photosynthetic or plastid functions, a result that was consistent with enrichment for daylight phase diurnal expression patterning. Structural predictions using AlphaFold and comparisons to known structures showed that a significant proportion of Deep Green proteins may possess novel folds. Though only available for three organisms, the Deep Green genes and proteins provide a starting resource of high-value targets for further investigation of potentially new protein structures and functions conserved across the green lineage.",
+            "URL": "https://onlinelibrary.wiley.com/doi/10.1002/pld3.527",
+            "DOI": "10.1002/pld3.527",
+            "shortTitle": "Identification and preliminary characterization of conserved uncharacterized proteins from <span style=\"font-variant",
+            "journalAbbreviation": "Plant Direct",
+            "language": "en",
+            "author": [
+                {
+                    "family": "Knoshaug",
+                    "given": "Eric P."
+                },
+                {
+                    "family": "Sun",
+                    "given": "Peipei"
+                },
+                {
+                    "family": "Nag",
+                    "given": "Ambarish"
+                },
+                {
+                    "family": "Nguyen",
+                    "given": "Huong"
+                },
+                {
+                    "family": "Mattoon",
+                    "given": "Erin M."
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Ningning"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Jian"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Chen"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Jianlin"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Ru"
+                },
+                {
+                    "family": "St. John",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Umen",
+                    "given": "James"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        "2023"
+                    ]
+                ]
+            },
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        1,
+                        20
+                    ]
+                ]
+            }
+        },        
+        {
             "id": "12694622/5H9MRWVJ",
             "type": "article-journal",
             "title": "PolyID: Artificial Intelligence for Discovering Performance-Advantaged and Sustainable Polymers",

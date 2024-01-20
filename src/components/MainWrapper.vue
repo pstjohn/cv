@@ -3,8 +3,9 @@
     <MainSection title="About Me" icon="user">
       <div class="summary">
         <p>
-          Machine Learning Engineer (Autonomous Vehicles) at NVIDIA. Former project lead and senior scientist at the
-          National Renewable Energy Laboratory.
+          Machine Learning Engineer working on autonomous vehicle training infrastructure at NVIDIA.
+          Former project lead and senior scientist at the National Renewable Energy Laboratory
+          specializing in AI for materials discovery and protein engineering.
         </p>
       </div>
     </MainSection>
@@ -22,8 +23,14 @@
               autonomous vehicles.
             </li>
             <li>
+              Maintained critical data infrastructure pipelines; implemented performance and stability monitoring in sentry.
+            </li>
+            <li>
               Reduced on-disk dataset size by a factor of 4 while maintaining dataloader speed, a reduction of over 100 TB.
-            </li>            
+            </li>
+            <li>
+              Parallelized data processing pipelines to reduce runtime from >20hrs to ~5 hrs.
+            </li>
           </ul>
         </ExperienceEntry>
       </ExperienceCompany>
