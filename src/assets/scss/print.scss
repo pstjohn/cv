@@ -1,0 +1,57 @@
+@page resume {
+  size: letter portrait;
+  margin: 0.3in;
+}
+
+@media print {
+  body:has(.singlePage) {
+    min-width: 0 !important;
+    width: 7.9in;
+    margin: 0;
+  }
+
+  .wrapper.singlePage {
+    page: resume;
+    width: 7.9in;
+    max-width: none;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.4;
+
+    .content {
+      overflow: visible;
+    }
+
+    p { line-height: 1.4; }
+    .summary p { margin-bottom: 8px; }
+    .public-assets { margin: 6px 0; }
+    .public-asset { padding: 6px; }
+    .public-asset.repository-asset { padding: 0; }
+    ul { margin-bottom: 10px; }
+    .sidebar-wrapper { width: 210px; }
+    .main-wrapper { padding: 0 0 0 230px; }
+    .profile-container { padding: 0 15px 12px; }
+    .profile-container .profile { max-width: 130px; max-height: 130px; }
+    .profile-container .name { font-size: 20px; }
+    .profile-container .tagline { font-size: 13px; }
+    .contact-list { font-size: 12px; }
+    .contact-list li { margin-bottom: 8px; }
+    .container-block { padding: 12px 15px; }
+    .container-block-title { margin-bottom: 8px; }
+    .skills-section {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      p { margin-bottom: 6px; }
+      p:last-child { margin-bottom: 0; }
+    }
+    .section-title { font-size: 16px; margin-bottom: 8px; }
+    .main-section { margin-bottom: 12px; }
+    .slot .item { margin-bottom: 12px; }
+    .nrel-experience .slot .item { margin-bottom: 6px; }
+    .main-section h3 { font-size: 13px; }
+    .header h1 { font-size: 14px; }
+    .github-component { font-size: 12px; }
+    .github-component .description { font-size: 11px; }
+    .main-section .meta { margin-bottom: 6px; }
+  }
+}

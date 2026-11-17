@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "check:site": "npm run build:site && node scripts/check-site.cjs",
+    "build:site": "npm run prepare:content && npm run build && npm run export:resume",
+    "prepare:content": "node scripts/prepare-content.cjs",
+    "draft:linkedin": "node scripts/draft-linkedin.cjs",
+    "export:resume": "node scripts/export-resume.cjs",
+    "refresh:github": "node scripts/refresh-github.cjs",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -23,6 +29,7 @@
     "core-js": "^3.8.3",
     "holderjs": "^2.9.9",
     "json-loader": "^0.5.7",
+    "pdf-lib": "^1.17.1",
     "raw-loader": "^4.0.2",
     "vue": "^3.2.13",
     "vue-underscore": "^0.1.4"
@@ -35,6 +42,7 @@
     "@vue/cli-service": "^5.0.8",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "playwright": "1.65.1",
     "sass": "^1.54.3",
     "sass-loader": "^13.0.2"
   },

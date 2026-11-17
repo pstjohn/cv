@@ -5,7 +5,7 @@
       <span class="repo-name"> {{ name }} </span>
     </a>
 
-    <span class="num-stars" v-if="ready" v-text="data.stargazers_count" />
+    <span class="num-stars" :title="statsTitle" v-if="ready" v-text="data.stargazers_count" />
     <font-awesome-icon
       v-else
       spin
@@ -14,7 +14,7 @@
     />
     <font-awesome-icon icon="fa-regular fa-star" />
 
-    <span class="num-forks" v-if="ready" v-text="data.forks_count" />
+    <span class="num-forks" :title="statsTitle" v-if="ready" v-text="data.forks_count" />
     <font-awesome-icon
       v-else
       spin
@@ -36,6 +36,8 @@
 </template>
 
 <script>
+import githubEntries from '@/assets/github-repos.json';
+
 export default {
   name: 'GithubRepo',
   props: {
@@ -46,28 +48,21 @@ export default {
     },
   },
   data() {
+    const snapshot = githubEntries.find(repo => repo.name === this.name);
     return {
-      data: {
+      data: snapshot || {
         description: 'GitHub API query failed to load',
         stargazers_count: '?',
         forks_count: '?',
         message: null,
       },
-      ready: false,
+      ready: true,
     };
   },
-  async created() {
-    const response = await fetch(`https://api.github.com/repos/${this.name}`);
-    if (response.status == 200) {
-      this.data = await response.json();
-    }
-    if (this.data.message == 'Not Found') {
-      this.ready = false;
-    } else {
-      this.ready = true;
-    }
-  },
   computed: {
+    statsTitle() {
+      return `GitHub count saved ${this.data.updatedAt || '(date unavailable)'}`;
+    },
     html_url() {
       return `https://github.com/${this.name}`;
     },

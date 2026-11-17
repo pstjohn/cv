@@ -1,0 +1,69 @@
+[
+  {
+    "name": "NVIDIA-BioNeMo/bionemo-recipes",
+    "description": "BioNeMo Recipes: For building and adapting AI models in drug discovery at scale",
+    "stargazers_count": 877,
+    "forks_count": 189,
+    "updatedAt": "2026-11-17"
+  },
+  {
+    "name": "pstjohn/d3flux",
+    "description": "D3.js based visualizations of cobrapy metabolic models",
+    "stargazers_count": 56,
+    "forks_count": 12,
+    "updatedAt": "2026-11-17",
+    "outputs": [
+      "cv"
+    ]
+  },
+  {
+    "name": "NREL/nfp",
+    "description": "Keras layers for end-to-end learning with rdkit and pymatgen",
+    "stargazers_count": 62,
+    "forks_count": 35,
+    "updatedAt": "2026-11-17",
+    "outputs": [
+      "cv"
+    ]
+  },
+  {
+    "name": "NREL/alfabet",
+    "description": "Machine learning predictions of bond dissociation energy",
+    "stargazers_count": 70,
+    "forks_count": 24,
+    "updatedAt": "2026-11-17",
+    "outputs": [
+      "cv"
+    ]
+  },
+  {
+    "name": "NREL/rlmolecule",
+    "description": "A reinforcement learning library for material and molecule optimization",
+    "stargazers_count": 33,
+    "forks_count": 19,
+    "updatedAt": "2026-11-17",
+    "outputs": [
+      "cv"
+    ]
+  },
+  {
+    "name": "NREL/graph-env",
+    "description": "Reinforcement learning for combinatorial optimization over directed graphs",
+    "stargazers_count": 44,
+    "forks_count": 10,
+    "updatedAt": "2026-11-17",
+    "outputs": [
+      "cv"
+    ]
+  },
+  {
+    "name": "opencobra/cobrapy",
+    "description": "COBRApy is a package for constraint-based modeling of metabolic networks.",
+    "stargazers_count": 600,
+    "forks_count": 244,
+    "updatedAt": "2026-11-17",
+    "outputs": [
+      "cv"
+    ]
+  }
+]

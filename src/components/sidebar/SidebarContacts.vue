@@ -3,7 +3,7 @@
     <ul class="list-unstyled contact-list">
       <li class="email">
         <font-awesome-icon icon="fa-solid fa-envelope" />
-        <img class="obscured" src="@/assets/images/email.svg" />
+        <a class="email-address" href="mailto:inquiries@agents.pcstj.com">inquiries@agents.pcstj.com</a>
       </li>
       <li class="phone">
         <font-awesome-icon icon="fa-solid fa-phone" />
@@ -30,15 +30,9 @@
           href="https://github.com/pstjohn/"
           >pstjohn
         </a>
-        <span class="followers-wrap">
+        <span class="followers-wrap" v-if="!compact && githubFollowers !== null">
           <font-awesome-icon icon="fa-solid fa-user-group" size="xs" />
-          <span class="num-followers" v-if="ready" v-text="githubFollowers" />
-          <font-awesome-icon
-            v-else
-            spin
-            icon="fa-solid fa-rotate"
-            class="num-followers"
-          />
+          <span class="num-followers" :title="statsTitle" v-text="githubFollowers" />
         </span>
       </li>
       <li>
@@ -50,32 +44,10 @@
           >Google Scholar</a
         >
       </li>
-      <li>
-        <img
-          class="fa-svg"
-          src="@/assets/images/semantic-scholar.svg"
-          alt="semantic scholar"
-        /><a
-          href="https://www.semanticscholar.org/author/Peter-C.-St.-John/35351240"
-          >Semantic Scholar</a
-        >
-      </li>
-      <li>
+      <li v-if="!compact">
         <font-awesome-icon icon="fa-brands fa-orcid" /><a
           href="https://orcid.org/0000-0002-7928-3722"
           >0000-0002-7928-3722</a
-        >
-      </li>
-      <li>
-        <img class="fa-svg" src="@/assets/images/publons.svg" alt="publons" /><a
-          href="https://publons.com/wos-op/researcher/4486958/peter-st-john/"
-          >AAQ-1508-2021</a
-        >
-      </li>
-      <li>
-        <font-awesome-icon icon="fa-brands fa-stack-overflow" /><a
-          href="https://stackoverflow.com/users/1154946/pstjohn"
-          >pstjohn</a
         >
       </li>
     </ul>
@@ -83,20 +55,16 @@
 </template>
 
 <script>
+import githubUser from '@/assets/github-user.json';
+
 export default {
   name: 'SidebarContacts',
+  props: { compact: Boolean },
   data() {
     return {
-      email: 'TODO',
-      githubFollowers: null,
-      ready: false,
+      githubFollowers: githubUser.followers,
+      statsTitle: `GitHub count saved ${githubUser.updatedAt}`,
     };
-  },
-  async created() {
-    const response = await fetch('https://api.github.com/users/pstjohn');
-    let data = await response.json();
-    this.githubFollowers = data['followers'];
-    this.ready = true;
   },
 };
 </script>
@@ -113,6 +81,11 @@ img.obscured {
 }
 
 .contact-list {
+  .email-address {
+    font-size: 0.875em;
+    white-space: nowrap;
+  }
+
   a {
     text-decoration: none;
   }

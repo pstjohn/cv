@@ -7,17 +7,22 @@
         alt=""
       />
       <h1 class="name">Peter St. John<span class="phd">, PhD</span></h1>
-      <div class="pronouns">(he/him/his)</div>
 
       <h3 class="tagline">
-        Machine Learning Engineer at NVIDIA
+        {{ profile.tagline }}
       </h3>
     </div>
 
     <div id="singlePageToggle" class="d-print-none"></div>
 
     <SidebarStats />
-    <SidebarContacts />
+    <SidebarContacts :compact="singlePage" />
+
+    <SidebarSection title="Skills" class="skills-section">
+      <p v-for="skill in profile.skills" :key="skill.label">
+        <strong>{{ skill.label }}</strong><br />{{ skill.text }}
+      </p>
+    </SidebarSection>
 
     <SidebarSection title="Education">
       <EducationEntry
@@ -25,8 +30,8 @@
         location="University of California Santa Barbara"
         time="2010-2015"
       >
-        <div><span class="edu-tag">Advisor:</span> Francis J. Doyle III</div>
-        <div>
+        <div v-if="!singlePage"><span class="edu-tag">Advisor:</span> Francis J. Doyle III</div>
+        <div v-if="!singlePage">
           <span class="edu-tag">Thesis:</span> Mathematical approaches to
           understanding mammalian circadian rhythms
           <a href="https://escholarship.org/uc/item/6nh6t2tr">[link]</a>
@@ -39,17 +44,6 @@
       />
     </SidebarSection>
 
-    <div :class="{ 'd-none': singlePage }">
-      <SidebarSection title="Software">
-        <GithubRepo name="pstjohn/d3flux" pypi="d3flux" />
-        <GithubRepo name="NREL/nfp" pypi="nfp" />
-        <GithubRepo name="NREL/alfabet" pypi="alfabet" />
-        <!-- <GithubRepo name="pstjohn/bde" /> -->
-        <GithubRepo name="NREL/rlmolecule" pypi="rlmolecule" />
-        <GithubRepo name="NREL/graph-env" pypi="graphenv" />
-        <GithubRepo name="opencobra/cobrapy" pypi="cobra" />
-      </SidebarSection>
-    </div>
   </div>
 </template>
 
@@ -58,17 +52,19 @@ import SidebarSection from './sidebar/SidebarSection.vue';
 import SidebarContacts from './sidebar/SidebarContacts.vue';
 import EducationEntry from './sidebar/EducationEntry.vue';
 import SidebarStats from './sidebar/SidebarStats.vue';
-import GithubRepo from './sidebar/GithubRepo.vue';
+import profile from '@/assets/profile.json';
 
 export default {
   name: 'SidebarWrapper',
   props: ['singlePage'],
+  data() {
+    return { profile };
+  },
   components: {
     SidebarSection,
     SidebarContacts,
     EducationEntry,
     SidebarStats,
-    GithubRepo,
   },
 };
 </script>
@@ -133,18 +129,24 @@ export default {
       margin-bottom: 15px;
     }
 
-    .pronouns {
-      text-align: center;
-      margin-bottom: 10px;
-      font-size: 12px;
-      font-weight: 300;
-      font-family: 'Roboto';
-      color: $text-grey;
-    }
+
   }
 }
 .edu-tag {
   font-weight: 500;
+}
+
+.skills-section {
+  font-size: 13px;
+  line-height: 1.4;
+
+  p { margin-bottom: 10px; }
+  p:last-child { margin-bottom: 0; }
+  strong { font-weight: 600; }
+}
+
+@media print {
+  .skills-section { font-size: 11px; }
 }
 
 #singlePageToggle {

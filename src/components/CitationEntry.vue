@@ -16,6 +16,8 @@
 </template>
 
 <script>
+import { fetchJson } from '@/utils/fetchJson';
+
 export default {
   name: 'CitationEntry',
   props: {
@@ -26,20 +28,20 @@ export default {
   data() {
     return {
       citationCount: null,
-      showCitations: true,
+      showCitations: false,
       citationWord: ' citations',
     };
   },
   async created() {
     if (this.note) {
-      const response = await fetch(
+      const data = await fetchJson(
         `https://api.crossref.org/works/${this.doi}`
       );
-      const data = await response.json();
-      this.citationCount = data['message']['is-referenced-by-count'];
-      if (this.citationCount == 0) {
-        this.showCitations = false;
-      } else if (this.citationCount == 1) {
+      const count = data?.message?.['is-referenced-by-count'];
+      if (!Number.isInteger(count) || count <= 0) return;
+      this.citationCount = count;
+      this.showCitations = true;
+      if (count === 1) {
         this.citationWord = ' citation';
       }
     }

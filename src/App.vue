@@ -9,6 +9,7 @@
       <div class="document-footer"></div>
     </div>
     <footer>
+      <p><a href="/cv/resume.pdf">Download PDF résumé</a> · <a href="/cv/resume.txt">Plain text</a> · <a href="/cv/llms.txt">Guide for AI agents</a></p>
       <p>
         Looking for a PDF? Use your browser's
         <a href="#" id="print-button" onclick="window.print();return false;"
@@ -59,6 +60,25 @@ export default {
   overflow: hidden;
   position: relative;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .content > .sidebar-wrapper {
+    position: relative;
+    flex: 0 0 280px;
+    height: auto;
+  }
+
+  .content > .main-wrapper {
+    flex: 1;
+    min-width: 0;
+    padding-left: 20px;
+  }
 }
 
 .software-footer {

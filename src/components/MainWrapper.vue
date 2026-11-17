@@ -3,9 +3,7 @@
     <MainSection title="About Me" icon="user">
       <div class="summary">
         <p>
-          Machine Learning Engineer working on autonomous vehicle training infrastructure at NVIDIA.
-          Former project lead and senior scientist at the National Renewable Energy Laboratory
-          specializing in AI for materials discovery and protein engineering.
+          {{ profile.summary }}
         </p>
       </div>
     </MainSection>
@@ -16,153 +14,61 @@
           <img :src="require('@/assets/images/Nvidia_logo.svg')" />
         </template>
 
-        <ExperienceEntry jobTitle="Machine Learning Engineer" department="Autonomous Vehicles">
+        <ExperienceEntry :jobTitle="profile.nvidia.current.title" :department="profile.nvidia.current.department"
+          :time="profile.nvidia.current.dates">
+          <ul id="public-assets">
+            <li v-for="(bullet, index) in currentBullets" :key="bullet">
+              {{ bullet }}
+              <PublicAssets :compact="singlePage" :assetIds="profile.nvidia.current.bulletAssetIds[index]"
+                :upcoming="index === 0 ? profile.nvidia.current.upcomingAssets : []" />
+            </li>
+          </ul>
+        </ExperienceEntry>
+
+        <ExperienceEntry :jobTitle="profile.nvidia.previous.title" :department="profile.nvidia.previous.department"
+          :time="profile.nvidia.previous.dates">
           <ul>
-            <li>
-              Working on the Perception ML Foundation team to improve training efficiency and streamline MLOps for
-              autonomous vehicles.
-            </li>
-            <li>
-              Maintained critical data infrastructure pipelines; implemented performance and stability monitoring in sentry.
-            </li>
-            <li>
-              Reduced on-disk dataset size by a factor of 4 while maintaining dataloader speed, a reduction of over 100 TB.
-            </li>
-            <li>
-              Parallelized data processing pipelines to reduce runtime from >20hrs to ~5 hrs.
-            </li>
+            <li v-for="bullet in previousBullets" :key="bullet">{{ bullet }}</li>
           </ul>
         </ExperienceEntry>
       </ExperienceCompany>
 
 
-      <ExperienceCompany company="National Renewable Energy Lab" location="Golden, CO" startDate="2015-06-02"
+      <ExperienceCompany class="nrel-experience" company="National Renewable Energy Lab" location="Golden, CO" startDate="2015-06-02"
         endDate="2022-12-02">
         <template v-slot:logo>
           <img :src="require('@/assets/images/nrel-logo.jpg')" />
         </template>
 
-        <ExperienceEntry jobTitle="Senior Scientist" department="Biosciences Center"
-          company="National Renewable Energy Lab" time="2020-Present">
+        <ExperienceEntry v-for="role in profile.nrel.roles" :key="role.title"
+          :jobTitle="role.title" :time="role.dates">
           <ul>
-            <li>
-              Proposed, planned, and executed a $1.8M dollar research effort
-              across three institutions on deep learning methods (publications
-              in
-              <a class="fst-italic" href="https://doi.org/10.1038/s42256-022-00506-3">Nat Mach Intell</a>
-              and
-              <a class="fst-italic" href="https://doi.org/10.1016/j.patter.2021.100361">Patterns</a>.)
-            </li>
-            <li>
-              Lead software architect on
-              <a href="https://joss.theoj.org/papers/10.21105/joss.04621">peer-reviewed software</a>
-              for reinforcement learning and optimization
-              <span class="tech"><a href="https://github.com/NREL/graph-env/"><font-awesome-icon
-                    icon="fa-brands fa-github" />
-                  NREL/graph-env</a>
-                (Python, Tensorflow, CI/CD)</span>
-            </li>
-            <li>
-              Lead NREL PI on a 3-year, $1M grant grant focused on predicting
-              thermotolerance and pH tolerance of enzymatic transformations
-              <span class="tech">(fairseq, torch)</span>
-            </li>
-            <li>
-              Project lead for a $275K/year Co-Optima subtask, developed
-              explanatory model for particulate emissions for industry
-              stakeholders <span class="tech">(scikit-learn, pymc)</span>.
-            </li>
+            <li v-for="bullet in (singlePage ? role.resumeBullets : role.bullets)" :key="bullet">{{ bullet }}</li>
           </ul>
         </ExperienceEntry>
-
-        <ExperienceEntry jobTitle="Staff Scientist" department="Biosciences Center"
-          company="National Renewable Energy Lab" time="2017-2020">
-          <ul>
-            <li>
-              Managed a multi-million record, multi-user
-              <span class="tech">SQL (Postgres)</span> database with pipelines
-              for ML model training. Published in
-              <a class="fst-italic" href="https://doi.org/10.1038/s41597-020-00588-x">Scientific Data</a>
-            </li>
-            <li>
-              Trained a custom graph neural network (<span class="tech">tensorflow 2 / keras</span>), and deployed a
-              containerized web application (<span class="tech">Docker / FastAPI / Flask</span>, <a
-                href="https://bde.ml.nrel.gov/">bde.ml.nrel.gov</a>) on
-              <span class="tech">AWS</span> with over 8k unique users. Published
-              in
-              <a href="https://doi.org/10.1038/s41467-020-16201-z"><span class="fst-italic">Nature
-                  Communications</span></a>
-            </li>
-            <li>
-              Pre-trained a BERT-style natural language processing model on 261M
-              unlabeled protein sequences using over 1024 GPUs (<span class="tech">torch</span>).
-            </li>
-            <li>
-              Recipient of NREL's
-              <span class="award"><font-awesome-icon icon="fa-solid fa-award" /> President's
-                Award</span>
-              (2019) for exceptional achievements.
-            </li>
-          </ul>
-        </ExperienceEntry>
-
-        <ExperienceEntry jobTitle="Postdoctoral Scholar" department="Biosciences Center"
-          company="National Renewable Energy Lab" time="2015-2017">
-          <ul>
-            <li :class="{ 'd-none': singlePage }">
-              Used metabolic modeling (<span class="tech">Python / cobrapy</span>) to suggest unintuitive reaction
-              knockout to improve yields of
-              muconic acid from glucose. Improved yields in shake flasks from 7%
-              to 41%, matching modeling predictions within a few percent.
-              Published in
-              <a href="https://doi.org/10.1016/j.joule.2019.05.011"><span class="fst-italic">Joule</span></a>.
-            </li>
-            <li>
-              Recipient of NREL's
-              <span class="award">
-                <font-awesome-icon icon="fa-solid fa-award" /> Director's
-                Award</span>
-              (2017) for exceptional achievements.
-            </li>
-          </ul>
-        </ExperienceEntry>
+        <div v-if="!singlePage" class="nrel-software">
+          <h3>Selected open-source contributions</h3>
+          <div class="nrel-repositories">
+            <GithubRepo v-for="name in profile.nrel.repositories" :key="name" :name="name" />
+          </div>
+        </div>
       </ExperienceCompany>
 
-      <ExperienceCompany company="Colorado State University" startDate="2022-01-15" location="Fort Collins, CO"
-        endDate="Present">
+      <ExperienceCompany v-if="!singlePage" company="Colorado State University"
+        location="Fort Collins, CO" startDate="2022-01-15" endDate="2022-12-01">
         <template v-slot:logo>
           <img :src="require('@/assets/images/csu-logo.jpg')" />
         </template>
-
-        <ExperienceEntry jobTitle="Faculty Affiliate" company="Colorado State University" department="Chemistry"
-          time="2021-Present">
+        <ExperienceEntry jobTitle="Faculty Affiliate" department="Chemistry" time="Jan 2022 - Dec 2022">
           <ul>
-            <li>
-              Mentored graduate students and postdoctoral researchers in the
-              Chemistry department on machine learning research
-            </li>
-            <li :class="{ 'd-none': singlePage }">
-              Co-PI on award for over $20K in computational resources (XSEDE
-              award CHE210034)
-            </li>
+            <li>Mentored graduate students and postdoctoral researchers on machine learning research.</li>
+            <li>Co-PI on an XSEDE award for over $20K in computational resources (CHE210034).</li>
           </ul>
-
-          <!-- over 20,000 XSEDE award.</p> -->
         </ExperienceEntry>
       </ExperienceCompany>
     </MainSection>
 
-    <div :class="{ 'd-none': !singlePage }">
-      <MainSection title="Software" icon="box-open">
-        <masonry-wall :items="githubEntries" :ssr-columns="1" :column-width="200" :gap="5">
-          <template #default="{ item }">
-            <GithubRepo :name="item.name" :pypi="item.pypi" />
-          </template>
-        </masonry-wall>
-      </MainSection>
-    </div>
-
-    <div :class="{ 'd-none': singlePage }">
+    <div v-if="!singlePage">
       <MainSection title="Grants" icon="money-check-dollar">
         <GrantsEntry
           title="End-to-End Optimization for Battery Materials and Molecules by Combining Graph Neural Networks and Reinforcement Learning"
@@ -195,8 +101,8 @@
             <a href="https://genomicscience.energy.gov/microbial-conversion-2021-awards/">FOA-2448
             </a>
             under the Genomic Science Program to develop systems biology tools
-            for rationally engineering robustness in microbial hosts. I am
-            serving as the NREL lead PI, leading Aim 1, Metabolic Systems
+            for rationally engineering robustness in microbial hosts. I
+            served as the NREL lead PI, leading Aim 1, Metabolic Systems
             Modeling.
           </p>
         </GrantsEntry>
@@ -206,7 +112,7 @@
           amount="USD 256,000" pi="Lewis Johnson (Nonlinear Materials, Seattle WA)"
           link="https://www.sbir.gov/node/2087727">
           <p>
-            I am the NREL PI on this technology transfer award under the DOE
+            I served as the NREL PI on this technology transfer award under the DOE
             Basic Energy Sciences, which seeks to commercialize aspects of our
             bond dissociation energy tool for predicting thermal decomposition
             of high-temperature organic electronics.
@@ -333,23 +239,25 @@ import MainCitations from './MainCitations.vue';
 import ExperienceEntry from './ExperienceEntry.vue';
 import GrantsEntry from './GrantsEntry.vue';
 import ExperienceCompany from './ExperienceCompany.vue';
+import PublicAssets from './PublicAssets.vue';
 import GithubRepo from './sidebar/GithubRepo.vue';
+import profile from '@/assets/profile.json';
 
 export default {
   name: 'MainWrapper',
   props: ['singlePage'],
   data() {
     return {
-      githubEntries: [
-        { name: 'pstjohn/d3flux', pypi: 'd3flux' },
-        { name: 'NREL/nfp', pypi: 'nfp' },
-        { name: 'NREL/alfabet', pypi: 'alfabet' },
-        // { name: 'pstjohn/bde' },
-        { name: 'NREL/rlmolecule', pypi: 'rlmolecule' },
-        { name: 'NREL/graph-env', pypi: 'graphenv' },
-        { name: 'opencobra/cobrapy', pypi: 'cobra' },
-      ],
+      profile,
     };
+  },
+  computed: {
+    currentBullets() {
+      return this.singlePage ? profile.nvidia.current.resumeBullets : profile.nvidia.current.cvBullets;
+    },
+    previousBullets() {
+      return this.singlePage ? profile.nvidia.previous.resumeBullets : profile.nvidia.previous.cvBullets;
+    },
   },
   components: {
     MainSection,
@@ -357,12 +265,24 @@ export default {
     ExperienceEntry,
     GrantsEntry,
     ExperienceCompany,
+    PublicAssets,
     GithubRepo,
   },
 };
 </script>
 
 <style lang="scss">
+.nrel-software { margin: 16px 0 24px; }
+.nrel-repositories {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+@media screen and (max-width: 575px) {
+  .nrel-repositories { grid-template-columns: 1fr; }
+}
+
 @media (max-width: 767.98px) {
   .main-wrapper {
     padding: 20px;

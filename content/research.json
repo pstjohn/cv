@@ -1,0 +1,534 @@
+{
+  "version": 1,
+  "updatedOn": "2026-11-16",
+  "objective": "Refresh the resume, full CV, and LinkedIn around current work, supported by a broad public evidence review and user-supplied context.",
+  "scope": "Source review and augmented-bullet drafting in progress. Two published coauthored blogs are verified; private career records and unpublished assets are tracked only in Git-ignored local research. Final narrative and impact claims remain under review.",
+  "sources": [
+    {
+      "id": "src-linkedin-20261116",
+      "type": "user_supplied_profile",
+      "reference": "Peter St. John _ LinkedIn.pdf",
+      "capturedOn": "2026-11-16",
+      "visibility": "user_supplied",
+      "verification": "read",
+      "notes": "Role dates and visible text verified. Some descriptions are collapsed. Private dashboard and other-person content are excluded."
+    },
+    {
+      "id": "src-existing-cv",
+      "type": "existing_cv",
+      "url": "https://github.com/pstjohn/cv",
+      "visibility": "public",
+      "verification": "read",
+      "notes": "Historical accomplishments carried forward. Recheck details and end dates during research. NREL funding aggregate from the four existing CV grant entries: $1,800,000 + $969,131 + $256,000 + $1,649,705 = $4,674,836 (rounded $4.67M). Full award values across PI, NREL PI, and key-personnel roles; not NREL-only funding or sole fundraising credit."
+    },
+    {
+      "id": "src-bionemo-repo",
+      "type": "repository",
+      "url": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes",
+      "visibility": "public",
+      "verification": "read",
+      "notes": "Current canonical repository verified. User selected this featured project."
+    },
+    {
+      "id": "src-stitch-domains",
+      "type": "pull_request",
+      "url": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes/pull/1785",
+      "visibility": "public",
+      "verification": "read",
+      "checkedOn": "2026-11-16",
+      "notes": "Authored by pstjohn; merged 2026-10-28. Domain examples and integration work, not sole framework authorship."
+    },
+    {
+      "id": "src-encoder-client",
+      "type": "pull_request",
+      "url": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes/pull/1795",
+      "visibility": "public",
+      "verification": "read",
+      "checkedOn": "2026-11-16",
+      "notes": "Authored by pstjohn; merged 2026-11-06. Client packaging and interfaces, not proof of authorship of every encoder service."
+    },
+    {
+      "id": "src-nemo-memory",
+      "type": "pull_request",
+      "url": "https://github.com/NVIDIA-NeMo/RL/pull/4115",
+      "visibility": "public",
+      "verification": "read",
+      "checkedOn": "2026-11-16",
+      "notes": "Authored by pstjohn; merged 2026-11-05. Memory benchmark is scoped to two documented configurations."
+    },
+    {
+      "id": "src-dynamo-protocol",
+      "type": "pull_request",
+      "url": "https://github.com/ai-dynamo/frontend-crates/pull/308",
+      "visibility": "public",
+      "verification": "read",
+      "checkedOn": "2026-11-16",
+      "notes": "Authored by pstjohn; merged 2026-11-02. Frontend libraries, not end-to-end support for every serving backend."
+    },
+    {
+      "id": "src-blog-recipes",
+      "type": "technical_blog",
+      "title": "Scale Biology Transformer Models with PyTorch and NVIDIA BioNeMo Recipes",
+      "url": "https://developer.nvidia.com/blog/scale-biology-transformer-models-with-pytorch-and-nvidia-bionemo-recipes/",
+      "publishedOn": "2025-11-05",
+      "authors": [
+        "Kyle Tretina",
+        "Youssef Nashed",
+        "Neha Tadimeti",
+        "Jonathan Mitchell",
+        "Peter St John"
+      ],
+      "visibility": "public",
+      "verification": "read",
+      "checkedOn": "2026-11-16",
+      "notes": "Peter St John appears in the article byline. Coauthorship is verified; the byline alone does not allocate individual engineering ownership."
+    },
+    {
+      "id": "src-blog-moe",
+      "type": "technical_blog",
+      "title": "Efficient MoE Training for Biological Foundation Models",
+      "url": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models/",
+      "publishedOn": "2026-09-24",
+      "authors": [
+        "Faradawn Yang",
+        "Peter St John",
+        "Kyle Tretina",
+        "Zoey Zhang"
+      ],
+      "visibility": "public",
+      "verification": "read",
+      "checkedOn": "2026-11-16",
+      "notes": "Peter St John appears in the article byline. Coauthorship is verified; the byline alone does not allocate individual engineering ownership."
+    },
+    {
+      "id": "src-hf-esm2-data",
+      "type": "hf_dataset",
+      "title": "ESM-2 UniRef Pretraining Data",
+      "url": "https://huggingface.co/datasets/nvidia/esm2_uniref_pretraining_data",
+      "visibility": "public",
+      "verification": "read",
+      "checkedOn": "2026-11-16",
+      "notes": "Public dataset existence verified. Personal preparation, curation, and release role still need confirmation; do not attribute the underlying UniRef database to Peter."
+    },
+    {
+      "id": "src-hf-esm2-650m",
+      "type": "hf_model",
+      "title": "ESM-2 650M (Transformer Engine optimized)",
+      "url": "https://huggingface.co/nvidia/esm2_t33_650M_UR50D",
+      "visibility": "public",
+      "verification": "read",
+      "checkedOn": "2026-11-16",
+      "notes": "Card describes an optimized version of upstream ESM-2 with corresponding weights, not proof that this Hub artifact is an independently pretrained NVIDIA model. Card release date: 2025-07-29. Personal release role and exact revision need confirmation."
+    },
+    {
+      "id": "src-hf-amplify-350m",
+      "type": "hf_model",
+      "title": "AMPLIFY 350M (Transformer Engine optimized)",
+      "url": "https://huggingface.co/nvidia/AMPLIFY_350M",
+      "visibility": "public",
+      "verification": "read",
+      "checkedOn": "2026-11-16",
+      "notes": "Card distinguishes upstream Chandar Research Lab AMPLIFY from NVIDIA optimization. Do not equate this release with private records of independent pretraining runs. Card release date: 2025-06-12. Personal release role and revision need confirmation."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-digital-biology-role",
+      "text": "Machine Learning Engineer (Digital Biology), NVIDIA, Jul 2024-Present",
+      "sourceIds": [
+        "src-linkedin-20261116"
+      ],
+      "verification": "verified",
+      "selection": "selected",
+      "outputs": [
+        "resume",
+        "cv",
+        "linkedin"
+      ],
+      "notes": "Visible in user-supplied profile."
+    },
+    {
+      "id": "claim-stitch-domains",
+      "text": "Integrated genetics and chemistry examples into Nemotron Stitch.",
+      "sourceIds": [
+        "src-stitch-domains"
+      ],
+      "verification": "verified",
+      "selection": "candidate",
+      "outputs": [
+        "resume",
+        "cv",
+        "linkedin"
+      ],
+      "ownership": "PR authorship verified; overall project leadership not established.",
+      "metrics": []
+    },
+    {
+      "id": "claim-encoder-client",
+      "text": "Bundled a typed Python client for BioNeMo encoder services, with packaging, conversions, and regression tests.",
+      "sourceIds": [
+        "src-encoder-client"
+      ],
+      "verification": "verified",
+      "selection": "candidate",
+      "outputs": [
+        "cv",
+        "linkedin"
+      ],
+      "ownership": "Specific contribution verified; broader ownership needs context.",
+      "metrics": []
+    },
+    {
+      "id": "claim-nemo-memory",
+      "text": "Added configurable FSDP output precision to NeMo RL.",
+      "sourceIds": [
+        "src-nemo-memory"
+      ],
+      "verification": "verified",
+      "selection": "candidate",
+      "outputs": [
+        "resume",
+        "cv",
+        "linkedin"
+      ],
+      "ownership": "Authored the merged PR.",
+      "metrics": [
+        {
+          "measure": "Reduction in peak allocated policy-training GPU memory",
+          "values": [
+            9.08,
+            9.92
+          ],
+          "unit": "percent",
+          "scope": "Eight H100 GPUs, 1.5B Qwen model, two documented training configurations, synthetic fixed inputs, two measured updates after warmup.",
+          "limits": "Not an end-to-end GRPO memory, general throughput, convergence equivalence, or universal BF16 benefit claim."
+        }
+      ]
+    },
+    {
+      "id": "claim-dynamo-protocol",
+      "text": "Contributed custom-modality protocol and rendering support to Dynamo frontend libraries.",
+      "sourceIds": [
+        "src-dynamo-protocol"
+      ],
+      "verification": "verified",
+      "selection": "candidate",
+      "outputs": [
+        "cv",
+        "linkedin"
+      ],
+      "ownership": "Authored merged frontend-library PR.",
+      "metrics": []
+    },
+    {
+      "id": "claim-blog-recipes-coauthor",
+      "text": "Co-authored Scale Biology Transformer Models with PyTorch and NVIDIA BioNeMo Recipes.",
+      "sourceIds": [
+        "src-blog-recipes"
+      ],
+      "verification": "verified",
+      "selection": "candidate",
+      "outputs": [
+        "resume",
+        "cv",
+        "linkedin"
+      ],
+      "ownership": "Coauthor, not sole author."
+    },
+    {
+      "id": "claim-blog-moe-coauthor",
+      "text": "Co-authored Efficient MoE Training for Biological Foundation Models.",
+      "sourceIds": [
+        "src-blog-moe"
+      ],
+      "verification": "verified",
+      "selection": "candidate",
+      "outputs": [
+        "resume",
+        "cv",
+        "linkedin"
+      ],
+      "ownership": "Coauthor, not sole author."
+    },
+    {
+      "id": "claim-moe-published-benchmark",
+      "text": "The coauthored MoE article reports up to 2.21x Hugging Face baseline throughput for its documented Mixtral-8x7B training benchmark.",
+      "sourceIds": [
+        "src-blog-moe"
+      ],
+      "verification": "verified",
+      "selection": "candidate",
+      "outputs": [
+        "resume",
+        "cv",
+        "linkedin"
+      ],
+      "ownership": "Published team result. Individual implementation/performance ownership needs separate evidence.",
+      "metrics": [
+        {
+          "measure": "Training throughput",
+          "value": 2.21,
+          "unit": "x baseline",
+          "scope": "Mixtral-8x7B on eight B200 GPUs; reported comparison changes from HF BF16/FSDP8 to TE expert parallelism and MXFP8.",
+          "limits": "Not a universal model speedup or a controlled estimate of kernel fusion alone."
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset-bionemo-recipes",
+      "type": "repository",
+      "title": "BioNeMo Recipes",
+      "url": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes",
+      "publisher": "NVIDIA-BioNeMo",
+      "summary": "Recipes and tooling for building and adapting AI models in drug discovery at scale.",
+      "contribution": "",
+      "contributionClaimIds": [],
+      "sourceIds": [
+        "src-bionemo-repo"
+      ],
+      "verification": "verified",
+      "selection": "selected",
+      "outputs": [
+        "resume",
+        "cv",
+        "linkedin"
+      ],
+      "repository": "NVIDIA-BioNeMo/bionemo-recipes",
+      "notes": "Featured project selected by user; featuring does not imply sole ownership.",
+      "publicationState": "published"
+    },
+    {
+      "id": "asset-blog-recipes",
+      "type": "technical_blog",
+      "title": "Scale Biology Transformer Models with PyTorch and NVIDIA BioNeMo Recipes",
+      "url": "https://developer.nvidia.com/blog/scale-biology-transformer-models-with-pytorch-and-nvidia-bionemo-recipes/",
+      "publisher": "NVIDIA Technical Blog",
+      "publishedOn": "2025-11-05",
+      "authors": [
+        "Kyle Tretina",
+        "Youssef Nashed",
+        "Neha Tadimeti",
+        "Jonathan Mitchell",
+        "Peter St John"
+      ],
+      "summary": "A practical guide to accelerating protein-model workflows with Transformer Engine, FSDP2, sequence packing, and Hugging Face interoperability.",
+      "contribution": "Coauthor",
+      "contributionClaimIds": [
+        "claim-blog-recipes-coauthor"
+      ],
+      "sourceIds": [
+        "src-blog-recipes"
+      ],
+      "verification": "verified",
+      "selection": "selected",
+      "publicationState": "published",
+      "outputs": [
+        "resume",
+        "cv",
+        "linkedin"
+      ]
+    },
+    {
+      "id": "asset-blog-moe",
+      "type": "technical_blog",
+      "title": "Efficient MoE Training for Biological Foundation Models",
+      "url": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models/",
+      "publisher": "NVIDIA Technical Blog",
+      "publishedOn": "2026-09-24",
+      "authors": [
+        "Faradawn Yang",
+        "Peter St John",
+        "Kyle Tretina",
+        "Zoey Zhang"
+      ],
+      "summary": "A guide to grouped expert computation, MXFP8, and fused Transformer Engine operations for mixture-of-experts training.",
+      "contribution": "Coauthor",
+      "contributionClaimIds": [
+        "claim-blog-moe-coauthor"
+      ],
+      "sourceIds": [
+        "src-blog-moe"
+      ],
+      "verification": "verified",
+      "selection": "selected",
+      "publicationState": "published",
+      "outputs": [
+        "resume",
+        "cv",
+        "linkedin"
+      ]
+    },
+    {
+      "id": "asset-hf-esm2-data",
+      "type": "hf_dataset",
+      "title": "ESM-2 UniRef Pretraining Data",
+      "url": "https://huggingface.co/datasets/nvidia/esm2_uniref_pretraining_data",
+      "publisher": "NVIDIA on Hugging Face",
+      "hubId": "nvidia/esm2_uniref_pretraining_data",
+      "revision": null,
+      "summary": "Protein pretraining data distributed through the NVIDIA Hugging Face namespace.",
+      "contribution": "",
+      "contributionClaimIds": [],
+      "sourceIds": [
+        "src-hf-esm2-data"
+      ],
+      "verification": "verified",
+      "selection": "candidate",
+      "publicationState": "published",
+      "outputs": [
+        "cv",
+        "linkedin"
+      ],
+      "notes": "Public dataset existence verified. Personal preparation, curation, and release role still need confirmation; do not attribute the underlying UniRef database to Peter."
+    },
+    {
+      "id": "asset-hf-esm2-650m",
+      "type": "hf_model",
+      "title": "ESM-2 650M (Transformer Engine optimized)",
+      "url": "https://huggingface.co/nvidia/esm2_t33_650M_UR50D",
+      "publisher": "NVIDIA on Hugging Face",
+      "hubId": "nvidia/esm2_t33_650M_UR50D",
+      "revision": null,
+      "summary": "Transformer Engine optimized ESM-2 protein language-model checkpoint.",
+      "contribution": "",
+      "contributionClaimIds": [],
+      "sourceIds": [
+        "src-hf-esm2-650m"
+      ],
+      "verification": "verified",
+      "selection": "candidate",
+      "publicationState": "published",
+      "outputs": [
+        "cv",
+        "linkedin"
+      ],
+      "notes": "Card describes an optimized version of upstream ESM-2 with corresponding weights, not proof that this Hub artifact is an independently pretrained NVIDIA model. Card release date: 2025-07-29. Personal release role and exact revision need confirmation."
+    },
+    {
+      "id": "asset-hf-amplify-350m",
+      "type": "hf_model",
+      "title": "AMPLIFY 350M (Transformer Engine optimized)",
+      "url": "https://huggingface.co/nvidia/AMPLIFY_350M",
+      "publisher": "NVIDIA on Hugging Face",
+      "hubId": "nvidia/AMPLIFY_350M",
+      "revision": null,
+      "summary": "Transformer Engine optimized AMPLIFY protein language-model checkpoint.",
+      "contribution": "",
+      "contributionClaimIds": [],
+      "sourceIds": [
+        "src-hf-amplify-350m"
+      ],
+      "verification": "verified",
+      "selection": "candidate",
+      "publicationState": "published",
+      "outputs": [
+        "cv",
+        "linkedin"
+      ],
+      "notes": "Card distinguishes upstream Chandar Research Lab AMPLIFY from NVIDIA optimization. Do not equate this release with private records of independent pretraining runs. Card release date: 2025-06-12. Personal release role and revision need confirmation."
+    }
+  ],
+  "discoveryTasks": [
+    {
+      "id": "research-career-scope",
+      "status": "in_progress",
+      "area": "Positioning and ownership",
+      "search": "User discussion covering all work since Jul 2024.",
+      "capture": "Target audience, technical direction, project ownership, collaboration, mentoring, public impact and confidentiality boundaries.",
+      "progress": "Reviewed user-supplied current/prior career records. Local augmented bullets and follow-up questions are kept in content/private/."
+    },
+    {
+      "id": "research-code-history",
+      "status": "open",
+      "area": "Code and shipped work",
+      "search": "Public contributions by pstjohn since Jul 2024 across BioNeMo Recipes, previous bionemo-framework names, NeMo RL/AutoModel, Dynamo and related repos.",
+      "capture": "Major releases and sustained work, rather than treating recent PR count or lines changed as impact. Distinguish merged, open, abandoned, and exploratory work."
+    },
+    {
+      "id": "research-technical-blogs",
+      "status": "in_progress",
+      "area": "NVIDIA technical blogs",
+      "search": "developer.nvidia.com/blog and NVIDIA technical author pages for Peter St. John, Peter St John, pstjohn, BioNeMo and project names.",
+      "capture": "Canonical URL, title, publication/update dates, byline, public credits, concrete contribution and relevant claim IDs.",
+      "progress": "Read both posts currently listed on the user-supplied author page; verified dates/bylines and recorded the scoped MoE benchmark."
+    },
+    {
+      "id": "research-hf-models",
+      "status": "in_progress",
+      "area": "Hugging Face models",
+      "search": "Official NVIDIA model cards, BioNeMo documentation, release announcements and public model-repository histories.",
+      "capture": "Model ID and revision, release date, model-card credits, verified contribution, training/evaluation scope, license and impact evidence.",
+      "progress": "Read public ESM-2 and AMPLIFY model cards and an ESM-2 dataset card. Artifact existence is verified; individual credit and exact revisions remain to establish."
+    },
+    {
+      "id": "research-hf-datasets",
+      "status": "in_progress",
+      "area": "Hugging Face datasets",
+      "search": "Official NVIDIA dataset cards and BioNeMo training-data references.",
+      "capture": "Dataset ID and revision, modality, size with units and split, creation/curation role, public release status and card credits. Org ownership alone does not establish personal contribution.",
+      "progress": "Read public ESM-2 and AMPLIFY model cards and an ESM-2 dataset card. Artifact existence is verified; individual credit and exact revisions remain to establish."
+    },
+    {
+      "id": "research-talks-docs",
+      "status": "open",
+      "area": "Talks, tutorials and public demos",
+      "search": "Official NVIDIA GTC sessions, technical webinars, docs, tutorials, notebooks and release material.",
+      "capture": "Speaker/author credit, date, recording/slides, public availability, personal contribution and audience relevance."
+    },
+    {
+      "id": "research-results",
+      "status": "open",
+      "area": "Impact and measurement",
+      "search": "Public benchmark tables, release notes, technical reports and user-provided publishable results.",
+      "capture": "Before/after baseline, hardware, workload, model/data revision, measurement scope, adoption evidence and source date."
+    },
+    {
+      "id": "research-academic-history",
+      "status": "open",
+      "area": "CV completeness",
+      "search": "ORCID, publication metadata, personal records and existing CV.",
+      "capture": "New papers, talks, patents, awards, mentoring dates, and corrections to historical grants and affiliations."
+    }
+  ],
+  "workflow": [
+    {
+      "stage": "discover",
+      "deliverable": "Sources and assets with URLs, dates, visibility and attribution evidence."
+    },
+    {
+      "stage": "verify",
+      "deliverable": "Claim-level evidence, ownership, metric scope, release state, and unresolved contradictions."
+    },
+    {
+      "stage": "select",
+      "deliverable": "A coherent career narrative and ranked achievements/assets; choose destination and wording for each."
+    },
+    {
+      "stage": "draft",
+      "deliverable": "Selected shared language in src/assets/profile.json; compact resume, detailed CV, and copy-ready LinkedIn draft."
+    },
+    {
+      "stage": "validate",
+      "deliverable": "Check facts and public asset links, consistency across outputs, one-page Letter PDF, mobile, and offline behavior."
+    },
+    {
+      "stage": "publish",
+      "deliverable": "Deploy the site/PDF through the existing workflow; manually apply reviewed LinkedIn sections and log the date/sections changed."
+    }
+  ],
+  "publicationLog": [],
+  "openQuestions": [
+    "What audience and next career direction should guide the refresh?",
+    "What major work from Jul 2024 through 2026 is absent from the recent public PR sample?",
+    "Which public blogs, model/dataset cards, releases and talks credit Peter?",
+    "Which initiatives did Peter lead or own, versus contribute to?",
+    "What are the correct end dates for the mentorship entries still marked 2021-Present?"
+  ],
+  "localResearch": {
+    "directory": "content/private/",
+    "gitIgnored": true,
+    "notes": "Internal source notes, augmented bullets, and unpublished-asset release queue are local only. Public generators do not load this directory. See research-plan.txt."
+  }
+}

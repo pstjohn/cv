@@ -1,0 +1,45 @@
+[
+  {
+    "id": "asset-bionemo-recipes",
+    "type": "repository",
+    "title": "BioNeMo Recipes",
+    "url": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes",
+    "publisher": "NVIDIA-BioNeMo",
+    "summary": "Recipes and tooling for building and adapting AI models in drug discovery at scale.",
+    "contribution": "",
+    "outputs": [
+      "resume",
+      "cv",
+      "linkedin"
+    ],
+    "repository": "NVIDIA-BioNeMo/bionemo-recipes"
+  },
+  {
+    "id": "asset-blog-recipes",
+    "type": "technical_blog",
+    "title": "Scale Biology Transformer Models with PyTorch and NVIDIA BioNeMo Recipes",
+    "url": "https://developer.nvidia.com/blog/scale-biology-transformer-models-with-pytorch-and-nvidia-bionemo-recipes/",
+    "publisher": "NVIDIA Technical Blog",
+    "summary": "A practical guide to accelerating protein-model workflows with Transformer Engine, FSDP2, sequence packing, and Hugging Face interoperability.",
+    "contribution": "Coauthor",
+    "outputs": [
+      "resume",
+      "cv",
+      "linkedin"
+    ]
+  },
+  {
+    "id": "asset-blog-moe",
+    "type": "technical_blog",
+    "title": "Efficient MoE Training for Biological Foundation Models",
+    "url": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models/",
+    "publisher": "NVIDIA Technical Blog",
+    "summary": "A guide to grouped expert computation, MXFP8, and fused Transformer Engine operations for mixture-of-experts training.",
+    "contribution": "Coauthor",
+    "outputs": [
+      "resume",
+      "cv",
+      "linkedin"
+    ]
+  }
+]

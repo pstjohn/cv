@@ -1,17 +1,42 @@
 name: Build Vue
-on: [push]
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
 jobs:
   build_vue:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     name: Build Vue
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 12.x
-      - id: Build-Vue
-        uses: xRealNeon/VuePagesAction@1.0.1
+          node-version: 22.x
+      - name: Refresh public GitHub statistics
+        run: npm run refresh:github
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build:site
+        env:
+          PLAYWRIGHT_CHANNEL: chromium
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
-          username: 'pstjohn'
-          reponame: 'cv'
-          token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+          path: ./dist
+      - name: Deploy site and PDF to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

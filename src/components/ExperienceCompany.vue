@@ -23,6 +23,9 @@
 </template>
 
 <script>
+// Employment dates are calendar dates, not UTC instants.
+const calendarDate = value => new Date(`${value}T12:00:00`);
+
 export default {
   name: 'ExperienceCompany',
   props: {
@@ -34,8 +37,8 @@ export default {
   },
   computed: {
     duration() {
-      let start = new Date(this.startDate);
-      let end = this.endDate == 'Present' ? new Date() : new Date(this.endDate);
+      let start = calendarDate(this.startDate);
+      let end = this.endDate == 'Present' ? new Date() : calendarDate(this.endDate);
       let duration = (end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24);
       let years = Math.floor(duration / 365.25);
       let months = Math.floor((duration - years * 365.25) / 30.4375);
@@ -56,7 +59,7 @@ export default {
     },
 
     startDateFormat() {
-      let start = new Date(this.startDate);
+      let start = calendarDate(this.startDate);
       return start.toLocaleDateString('en-us', {
         year: 'numeric',
         month: 'short',
@@ -67,7 +70,7 @@ export default {
       if (this.endDate == 'Present') {
         return 'Present';
       } else {
-        let end = new Date(this.endDate);
+        let end = calendarDate(this.endDate);
         return end.toLocaleDateString('en-us', {
           year: 'numeric',
           month: 'short',

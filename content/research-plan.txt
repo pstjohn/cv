@@ -1,0 +1,41 @@
+PROFILE REFRESH PLAN
+
+Goal
+A current one-page resume, a complete CV, and matching LinkedIn content. Preserve the site layout. Research the full Digital Biology period from July 2024 onward before choosing the final narrative. The recent PR sample is only an initial set of leads.
+
+Current working preference
+Collect and improve the content first. Do not trim accomplishments to fit the current layout or spend time on formatting until the source review and narrative selection are complete.
+
+Records
+content/research.json is the source/claim/asset inventory and work queue.
+content/profile-candidates.json preserves the provisional first-pass wording. It is not automatically published.
+src/assets/profile.json contains the shared language currently selected for the site and LinkedIn draft.
+src/assets/public-assets.json is generated from selected, verified assets in the inventory.
+content/linkedin-draft.txt is generated copy for manual LinkedIn updates; it is never posted automatically.
+content/private/augmented-bullets.txt and .json contain the locally recorded, internally sourced working bullet bank. This directory is Git-ignored and excluded from public generators.
+content/private/source-notes.json records relevant facts and dates from private career documents. Template goals, reviewer instructions, and proposed work are not completed achievements.
+content/private/release-queue.json tracks unpublished articles and related assets; it is not a scheduled monitor. Activate each asset only after its public source and attribution are checked.
+
+1. Discover broadly
+Work through the inventory's discoveryTasks: career scope, full public code history, NVIDIA technical blogs, HF models, HF datasets, official talks/docs/demos, measurable results, and CV updates. Record canonical URLs, dates, public availability, and bylines/credits. Check old and new repository/org names.
+
+2. Verify each accomplishment
+Separate the existence of an asset from Peter's contribution. Record author/lead/contributor/maintainer roles only when supported. Tie every proposed claim to source IDs. For metrics, retain workload, baseline, hardware, units, and limitations. Do not infer model/dataset ownership from an NVIDIA namespace or a mention of BioNeMo.
+
+3. Select a coherent narrative
+Review the full inventory with Peter. Rank sustained work, ownership, outcomes, adoption, and public artifacts by relevance to the intended audience. A small recent PR or microbenchmark should not displace a more important two-year initiative merely because it is easy to find.
+
+4. Draft for each destination
+Resume: the strongest current achievements, concise prior experience, and a very small selection of assets; one US Letter page.
+CV: the full career, detailed selected accomplishments, publications, and a public-assets section with technical blogs, models, datasets, repositories, tutorials, and talks when verified.
+LinkedIn: a clear headline and About, role descriptions with appropriate detail, and selected public assets suitable for Featured or Publications. Wording can differ by destination while facts and dates remain consistent.
+Promote chosen text into src/assets/profile.json. Set an asset's verification to verified and selection to selected, with its intended outputs, to include it in the generated public catalog. Candidate entries stay out of the site.
+
+5. Validate
+Run npm run check:site and npm run lint -- --no-fix. Inspect the generated PDF visually, verify links and asset credit, and compare each selected claim to its evidence. Confirm dates and facts across all three outputs. Extend the public-assets inventory; do not publish blank placeholder cards.
+
+6. Publish and record
+The normal site workflow builds the site and PDF. Apply the reviewed LinkedIn draft manually. Add publicationLog records with date, destination, source/claim/asset IDs, section, and version/commit so later edits can identify drift. Deploying the website does not mean LinkedIn has been updated.
+
+Adding an asset
+Copy an existing asset record and assign a stable ID. Supported type values are technical_blog, hf_model, hf_dataset, repository, tutorial, talk, and paper. Start with selection=candidate. Include title, canonical HTTPS URL, publisher, summary, sourceIds, verification, contributionClaimIds, and outputs (resume, cv, linkedin). Add a contribution statement only when its linked claim verifies that credit. For an HF asset, also record the exact repository ID, revision, and card/release date in research notes. For a blog, record the byline and publication date. Keep private evidence and candidate wording outside public/ and src/.
