@@ -1,10 +1,10 @@
 {
   "name": "Peter St. John, PhD",
-  "headline": "Machine Learning Engineer at NVIDIA | Scientific AI, Computational Biology & Technical Leadership",
+  "headline": "Applied Scientific AI at NVIDIA | LLM Workflows, Evaluation & Computational Biology",
   "tagline": "Machine Learning Engineer, NVIDIA Healthcare",
-  "summary": "Machine learning engineer and computational biologist at NVIDIA: building scientific LLMs, biological sequence models, and scalable research software. Former principal investigator at the National Renewable Energy Lab connecting computational modeling with experimental biology and chemistry.",
+  "summary": "Machine learning engineer and computational biologist at NVIDIA: building reusable LLM workflows, scientific evaluations, and software for biology and chemistry. Former principal investigator at the National Renewable Energy Lab connecting computational modeling with experimental biology and chemistry.",
   "about": [
-    "Machine learning engineer and computational biologist at NVIDIA: building scientific LLMs, biological sequence models, and scalable research software. Former principal investigator at the National Renewable Energy Lab connecting computational modeling with experimental biology and chemistry.",
+    "Machine learning engineer and computational biologist at NVIDIA: building reusable LLM workflows, scientific evaluations, and software for biology and chemistry. Former principal investigator at the National Renewable Energy Lab connecting computational modeling with experimental biology and chemistry.",
     "On NVIDIA’s BioNeMo team, I develop Nemotron post-training and evaluation workflows for genomics and chemistry using supervised fine-tuning and GRPO. I also optimize distributed model training and build modular, Hugging Face-compatible research tools.",
     "Previously, I led ML data-infrastructure projects for NVIDIA’s autonomous-vehicle team. At NREL, I led research across protein language modeling, metabolic modeling, and machine learning for molecular and materials discovery, including collaborations that used computational results to guide experiments.",
     "My leadership experience includes leading 2–3 ML engineers, coordinating cross-team technical delivery, leading a $1.8M research program across three institutions, and mentoring graduate students and postdoctoral researchers.",
@@ -16,16 +16,16 @@
       "department": "Digital Biology",
       "dates": "Jul 2024 - Present",
       "resumeBullets": [
-        "Built a framework to extend LLMs to arbitrary new modalities, implementing support in NeMo RL, AutoModel, and Dynamo. Post-trained a DNA-conditioned Nemotron with SFT/GRPO against a newly created dataset and eval metric to reach frontier-level performance",
-        "Optimized and benchmarked PyTorch/Transformer Engine training across Hopper, Blackwell, and Rubin. Achieved 1.69× Mixtral throughput on 8xB300 GPUs, and nearly 70% MFU with Llama 3-70B context-parallel pretraining on GB300 NVL72.",
+        "Built Nemotron-Stitch workflows connecting scientific encoders with LLMs across NeMo RL, AutoModel, and Dynamo; developed DNA-conditioned SFT/GRPO and gene-annotation evaluations, reaching an 80.7% composite on GeneAnnotationBench-350.",
         "Led BioNeMo’s shift to modular, Hugging Face-compatible training recipes, aligning customer and cross-team requirements; authored the initial integration and published the Recipes release.",
-        "Partnered with biotechnology, genomics, and diagnostics customers on protein-model training and evaluation, Transformer Engine/MoE requirements, and multimodal research scoping."
+        "Partnered with biotechnology, genomics, and diagnostics customers on protein-model training and evaluation, Transformer Engine/MoE requirements, and multimodal research scoping.",
+        "Optimized and benchmarked PyTorch/Transformer Engine training across Hopper, Blackwell, and Rubin. Achieved 1.69× Mixtral throughput on 8xB300 GPUs, and nearly 70% MFU with Llama 3-70B context-parallel pretraining on GB300 NVL72."
       ],
       "cvBullets": [
-        "Built a framework to extend LLMs to arbitrary new modalities, implementing support in NeMo RL, AutoModel, and Dynamo. Post-trained a DNA-conditioned Nemotron with SFT/GRPO against a newly created dataset and eval metric to reach frontier-level performance",
-        "Optimized and benchmarked PyTorch/Transformer Engine training across Hopper, Blackwell, and Rubin. Achieved 1.69× Mixtral throughput on 8xB300 GPUs, and nearly 70% MFU with Llama 3-70B context-parallel pretraining on GB300 NVL72.",
+        "Built Nemotron-Stitch workflows connecting scientific encoders with LLMs across NeMo RL, AutoModel, and Dynamo; developed DNA-conditioned SFT/GRPO and gene-annotation evaluations, reaching an 80.7% composite on GeneAnnotationBench-350.",
         "Led BioNeMo’s shift to modular, Hugging Face-compatible training recipes, aligning customer and cross-team requirements; authored the initial integration and published the Recipes release.",
-        "Partnered with biotechnology, genomics, and diagnostics customers on protein-model training and evaluation, Transformer Engine/MoE requirements, and multimodal research scoping."
+        "Partnered with biotechnology, genomics, and diagnostics customers on protein-model training and evaluation, Transformer Engine/MoE requirements, and multimodal research scoping.",
+        "Optimized and benchmarked PyTorch/Transformer Engine training across Hopper, Blackwell, and Rubin. Achieved 1.69× Mixtral throughput on 8xB300 GPUs, and nearly 70% MFU with Llama 3-70B context-parallel pretraining on GB300 NVL72."
       ],
       "upcomingAssets": [
         {
@@ -37,13 +37,13 @@
       "bulletAssetIds": [
         [],
         [
-          "asset-blog-recipes",
-          "asset-blog-moe"
-        ],
-        [
           "asset-bionemo-recipes"
         ],
-        []
+        [],
+        [
+          "asset-blog-recipes",
+          "asset-blog-moe"
+        ]
       ]
     },
     "previous": {
@@ -71,18 +71,19 @@
           "Led software architecture for peer-reviewed reinforcement-learning and molecular-optimization tools."
         ],
         "resumeBullets": [
-          "Secured a total $4.67M in research funding across four awards as Lead PI, NREL PI, and key personnel.",
-          "Led a $1.8M, three-institution program in graph neural networks and reinforcement learning for materials discovery; mentored graduate students and postdocs."
+          "Led a $1.8M, three-institution program in graph neural networks and reinforcement learning for materials discovery; mentored graduate students and postdocs.",
+          "Led software architecture for peer-reviewed reinforcement-learning and molecular-optimization tools."
         ]
       },
       {
         "title": "Staff Scientist",
         "dates": "Oct 2017 - Aug 2020",
         "bullets": [
-          "Developed and deployed graph-neural-network tools for molecular-property prediction, reaching over 8,000 users.",
+          "Deployed a molecular-property prediction service on AWS with Docker, FastAPI, and Flask, reaching over 8,000 users.",
           "Pretrained a protein language model on 261M sequences across 1,024+ GPUs."
         ],
         "resumeBullets": [
+          "Deployed a molecular-property prediction service on AWS with Docker, FastAPI, and Flask, reaching over 8,000 users.",
           "Pretrained a protein language model on 261M sequences across 1,024+ GPUs."
         ]
       },
@@ -113,11 +114,11 @@
     },
     {
       "label": "Software & compute",
-      "text": "Python, PyTorch, Hugging Face, FSDP2, Linux, SLURM, Docker"
+      "text": "Python, PyTorch, Hugging Face, FastAPI, AWS, Docker, Linux, SLURM"
     },
     {
       "label": "Computational biology",
-      "text": "Protein language models, genomics, metabolic modeling"
+      "text": "Protein language models, molecular-property prediction, metabolic modeling"
     }
   ]
 }
