@@ -68,11 +68,12 @@
         "bullets": [
           "Secured a total $4.67M in research funding across four awards as Lead PI, NREL PI, and key personnel.",
           "Led a $1.8M, three-institution program in graph neural networks and reinforcement learning for materials discovery; mentored graduate students and postdocs.",
-          "Led software architecture for peer-reviewed reinforcement-learning and molecular-optimization tools."
+          "Led software architecture for peer-reviewed reinforcement-learning and molecular-optimization tools.",
+          "Used AlphaFold structure prediction to characterize conserved plant proteins in the Deep Green study (Plant Direct, 2023)."
         ],
         "resumeBullets": [
           "Led a $1.8M, three-institution program in graph neural networks and reinforcement learning for materials discovery; mentored graduate students and postdocs.",
-          "Led software architecture for peer-reviewed reinforcement-learning and molecular-optimization tools."
+          "Used AlphaFold structure prediction to characterize conserved plant proteins in the Deep Green study (Plant Direct, 2023)."
         ]
       },
       {
@@ -118,7 +119,7 @@
     },
     {
       "label": "Computational biology",
-      "text": "Protein language models, molecular-property prediction, metabolic modeling"
+      "text": "AlphaFold, protein language models, molecular-property prediction, metabolic modeling"
     }
   ]
 }
