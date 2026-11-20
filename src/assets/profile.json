@@ -2,10 +2,10 @@
   "name": "Peter St. John, PhD",
   "headline": "Machine Learning Engineering at NVIDIA | Distributed Training, GPU Performance & Scientific AI",
   "tagline": "Machine Learning Engineer, NVIDIA Healthcare",
-  "summary": "Machine learning engineer at NVIDIA building distributed training systems, high-performance ML software, and scientific LLMs. Former principal investigator at the National Renewable Energy Lab leading research software development and computational modeling for biology and chemistry.",
+  "summary": "Machine learning engineer at NVIDIA building distributed training systems, high-performance ML software, and scientific LLMs. Former principal investigator at the National Renewable Energy Lab leading research software and computational modeling.",
   "about": [
-    "Machine learning engineer at NVIDIA building distributed training systems, high-performance ML software, and scientific LLMs. Former principal investigator at the National Renewable Energy Lab leading research software development and computational modeling for biology and chemistry.",
-    "On NVIDIA’s BioNeMo team, I build modular, Hugging Face-compatible training software and optimize distributed PyTorch/Transformer Engine workloads with FSDP2, expert and context parallelism, and mixed precision. I also develop Nemotron post-training and evaluation workflows for genomics and chemistry using supervised fine-tuning and GRPO.",
+    "Machine learning engineer at NVIDIA building distributed training systems, high-performance ML software, and scientific LLMs. Former principal investigator at the National Renewable Energy Lab leading research software and computational modeling.",
+    "On NVIDIA’s BioNeMo team, I build modular, Hugging Face-compatible training software and optimize distributed PyTorch/Transformer Engine workloads with FSDP2, expert and context parallelism, and mixed precision. I also develop Nemotron post-training and evaluation workflows for genomics and chemistry using supervised fine-tuning and GRPO. I use coding agents for profiling-guided inference optimization, CUDA kernel fusion, and correctness-validated performance experiments.",
     "Previously, I led ML data-infrastructure projects for NVIDIA’s autonomous-vehicle team. At NREL, I led research across protein language modeling, metabolic modeling, and machine learning for molecular and materials discovery, including collaborations that used computational results to guide experiments.",
     "My leadership experience includes leading 2–3 ML engineers, coordinating cross-team technical delivery, leading a $1.8M research program across three institutions, and mentoring graduate students and postdoctoral researchers.",
     "Contact: inquiries@agents.pcstj.com."
@@ -18,15 +18,16 @@
       "resumeBullets": [
         "Built Nemotron-Stitch workflows connecting scientific encoders with LLMs across NeMo RL, AutoModel, and Dynamo; developed DNA-conditioned SFT/GRPO and gene-annotation evaluations, reaching an 80.7% composite on GeneAnnotationBench-350.",
         "Optimized and benchmarked PyTorch/Transformer Engine training across Hopper, Blackwell, and Rubin. Achieved 1.69× Mixtral throughput on 8xB300 GPUs, and nearly 70% MFU with Llama 3-70B context-parallel pretraining on GB300 NVL72.",
-        "Led BioNeMo’s shift to modular, Hugging Face-compatible training recipes, translating customer and cross-team requirements into architecture, CI, and release changes; authored the initial integration and published the release.",
-        "Upstreamed Transformer Engine fixes for FSDP2/FP8 memory retention and added MXFP8 recipe support to Hugging Face Accelerate."
+        "Led BioNeMo’s shift to modular, Hugging Face-compatible training recipes, aligning customer and cross-team requirements across architecture, CI, and release; authored the initial integration.",
+        "Applied coding agents to Nsight-guided GPU optimization, CUDA Graphs, and CUDA kernel fusion; residual-normalization fusion increased H100 serving throughput 6.6%."
       ],
       "cvBullets": [
         "Built Nemotron-Stitch workflows connecting scientific encoders with LLMs across NeMo RL, AutoModel, and Dynamo; developed DNA-conditioned SFT/GRPO and gene-annotation evaluations, reaching an 80.7% composite on GeneAnnotationBench-350.",
         "Optimized and benchmarked PyTorch/Transformer Engine training across Hopper, Blackwell, and Rubin. Achieved 1.69× Mixtral throughput on 8xB300 GPUs, and nearly 70% MFU with Llama 3-70B context-parallel pretraining on GB300 NVL72.",
-        "Led BioNeMo’s shift to modular, Hugging Face-compatible training recipes, translating customer and cross-team requirements into architecture, CI, and release changes; authored the initial integration and published the release.",
-        "Upstreamed Transformer Engine fixes for FSDP2/FP8 memory retention and added MXFP8 recipe support to Hugging Face Accelerate.",
-        "Partnered with biotechnology, genomics, and diagnostics customers on protein-model training and evaluation, Transformer Engine/MoE requirements, and multimodal research scoping."
+        "Led BioNeMo’s shift to modular, Hugging Face-compatible training recipes, aligning customer and cross-team requirements across architecture, CI, and release; authored the initial integration.",
+        "Applied coding agents to Nsight-guided GPU optimization, CUDA Graphs, and CUDA kernel fusion; residual-normalization fusion increased H100 serving throughput 6.6%.",
+        "Partnered with biotechnology, genomics, and diagnostics customers on protein-model training and evaluation, Transformer Engine/MoE requirements, and multimodal research scoping.",
+        "Upstreamed Transformer Engine fixes for FSDP2/FP8 memory retention and added MXFP8 recipe support to Hugging Face Accelerate."
       ],
       "upcomingAssets": [
         {
@@ -116,7 +117,7 @@
     },
     {
       "label": "Software & compute",
-      "text": "Python, PyTorch, Transformer Engine, FSDP2, Hugging Face, FastAPI, AWS, Docker, Linux, SLURM"
+      "text": "Python, Rust, CUDA, PyTorch, Transformer Engine, FSDP2, Hugging Face, FastAPI, AWS, Docker, Linux, SLURM"
     },
     {
       "label": "Computational biology",
