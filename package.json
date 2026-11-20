@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "check:site": "npm run build:site && node scripts/check-site.cjs",
+    "check:versions": "node --test scripts/stage-versions.test.cjs && node scripts/check-versions.cjs",
     "build:site": "npm run prepare:content && npm run build && npm run export:resume",
     "prepare:content": "node scripts/prepare-content.cjs",
     "draft:linkedin": "node scripts/draft-linkedin.cjs",

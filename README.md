@@ -80,6 +80,41 @@ and a local `public/resume.pdf` for the development server. The generated PDFs
 are ignored by Git. GitHub Actions installs Chromium and runs the same export
 before publishing `dist/` through the GitHub Pages deployment workflow.
 
+### Stable URLs for previous versions
+
+The deployment workflow keeps the current `main` build at `/cv/` and saves
+each published build at `/cv/versions/<first-12-characters-of-commit>/`.
+Append `?res` for the resume view, or `resume.pdf` / `resume.txt` for that
+version's downloads. Assets, download links, and the agent guide stay within
+the selected version. Published snapshots are never overwritten when the
+same commit is rebuilt; the first publication's PDF, text and build-time
+statistics are retained. External citation services in the web CV can still
+return newer statistics; the archived PDF and text remain frozen.
+
+The `resume-versions` branch stores these generated files between deployments.
+GitHub Pages continues to use the Actions artifact, which combines the default
+site with the entire archive. Every push to `main` also builds and archives
+the previous main commit, so its URL remains available. Only builds with
+the PDF/text export scripts (November 2026 onward) are supported.
+
+To publish an additional historical commit or an alternative branch, manually
+run **Build Vue** from `main` and supply `snapshot_ref`. This publishes an
+additional SHA URL while the default site still comes from `main`. Leave
+that input empty to publish only `main` and retain the archive. A branch name
+is resolved to a commit, not used as a moving public URL. All published
+snapshots are public; private notes and uncommitted edits are never included.
+
+For a local preview, first run `npm run build:site`, then:
+
+```sh
+node scripts/stage-versions.cjs --default-build dist --default-sha "$(git rev-parse HEAD)" --archive .version-archive --output .pages
+npm run check:versions
+```
+
+The staging command writes only local files and never pushes. `check:versions`
+checks retention, URL isolation, both web views and each archived PDF/text pair.
+It needs Chrome, or `PLAYWRIGHT_CHANNEL=chromium` for the CI browser.
+
 ### Refresh GitHub statistics
 
 Run `npm run refresh:github` with an authenticated GitHub CLI (`gh auth login`).

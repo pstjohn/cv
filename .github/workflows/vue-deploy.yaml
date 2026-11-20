@@ -3,6 +3,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      snapshot_ref:
+        description: Additional commit or branch to archive (default site still comes from main)
+        required: false
+        type: string
 
 concurrency:
   group: github-pages
@@ -10,9 +15,10 @@ concurrency:
 
 jobs:
   build_vue:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       pages: write
       id-token: write
     environment:
@@ -21,6 +27,28 @@ jobs:
     name: Build Vue
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Look for the persistent version archive
+        id: archive
+        shell: bash
+        run: |
+          if git ls-remote --exit-code origin refs/heads/resume-versions > /dev/null; then
+            echo 'exists=true' >> "$GITHUB_OUTPUT"
+          else
+            status=$?
+            if [ "$status" -ne 2 ]; then exit "$status"; fi
+            echo 'exists=false' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.archive.outputs.exists == 'true'
+        with:
+          ref: resume-versions
+          path: .version-archive
+          persist-credentials: false
+      - name: Initialize a new archive
+        if: steps.archive.outputs.exists != 'true'
+        run: git init -b resume-versions .version-archive
       - uses: actions/setup-node@v4
         with:
           node-version: 22.x
@@ -33,10 +61,63 @@ jobs:
       - run: npm run build:site
         env:
           PLAYWRIGHT_CHANNEL: chromium
+      - name: Choose the previous version to preserve
+        id: previous
+        env:
+          REQUESTED_REF: ${{ inputs.snapshot_ref }}
+          PREVIOUS_SHA: ${{ github.event.before }}
+        run: |
+          ref="${REQUESTED_REF:-$PREVIOUS_SHA}"
+          if [ -n "$ref" ] && [ "$ref" != 0000000000000000000000000000000000000000 ]; then
+            [[ "$ref" =~ ^[A-Za-z0-9][A-Za-z0-9._/-]*$ ]] || exit 1
+            echo "ref=$ref" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.previous.outputs.ref != ''
+        with:
+          ref: ${{ steps.previous.outputs.ref }}
+          path: snapshot-source
+          persist-credentials: false
+      - name: Build the selected historical source
+        if: steps.previous.outputs.ref != ''
+        working-directory: snapshot-source
+        shell: bash
+        run: |
+          sha=$(git rev-parse HEAD)
+          manifest="../.version-archive/versions/${sha:0:12}/snapshot.json"
+          if [ -f "$manifest" ]; then
+            node -e 'const fs = require("fs"); if (JSON.parse(fs.readFileSync(process.argv[1])).sha !== process.argv[2]) process.exit(1)' "$manifest" "$sha"
+          else
+            npm ci
+            npm run build:site
+          fi
+        env:
+          PLAYWRIGHT_CHANNEL: chromium
+      - name: Assemble the default site and immutable snapshots
+        shell: bash
+        run: |
+          args=(--default-build dist --default-sha "$(git rev-parse HEAD)" --archive .version-archive --output .pages)
+          if [ -d snapshot-source/dist ]; then
+            args+=(--snapshot-build snapshot-source/dist --snapshot-sha "$(git -C snapshot-source rev-parse HEAD)")
+          fi
+          node scripts/stage-versions.cjs "${args[@]}"
+          npm run check:versions
+        env:
+          PLAYWRIGHT_CHANNEL: chromium
+      - name: Persist the archive for future deployments
+        run: |
+          git -C .version-archive config user.name github-actions[bot]
+          git -C .version-archive config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git -C .version-archive add versions versions.json
+          if ! git -C .version-archive diff --cached --quiet; then
+            git -C .version-archive commit -m 'Preserve published resume snapshots'
+            git fetch ./.version-archive HEAD
+            git push origin FETCH_HEAD:refs/heads/resume-versions
+          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./.pages
       - name: Deploy site and PDF to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
