@@ -1,0 +1,4137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 272.87677 206.78037"
+   style="display:block"
+   version="1.1"
+   id="svg1285"
+   sodipodi:docname="ber.svg"
+   width="272.87677"
+   height="206.78038"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
+  <metadata
+     id="metadata1289">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="957"
+     id="namedview1287"
+     showgrid="false"
+     inkscape:zoom="1.0768229"
+     inkscape:cx="-241.7324"
+     inkscape:cy="148.45064"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1285"
+     inkscape:document-rotation="0"
+     showguides="false" />
+  <xhtml:defs>
+    <xhtml:style
+       type="text/css" />
+  </xhtml:defs>
+  <style
+     id="style2">.node.rxn{fill:#ffa319}.node.rxn.hidden{fill:none;stroke:none;stroke-width:0}.link{fill:none;stroke-linecap:round}text.nodelabel{font-size:12pt;fill:#555;font-family:Arial}text.nodelabel.cofactor{font-size:9.600000000000001pt;fill:#789}text.nodelabel.rxn{fill:#a9a9a9;font-size:9.600000000000001pt;font-style:italic}marker.inactive,.node.inactive,text.inactive{fill-opacity:1.0}.link.inactive{stroke-opacity:1.0}</style>
+  <defs
+     id="defs226">
+    <marker
+       style="overflow:visible"
+       id="marker8864"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#e5f0ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path8862" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker7114"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#5599ff;fill-opacity:1;fill-rule:evenodd;stroke:#5599ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path7112" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3915"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path3913" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker19926"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#5599ff;fill-opacity:1;fill-rule:evenodd;stroke:#5599ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path19924" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker19916"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#5599ff;fill-opacity:1;fill-rule:evenodd;stroke:#5599ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path19914" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker19906"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#5599ff;fill-opacity:1;fill-rule:evenodd;stroke:#5599ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path19904" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker19896"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.4)"
+         style="fill:#5599ff;fill-opacity:1;fill-rule:evenodd;stroke:#5599ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path19894" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker15275"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#5599ff;fill-opacity:1;fill-rule:evenodd;stroke:#5599ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path15273" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker15265"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#5599ff;fill-opacity:1;fill-rule:evenodd;stroke:#5599ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path15263" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker15255"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#5599ff;fill-opacity:1;fill-rule:evenodd;stroke:#5599ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path15253" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker13511"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#5599ff;fill-opacity:1;fill-rule:evenodd;stroke:#5599ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path13509" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker12353"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path12351" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker12343"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutS"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.2)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path12341" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker11211"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutS"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.2)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path11209" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker11201"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path11199" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker9605"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path9603" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker9595"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path9593" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker9067"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path9065" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker9057"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path9055" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8541"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path8539" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8531"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path8529" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8027"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path8025" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8017"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path8015" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5377"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5375" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4891"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4889" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4881"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4879" />
+    </marker>
+    <marker
+       id="d3flux017EX_co2_e"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="17.064974"
+       markerHeight="17.064974"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path4" />
+    </marker>
+    <marker
+       id="d3flux017PGL"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.997136"
+       markerHeight="13.997136"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path7" />
+    </marker>
+    <marker
+       id="d3flux017HEX1"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="14.050204"
+       markerHeight="14.050204"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path10" />
+    </marker>
+    <marker
+       id="d3flux017EX_etoh_e"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="16"
+       markerHeight="16"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path13" />
+    </marker>
+    <marker
+       id="d3flux017ICDHyr"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0542793"
+       markerHeight="8.0542793"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path16" />
+    </marker>
+    <marker
+       id="d3flux017O2t"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path19" />
+    </marker>
+    <marker
+       id="d3flux017NADH5"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path22" />
+    </marker>
+    <marker
+       id="d3flux017SUCDi"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path25" />
+    </marker>
+    <marker
+       id="d3flux017ME1"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="9.1285429"
+       markerHeight="9.1285429"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path28" />
+    </marker>
+    <marker
+       id="d3flux017LDH_D2"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path31" />
+    </marker>
+    <marker
+       id="d3flux017ACALDt"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path34" />
+    </marker>
+    <marker
+       id="d3flux017CYTBD"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path37" />
+    </marker>
+    <marker
+       id="d3flux017GAPD"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.965115"
+       markerHeight="13.965115"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path40" />
+    </marker>
+    <marker
+       id="d3flux017EX_ac_e"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.1368227"
+       markerHeight="8.1368227"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path43" />
+    </marker>
+    <marker
+       id="d3flux017EX_actn__R_e"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path46" />
+    </marker>
+    <marker
+       id="d3flux017TKT2"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.024087"
+       markerHeight="8.024087"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path49" />
+    </marker>
+    <marker
+       id="d3flux017EX_acald_e"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path52" />
+    </marker>
+    <marker
+       id="d3flux017RPI"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0392494"
+       markerHeight="8.0392494"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path55" />
+    </marker>
+    <marker
+       id="d3flux017G6PDH2r"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="9.4734135"
+       markerHeight="9.4734135"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path58" />
+    </marker>
+    <marker
+       id="d3flux017ACTNt2r"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path61" />
+    </marker>
+    <marker
+       id="d3flux017SUCCt"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path64" />
+    </marker>
+    <marker
+       id="d3flux017GND"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path67" />
+    </marker>
+    <marker
+       id="d3flux017CO2t"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="17.064974"
+       markerHeight="17.064974"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path70" />
+    </marker>
+    <marker
+       id="d3flux017PPC"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path73" />
+    </marker>
+    <marker
+       id="d3flux017EX_lac__D_e"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.19207"
+       markerHeight="8.19207"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path76" />
+    </marker>
+    <marker
+       id="d3flux017PGK"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.965115"
+       markerHeight="13.965115"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path79" />
+    </marker>
+    <marker
+       id="d3flux017PYRDC"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="16"
+       markerHeight="16"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path82" />
+    </marker>
+    <marker
+       id="d3flux017PGI"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0428858"
+       markerHeight="8.0428858"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path85" />
+    </marker>
+    <marker
+       id="d3flux017ACLS"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path88" />
+    </marker>
+    <marker
+       id="d3flux017EX_pi_e"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path91" />
+    </marker>
+    <marker
+       id="d3flux017D_LACt2"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.19207"
+       markerHeight="8.19207"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path94" />
+    </marker>
+    <marker
+       id="d3flux017G6PDH1"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="12.523724"
+       markerHeight="12.523724"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path97" />
+    </marker>
+    <marker
+       id="d3flux017ACt2r"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.1368227"
+       markerHeight="8.1368227"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path100" />
+    </marker>
+    <marker
+       id="d3flux017EX_btd_RR_e"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path103" />
+    </marker>
+    <marker
+       id="d3flux017FUM"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path106" />
+    </marker>
+    <marker
+       id="d3flux017PYK"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.836259"
+       markerHeight="13.836259"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path109" />
+    </marker>
+    <marker
+       id="d3flux017EX_h2o_e"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.8704681"
+       markerHeight="8.8704681"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path112" />
+    </marker>
+    <marker
+       id="d3flux017ATPS4r"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="9.3036566"
+       markerHeight="9.3036566"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path115" />
+    </marker>
+    <marker
+       id="d3flux017BTDt_RR"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path118" />
+    </marker>
+    <marker
+       id="d3flux017EX_h_e"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.543517"
+       markerHeight="13.543517"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path121" />
+    </marker>
+    <marker
+       id="d3flux017EDA"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.997136"
+       markerHeight="13.997136"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path124" />
+    </marker>
+    <marker
+       id="d3flux017PIt2r"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path127" />
+    </marker>
+    <marker
+       id="d3flux017PGM"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.965115"
+       markerHeight="13.965115"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path130" />
+    </marker>
+    <marker
+       id="d3flux017ALDD2y"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path133" />
+    </marker>
+    <marker
+       id="d3flux017EX_o2_e"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path136" />
+    </marker>
+    <marker
+       id="d3flux017CS"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0542793"
+       markerHeight="8.0542793"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path139" />
+    </marker>
+    <marker
+       id="d3flux017PDH"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.3497753"
+       markerHeight="8.3497753"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path142" />
+    </marker>
+    <marker
+       id="d3flux017GLCt1"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="14.050204"
+       markerHeight="14.050204"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path145" />
+    </marker>
+    <marker
+       id="d3flux017EX_glc__D_e"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="14.050204"
+       markerHeight="14.050204"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path148" />
+    </marker>
+    <marker
+       id="d3flux017LDH_D"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.19207"
+       markerHeight="8.19207"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path151" />
+    </marker>
+    <marker
+       id="d3flux017EDD"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.997136"
+       markerHeight="13.997136"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path154" />
+    </marker>
+    <marker
+       id="d3flux017H2Ot"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.8704681"
+       markerHeight="8.8704681"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path157" />
+    </marker>
+    <marker
+       id="d3flux017EX_succ_e"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path160" />
+    </marker>
+    <marker
+       id="d3flux017ALCD2x"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="16"
+       markerHeight="16"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path163" />
+    </marker>
+    <marker
+       id="d3flux017ETOHt"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="16"
+       markerHeight="16"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path166" />
+    </marker>
+    <marker
+       id="d3flux017BTDD_RR"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path169" />
+    </marker>
+    <marker
+       id="d3flux017RPE"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0392494"
+       markerHeight="8.0392494"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path172" />
+    </marker>
+    <marker
+       id="d3flux017ENO"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.852391"
+       markerHeight="13.852391"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path175" />
+    </marker>
+    <marker
+       id="d3flux017ATPM"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.749073"
+       markerHeight="8.749073"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path178" />
+    </marker>
+    <marker
+       id="d3flux017DACS"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path181" />
+    </marker>
+    <marker
+       id="d3flux017biomass_degraaf"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0661135"
+       markerHeight="8.0661135"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path184" />
+    </marker>
+    <marker
+       id="d3flux017PTAr"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.1368227"
+       markerHeight="8.1368227"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path187" />
+    </marker>
+    <marker
+       id="d3flux017ACKr"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.1368227"
+       markerHeight="8.1368227"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path190" />
+    </marker>
+    <marker
+       id="d3flux017PFL"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path193" />
+    </marker>
+    <marker
+       id="d3flux017FORti"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path196" />
+    </marker>
+    <marker
+       id="d3flux017FDH"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path199" />
+    </marker>
+    <marker
+       id="d3flux017ACONT"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0542793"
+       markerHeight="8.0542793"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path202" />
+    </marker>
+    <marker
+       id="d3flux017ALDC"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path205" />
+    </marker>
+    <marker
+       id="d3flux017MDH"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.1681938"
+       markerHeight="8.1681938"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path208" />
+    </marker>
+    <marker
+       id="d3flux017XYLabc"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path211" />
+    </marker>
+    <marker
+       id="d3flux017XYLI1"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path214" />
+    </marker>
+    <marker
+       id="d3flux017XYLK"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="endmarker inactive">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path217" />
+    </marker>
+    <marker
+       id="d3flux017TALA"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0151625"
+       markerHeight="8.0151625"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path220" />
+    </marker>
+    <marker
+       id="d3flux017TKT1"
+       viewBox="0 0 10 10"
+       refX="1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0151625"
+       markerHeight="8.0151625"
+       orient="auto"
+       class="endmarker">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bbbbbb"
+         id="path223" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker13521-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#5599ff;fill-opacity:1;fill-rule:evenodd;stroke:#5599ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path13519-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker13521-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#5599ff;fill-opacity:1;fill-rule:evenodd;stroke:#5599ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path13519-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker12343-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path12341-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker19896-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#5599ff;fill-opacity:1;fill-rule:evenodd;stroke:#5599ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path19894-7" />
+    </marker>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8067">
+      <rect
+         style="opacity:0.05;fill:#999999;stroke-width:1.76307;stroke-linecap:round;paint-order:markers fill stroke;stop-color:#000000"
+         id="rect8069"
+         width="278.60745"
+         height="165.89867"
+         x="236.88832"
+         y="88.972839" />
+    </clipPath>
+  </defs>
+  <defs
+     id="defs450">
+    <marker
+       id="d3flux017EX_co2_e_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="17.064974"
+       markerHeight="17.064974"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path228" />
+    </marker>
+    <marker
+       id="d3flux017PGL_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.997136"
+       markerHeight="13.997136"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path231" />
+    </marker>
+    <marker
+       id="d3flux017HEX1_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="14.050204"
+       markerHeight="14.050204"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path234" />
+    </marker>
+    <marker
+       id="d3flux017EX_etoh_e_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="16"
+       markerHeight="16"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path237" />
+    </marker>
+    <marker
+       id="d3flux017ICDHyr_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0542793"
+       markerHeight="8.0542793"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path240" />
+    </marker>
+    <marker
+       id="d3flux017O2t_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path243" />
+    </marker>
+    <marker
+       id="d3flux017NADH5_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path246" />
+    </marker>
+    <marker
+       id="d3flux017SUCDi_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path249" />
+    </marker>
+    <marker
+       id="d3flux017ME1_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="9.1285429"
+       markerHeight="9.1285429"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path252" />
+    </marker>
+    <marker
+       id="d3flux017LDH_D2_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path255" />
+    </marker>
+    <marker
+       id="d3flux017ACALDt_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path258" />
+    </marker>
+    <marker
+       id="d3flux017CYTBD_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path261" />
+    </marker>
+    <marker
+       id="d3flux017GAPD_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.965115"
+       markerHeight="13.965115"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path264" />
+    </marker>
+    <marker
+       id="d3flux017EX_ac_e_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.1368227"
+       markerHeight="8.1368227"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path267" />
+    </marker>
+    <marker
+       id="d3flux017EX_actn__R_e_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path270" />
+    </marker>
+    <marker
+       id="d3flux017TKT2_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.024087"
+       markerHeight="8.024087"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path273" />
+    </marker>
+    <marker
+       id="d3flux017EX_acald_e_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path276" />
+    </marker>
+    <marker
+       id="d3flux017RPI_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0392494"
+       markerHeight="8.0392494"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path279" />
+    </marker>
+    <marker
+       id="d3flux017G6PDH2r_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="9.4734135"
+       markerHeight="9.4734135"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path282" />
+    </marker>
+    <marker
+       id="d3flux017ACTNt2r_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path285" />
+    </marker>
+    <marker
+       id="d3flux017SUCCt_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path288" />
+    </marker>
+    <marker
+       id="d3flux017GND_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path291" />
+    </marker>
+    <marker
+       id="d3flux017CO2t_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="17.064974"
+       markerHeight="17.064974"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path294" />
+    </marker>
+    <marker
+       id="d3flux017PPC_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path297" />
+    </marker>
+    <marker
+       id="d3flux017EX_lac__D_e_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.19207"
+       markerHeight="8.19207"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path300" />
+    </marker>
+    <marker
+       id="d3flux017PGK_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.965115"
+       markerHeight="13.965115"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path303" />
+    </marker>
+    <marker
+       id="d3flux017PYRDC_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="16"
+       markerHeight="16"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path306" />
+    </marker>
+    <marker
+       id="d3flux017PGI_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0428858"
+       markerHeight="8.0428858"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path309" />
+    </marker>
+    <marker
+       id="d3flux017ACLS_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path312" />
+    </marker>
+    <marker
+       id="d3flux017EX_pi_e_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path315" />
+    </marker>
+    <marker
+       id="d3flux017D_LACt2_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.19207"
+       markerHeight="8.19207"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path318" />
+    </marker>
+    <marker
+       id="d3flux017G6PDH1_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="12.523724"
+       markerHeight="12.523724"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path321" />
+    </marker>
+    <marker
+       id="d3flux017ACt2r_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.1368227"
+       markerHeight="8.1368227"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path324" />
+    </marker>
+    <marker
+       id="d3flux017EX_btd_RR_e_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path327" />
+    </marker>
+    <marker
+       id="d3flux017FUM_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path330" />
+    </marker>
+    <marker
+       id="d3flux017PYK_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.836259"
+       markerHeight="13.836259"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path333" />
+    </marker>
+    <marker
+       id="d3flux017EX_h2o_e_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.8704681"
+       markerHeight="8.8704681"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path336" />
+    </marker>
+    <marker
+       id="d3flux017ATPS4r_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="9.3036566"
+       markerHeight="9.3036566"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path339" />
+    </marker>
+    <marker
+       id="d3flux017BTDt_RR_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path342" />
+    </marker>
+    <marker
+       id="d3flux017EX_h_e_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.543517"
+       markerHeight="13.543517"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path345" />
+    </marker>
+    <marker
+       id="d3flux017EDA_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.997136"
+       markerHeight="13.997136"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path348" />
+    </marker>
+    <marker
+       id="d3flux017PIt2r_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path351" />
+    </marker>
+    <marker
+       id="d3flux017PGM_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.965115"
+       markerHeight="13.965115"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path354" />
+    </marker>
+    <marker
+       id="d3flux017ALDD2y_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path357" />
+    </marker>
+    <marker
+       id="d3flux017EX_o2_e_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path360" />
+    </marker>
+    <marker
+       id="d3flux017CS_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0542793"
+       markerHeight="8.0542793"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path363" />
+    </marker>
+    <marker
+       id="d3flux017PDH_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.3497753"
+       markerHeight="8.3497753"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path366" />
+    </marker>
+    <marker
+       id="d3flux017GLCt1_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="14.050204"
+       markerHeight="14.050204"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path369" />
+    </marker>
+    <marker
+       id="d3flux017EX_glc__D_e_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="14.050204"
+       markerHeight="14.050204"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path372" />
+    </marker>
+    <marker
+       id="d3flux017LDH_D_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.19207"
+       markerHeight="8.19207"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path375" />
+    </marker>
+    <marker
+       id="d3flux017EDD_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.997136"
+       markerHeight="13.997136"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path378" />
+    </marker>
+    <marker
+       id="d3flux017H2Ot_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.8704681"
+       markerHeight="8.8704681"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path381" />
+    </marker>
+    <marker
+       id="d3flux017EX_succ_e_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path384" />
+    </marker>
+    <marker
+       id="d3flux017ALCD2x_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="16"
+       markerHeight="16"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path387" />
+    </marker>
+    <marker
+       id="d3flux017ETOHt_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="16"
+       markerHeight="16"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path390" />
+    </marker>
+    <marker
+       id="d3flux017BTDD_RR_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path393" />
+    </marker>
+    <marker
+       id="d3flux017RPE_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0392494"
+       markerHeight="8.0392494"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path396" />
+    </marker>
+    <marker
+       id="d3flux017ENO_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="13.852391"
+       markerHeight="13.852391"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path399" />
+    </marker>
+    <marker
+       id="d3flux017ATPM_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.749073"
+       markerHeight="8.749073"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path402" />
+    </marker>
+    <marker
+       id="d3flux017DACS_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path405" />
+    </marker>
+    <marker
+       id="d3flux017biomass_degraaf_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0661135"
+       markerHeight="8.0661135"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path408" />
+    </marker>
+    <marker
+       id="d3flux017PTAr_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.1368227"
+       markerHeight="8.1368227"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path411" />
+    </marker>
+    <marker
+       id="d3flux017ACKr_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.1368227"
+       markerHeight="8.1368227"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path414" />
+    </marker>
+    <marker
+       id="d3flux017PFL_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path417" />
+    </marker>
+    <marker
+       id="d3flux017FORti_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path420" />
+    </marker>
+    <marker
+       id="d3flux017FDH_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path423" />
+    </marker>
+    <marker
+       id="d3flux017ACONT_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0542793"
+       markerHeight="8.0542793"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path426" />
+    </marker>
+    <marker
+       id="d3flux017ALDC_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.96035"
+       markerHeight="8.96035"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path429" />
+    </marker>
+    <marker
+       id="d3flux017MDH_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.1681938"
+       markerHeight="8.1681938"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path432" />
+    </marker>
+    <marker
+       id="d3flux017XYLabc_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path435" />
+    </marker>
+    <marker
+       id="d3flux017XYLI1_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path438" />
+    </marker>
+    <marker
+       id="d3flux017XYLK_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto"
+       class="startmarker inactive">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path441" />
+    </marker>
+    <marker
+       id="d3flux017TALA_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0151625"
+       markerHeight="8.0151625"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path444" />
+    </marker>
+    <marker
+       id="d3flux017TKT1_rev"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8.0151625"
+       markerHeight="8.0151625"
+       orient="auto"
+       class="startmarker">
+      <path
+         d="M 10,10 0,5 10,0 Z"
+         fill="#bbbbbb"
+         id="path447" />
+    </marker>
+  </defs>
+  <g
+     id="g10398"
+     transform="translate(-236.88832,-48.091125)"
+     clip-path="url(#clipPath8067)">
+    <path
+       class="link d3flux017ICDHyr"
+       marker-end="url(#d3flux017ICDHyr)"
+       stroke-width="1.53053"
+       stroke="#bbbbbb"
+       d="m 195.56249,359.27135 q -6.8483,6.87265 -20.16692,14.15905 -15.09362,8.25746 -35.2529,12.96705"
+       id="path458" />
+    <path
+       class="link d3flux017ICDHyr"
+       marker-end="url(#d3flux017ICDHyr)"
+       stroke-width="1.53053"
+       stroke="#bbbbbb"
+       d="m 195.56249,359.27135 q -6.8483,6.87265 -20.16692,14.15905 -15.68591,8.58149 -37.91231,1.48958"
+       id="path460" />
+    <path
+       class="link d3flux017ICDHyr"
+       marker-end="url(#d3flux017ICDHyr)"
+       stroke-width="1.53053"
+       stroke="#bbbbbb"
+       d="m 195.56249,359.27135 q -6.8483,6.87265 -20.16692,14.15905 -16.14968,8.83522 -33.59103,-10.07353"
+       id="path462" />
+    <path
+       class="link d3flux017SUCDi"
+       marker-end="url(#d3flux017SUCDi)"
+       stroke-width="2.0402"
+       stroke="#bbbbbb"
+       d="m 31.117048,279.78079 q -2.90945,21.94328 0.89297,36.88455 2.96298,11.64273 10.58812,23.37629"
+       id="path464"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#5599ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 8;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker15255);stop-color:#000000;stop-opacity:1" />
+    <path
+       class="link d3flux017SUCDi"
+       marker-end="url(#d3flux017SUCDi)"
+       stroke-width="2.0402"
+       stroke="#bbbbbb"
+       d="m 51.482428,299.49035 q -23.36727,1.87051 -19.47241,17.17499 3.09165,12.14835 14.51354,6.92683"
+       id="path466"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#5599ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 8;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker15265);stop-color:#000000;stop-opacity:1" />
+    <path
+       class="link d3flux017ME1"
+       marker-end="url(#d3flux017ME1)"
+       stroke-width="2.13481"
+       stroke="#bbbbbb"
+       d="m 212.83833,94.02624 q -5.4596,14.67392 -20.22175,31.54467 -19.57452,22.37049 -93.866072,68.03335"
+       id="path468" />
+    <path
+       class="link d3flux017ME1"
+       marker-end="url(#d3flux017ME1)"
+       stroke-width="2.13481"
+       stroke="#bbbbbb"
+       d="m 198.86508,146.71851 q 13.29208,-43.47931 -6.2485,-21.1476 -19.57452,22.37049 -93.866072,68.03335"
+       id="path470" />
+    <path
+       class="link d3flux017ME1"
+       marker-end="url(#d3flux017ME1)"
+       stroke-width="2.13481"
+       stroke="#bbbbbb"
+       d="M 181.35286,162.32053 Q 212.678,102.64396 192.61658,125.57091 173.04206,147.9414 98.750508,193.60426"
+       id="path472" />
+    <path
+       class="link d3flux017PPC inactive"
+       marker-end="url(#d3flux017PPC)"
+       stroke-width="1.5"
+       stroke="#bbbbbb"
+       stroke-dasharray="5, 5"
+       d="m 131.83,133.48956 q 6.10118,14.31893 13.47195,29.84441 6.43399,13.55226 12.79778,25.83415"
+       id="path494" />
+    <path
+       class="link d3flux017PPC inactive"
+       marker-end="url(#d3flux017PPC)"
+       stroke-width="1.5"
+       stroke="#bbbbbb"
+       stroke-dasharray="5, 5"
+       d="m 103.35564,148.57419 q 33.06736,-3.94246 41.94631,14.75978 6.43399,13.55226 12.79778,25.83415"
+       id="path496" />
+    <path
+       class="link d3flux017PYRDC"
+       marker-end="url(#d3flux017PYRDC)"
+       stroke-width="6"
+       stroke="#bbbbbb"
+       d="m 227.89754,86.2835 q 51.11695,20.83333 77.87361,32.14233 15.57973,6.58494 28.60807,12.23903"
+       id="path502"
+       style="stroke-width:4.2;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       class="link d3flux017PYRDC"
+       marker-end="url(#d3flux017PYRDC)"
+       stroke-width="6"
+       stroke="#bbbbbb"
+       d="m 227.89754,86.2835 q 51.11695,20.83333 77.87361,32.14233 18.17101,7.68017 27.85786,-1.67459"
+       id="path504"
+       style="stroke-width:4.2;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       class="link d3flux017ACLS"
+       marker-end="url(#d3flux017ACLS)"
+       stroke-width="2.0402"
+       stroke="#bbbbbb"
+       d="m 224.59555,71.75664 c 6.77193,-5.90185 15.40871,-10.73463 25.91034,-14.49836 12.75213,-4.57029 32.89075,-6.36643 54.65672,-5.91198"
+       id="path508"
+       style="stroke:#008000;stroke-width:3.5;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker11211)"
+       sodipodi:nodetypes="csc" />
+    <path
+       class="link d3flux017ACLS"
+       marker-end="url(#d3flux017ACLS)"
+       stroke-width="2.0402"
+       stroke="#bbbbbb"
+       d="m 224.59555,71.75664 c 6.77193,-5.90185 15.40871,-10.73463 25.91034,-14.49836 10.39642,-3.72602 20.21369,-0.12651 27.88114,5.03938"
+       id="path510"
+       style="stroke:#008000;stroke-width:3.5;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker11201)"
+       sodipodi:nodetypes="csc" />
+    <path
+       class="link d3flux017FUM"
+       marker-end="url(#d3flux017FUM)"
+       stroke-width="2.0402"
+       stroke="#bbbbbb"
+       d="m 76.951038,207.04247 q -18.85903,12.63568 -29.60767,27.60172 -7.29987,10.16409 -11.065,20.31485"
+       id="path516"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#5599ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 8;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker15275);stop-color:#000000;stop-opacity:1" />
+    <path
+       class="link d3flux017PYK"
+       marker-end="url(#d3flux017PYK)"
+       stroke-width="4.7829"
+       stroke="#bbbbbb"
+       d="m 138.58731,123.43235 q 20.42925,-0.72167 36.47786,-8.09724 12.30335,-5.65433 24.71966,-16.97781"
+       id="path518"
+       style="stroke-width:3.34803;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       class="link d3flux017PYK"
+       marker-end="url(#d3flux017PYK)"
+       stroke-width="4.7829"
+       stroke="#bbbbbb"
+       d="m 138.58731,123.43235 q 20.42925,-0.72167 36.47786,-8.09724 14.00112,-6.43459 2.2214,-18.11477"
+       id="path520"
+       style="stroke-width:3.34803;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       class="link d3flux017ALDD2y inactive"
+       marker-end="url(#d3flux017ALDD2y)"
+       stroke-width="1.5"
+       stroke="#bbbbbb"
+       stroke-dasharray="5, 5"
+       d="m 356.41976,151.92464 q 0.36199,13.85895 0.483,27.96123 0.12023,14.01105 -0.013,30.78887"
+       id="path528" />
+    <path
+       class="link d3flux017ALDD2y inactive"
+       marker-end="url(#d3flux017ALDD2y)"
+       stroke-width="1.5"
+       stroke="#bbbbbb"
+       stroke-dasharray="5, 5"
+       d="m 356.41976,151.92464 q 0.36199,13.85895 0.483,27.96123 0.10879,12.67731 8.99334,20.06241"
+       id="path530" />
+    <path
+       class="link d3flux017CS"
+       marker-end="url(#d3flux017CS)"
+       stroke-width="1.53053"
+       stroke="#bbbbbb"
+       d="m 244.50065,177.17982 q -38.11037,32.84373 -32.2644,58.24872 2.80692,12.19808 4.92084,20.50936"
+       id="path532"
+       style="stroke:#008000;stroke-width:3.5;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker12353)" />
+    <path
+       class="link d3flux017CS"
+       marker-end="url(#d3flux017CS)"
+       stroke-width="1.53053"
+       stroke="#bbbbbb"
+       d="m 173.22057,203.68244 q 33.37757,7.24443 39.01568,31.7461 2.80692,12.19808 4.92084,20.50936"
+       id="path534"
+       style="stroke:#008000;stroke-width:3.5;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker12343)" />
+    <path
+       class="link d3flux017PDH"
+       marker-end="url(#d3flux017PDH)"
+       stroke-width="1.69675"
+       stroke="#bbbbbb"
+       d="m 220.25217,93.61613 q 7.50349,20.74296 13.94953,37.53466 5.33686,13.90232 10.61491,26.96546"
+       id="path536" />
+    <path
+       class="link d3flux017PDH"
+       marker-end="url(#d3flux017PDH)"
+       stroke-width="1.69675"
+       stroke="#bbbbbb"
+       d="m 220.25217,93.61613 q 7.50349,20.74296 13.94953,37.53466 6.49651,16.92316 29.67393,9.81341"
+       id="path538" />
+    <path
+       class="link d3flux017PDH"
+       marker-end="url(#d3flux017PDH)"
+       stroke-width="1.69675"
+       stroke="#bbbbbb"
+       d="m 220.25217,93.61613 q 7.50349,20.74296 13.94953,37.53466 6.04455,15.74583 24.25685,18.59288"
+       id="path540" />
+    <path
+       class="link d3flux017LDH_D"
+       marker-end="url(#d3flux017LDH_D)"
+       stroke-width="1.60804"
+       stroke="#bbbbbb"
+       d="M 220.68174,69.31002 Q 236.11207,34.26724 260.68899,19.72794 286.39821,4.51879 351.40228,5.77953"
+       id="path542"
+       style="stroke:#5599ff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:4, 8;stroke-dashoffset:0;marker-end:url(#marker13511)" />
+    <path
+       class="link d3flux017LDH_D"
+       marker-end="url(#d3flux017LDH_D)"
+       stroke-width="1.60804"
+       stroke="#bbbbbb"
+       d="M 261.20372,33.76959 Q 235.89126,34.39787 260.68899,19.72794 286.39821,4.51879 351.40228,5.77953"
+       id="path544"
+       style="stroke:#5599ff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:4, 8;stroke-dashoffset:0;marker-end:url(#marker19926)" />
+    <path
+       class="link d3flux017ALCD2x"
+       marker-end="url(#d3flux017ALCD2x)"
+       stroke-width="6"
+       stroke="#bbbbbb"
+       d="m 366.69161,145.14151 q 25.0346,11.51974 44.50776,19.82488 13.82609,5.89671 29.07395,12.012"
+       id="path548"
+       style="stroke-width:4.2;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       class="link d3flux017ALCD2x"
+       marker-end="url(#d3flux017ALCD2x)"
+       stroke-width="6"
+       stroke="#bbbbbb"
+       d="m 382.17058,176.39422 q 9.23154,-19.87119 29.02879,-11.42783 13.82609,5.89671 29.07395,12.012"
+       id="path550"
+       style="stroke-width:4.2;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       class="link d3flux017BTDD_RR"
+       marker-end="url(#d3flux017BTDD_RR)"
+       stroke-width="2.0402"
+       stroke="#bbbbbb"
+       d="m 402.01448,85.44548 q 19.27754,7.4655 35.9459,14.99315 12.88726,5.82005 25.26371,12.08605"
+       id="path552" />
+    <path
+       class="link d3flux017BTDD_RR"
+       marker-end="url(#d3flux017BTDD_RR)"
+       stroke-width="2.0402"
+       stroke="#bbbbbb"
+       d="m 404.47768,106.80979 q 16.43429,-14.07044 33.4827,-6.37116 12.88726,5.82005 25.26371,12.08605"
+       id="path554" />
+    <path
+       class="link d3flux017PTAr"
+       marker-end="url(#d3flux017PTAr)"
+       stroke-width="1.57696"
+       stroke="#bbbbbb"
+       d="m 258.96317,176.09824 q 9.88322,4.51319 19.17794,9.00983 5.95065,2.87883 11.66178,5.74388"
+       id="path560"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#5599ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 8;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker19916);stop-color:#000000;stop-opacity:1" />
+    <path
+       class="link d3flux017ACKr"
+       marker-end="url(#d3flux017ACKr)"
+       stroke-width="1.57696"
+       stroke="#bbbbbb"
+       d="m 310.82156,202.76551 q 8.33378,5.28572 17.48668,10.09483 6.99645,3.67607 14.43998,7.02141"
+       id="path562"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#5599ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 8;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker19906);stop-color:#000000;stop-opacity:1" />
+    <path
+       class="link d3flux017ACKr"
+       marker-end="url(#d3flux017ACKr)"
+       stroke-width="1.57696"
+       stroke="#bbbbbb"
+       d="m 310.82156,202.76551 q 8.33378,5.28572 17.48668,10.09483 8.94473,4.69973 5.55929,16.65317"
+       id="path564"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#5599ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 8;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker19896);stop-color:#000000;stop-opacity:1" />
+    <path
+       class="link d3flux017ACONT"
+       marker-end="url(#d3flux017ACONT)"
+       stroke-width="1.53053"
+       stroke="#bbbbbb"
+       d="m 222.23386,278.4145 q 1.80766,19.53806 -2.57863,36.74609 -3.40579,13.36137 -9.97598,24.61036"
+       id="path566" />
+    <path
+       class="link d3flux017ALDC"
+       marker-end="url(#d3flux017ALDC)"
+       stroke-width="2.0402"
+       stroke="#bbbbbb"
+       d="m 327.04909,55.07225 q 16.93275,6.36431 31.87465,12.42557 10.30985,4.18224 19.6805,8.18963"
+       id="path568" />
+    <path
+       class="link d3flux017MDH"
+       marker-end="url(#d3flux017MDH)"
+       stroke-width="1.59461"
+       stroke="#bbbbbb"
+       d="m 93.572978,198.49363 q 20.141542,-7.55276 36.079012,-7.0094 11.50866,0.39237 21.92177,4.22026"
+       id="path570" />
+    <path
+       class="link d3flux017MDH"
+       marker-end="url(#d3flux017MDH)"
+       stroke-width="1.59461"
+       stroke="#bbbbbb"
+       d="m 93.572978,198.49363 q 20.141542,-7.55276 36.079012,-7.0094 14.84601,0.50615 5.81267,19.5534"
+       id="path572" />
+    <g
+       transform="translate(393.30134,82.12436)"
+       id="g602">
+      <circle
+         class="node metabolite"
+         id="actn__R_c"
+         r="4.3246236"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text600"
+         y="-1.7142859"
+         text-anchor="start"
+         x="-4.1795917"><tspan
+           class="text"
+           dy="0"
+           x="10.220407"
+           id="tspan598">Acetoin</tspan></text>
+    </g>
+    <g
+       transform="translate(356.06979,140.22566)"
+       id="g630">
+      <circle
+         class="node metabolite"
+         id="acald_c"
+         r="6.7042112"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text628"
+         y="-0.93061256"
+         text-anchor="start"
+         x="-1.5673469"><tspan
+           class="text"
+           x="12.832653"
+           id="tspan626">ACALD</tspan></text>
+    </g>
+    <g
+       transform="translate(477.4417,119.96094)"
+       id="g644">
+      <circle
+         class="node metabolite"
+         id="btd_RR_c"
+         r="4.3246236"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text642"
+         y="21.387182"
+         text-anchor="start"
+         x="-43.646915"><tspan
+           class="text"
+           dy="0"
+           x="-29.246918"
+           id="tspan640">2,3-BDO</tspan></text>
+    </g>
+    <g
+       transform="translate(165.17027,202.46159)"
+       id="g665">
+      <circle
+         class="node metabolite"
+         id="oaa_c"
+         r="4.0568538"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text663"
+         y="-1.04969"
+         text-anchor="start"
+         x="-2.9554176"><tspan
+           class="text"
+           dy="0"
+           x="11.444582"
+           id="tspan661">OAA</tspan></text>
+    </g>
+    <g
+       transform="translate(84.887848,202.04056)"
+       id="g672">
+      <circle
+         class="node metabolite"
+         id="mal__L_c"
+         r="4.3814774"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text670"
+         y="-6.9605255"
+         text-anchor="start"
+         x="-44.331264"><tspan
+           class="text"
+           dy="0"
+           x="-29.931267"
+           id="tspan668">MAL</tspan></text>
+    </g>
+    <g
+       transform="translate(221.10097,269.4676)"
+       id="g686">
+      <circle
+         class="node metabolite"
+         id="cit_c"
+         r="4.0183477"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+    </g>
+    <g
+       transform="translate(215.85713,81.3816)"
+       id="g693">
+      <circle
+         class="node metabolite"
+         id="pyr_c"
+         r="8"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text691"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan689">PYR</tspan></text>
+    </g>
+    <g
+       transform="translate(32.577088,270.57118)"
+       id="g700">
+      <circle
+         class="node metabolite"
+         id="fum_c"
+         r="4.3246236"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text698"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan696">FUM</tspan></text>
+    </g>
+    <g
+       transform="translate(366.60318,6.27513)"
+       id="g707">
+      <circle
+         class="node metabolite"
+         id="lac__D_c"
+         r="4.0649247"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text705"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan703">Lactate</tspan></text>
+    </g>
+    <g
+       transform="translate(250.65246,172.34665)"
+       id="g714">
+      <circle
+         class="node metabolite"
+         id="accoa_c"
+         r="4.1182332"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text712"
+         y="0.89795911"
+         text-anchor="start"
+         x="-2.6122448"><tspan
+           class="text"
+           dy="0"
+           x="11.787755"
+           id="tspan710">ACCOA</tspan></text>
+    </g>
+    <circle
+       class="node metabolite"
+       id="etoh_c"
+       r="6.7042112"
+       style="fill:#1f77b4"
+       cx="462.33319"
+       cy="185.65317" />
+    <text
+       class="nodelabel"
+       id="text719"
+       y="208.89767"
+       text-anchor="start"
+       x="436.33078"><tspan
+         class="text"
+         dy="0"
+         x="450.73077"
+         id="tspan717">Ethanol</tspan></text>
+    <g
+       transform="translate(52.277168,352.8383)"
+       id="g749">
+      <circle
+         class="node metabolite"
+         id="succ_c"
+         r="4.3246236"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text747"
+         y="17.093878"
+         text-anchor="start"
+         x="-67.39592"><tspan
+           class="text"
+           dy="0"
+           x="-52.995918"
+           id="tspan745">SUCC</tspan></text>
+    </g>
+    <g
+       transform="translate(201.0126,352.08616)"
+       id="g763">
+      <circle
+         class="node metabolite"
+         id="icit_c"
+         r="4.0183477"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text761"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan759">ICIT</tspan></text>
+    </g>
+    <circle
+       class="node metabolite"
+       id="akg_c"
+       r="4.0183477"
+       style="fill:#1f77b4"
+       cx="125.35964"
+       cy="389.26758" />
+    <text
+       class="nodelabel"
+       id="text775"
+       y="409.14105"
+       text-anchor="start"
+       x="96.102501"><tspan
+         class="text"
+         dy="0"
+         x="106.90252"
+         id="tspan773">AKG</tspan></text>
+    <g
+       transform="translate(318.3112,51.81681)"
+       id="g784">
+      <circle
+         class="node metabolite"
+         id="alac__S_c"
+         r="4.3246236"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text782"
+         y="-0.66938788"
+         text-anchor="start"
+         x="-5.2244897"><tspan
+           class="text"
+           dy="0"
+           x="9.1755095"
+           id="tspan780">Acetolactate</tspan></text>
+    </g>
+    <g
+       transform="translate(127.60932,123.35506)"
+       id="g791">
+      <circle
+         class="node metabolite"
+         id="pep_c"
+         r="5.9782624"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text789"
+         y="-12.163265"
+         text-anchor="start"
+         x="-29.257143"><tspan
+           class="text"
+           dy="0"
+           x="-14.857143"
+           id="tspan787">PEP</tspan></text>
+    </g>
+    <g
+       transform="translate(356.72684,225.72011)"
+       id="g805">
+      <circle
+         class="node metabolite"
+         id="ac_c"
+         r="4.0462499"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text803"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan801">Acetate</tspan></text>
+    </g>
+    <g
+       transform="translate(303.28039,197.76897)"
+       id="g812">
+      <circle
+         class="node metabolite"
+         id="actp_c"
+         r="4.0462499"
+         style="fill:#1f77b4"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel"
+         id="text810"
+         y="-5.371429"
+         text-anchor="start"
+         x="-9.9265308"><tspan
+           class="text"
+           dy="0"
+           x="4.4734688"
+           id="tspan808">ACTP</tspan></text>
+    </g>
+    <g
+       transform="translate(123.55186,369.25085)"
+       id="g847">
+      <circle
+         class="node metabolite"
+         id="co2_c_ICDHyr"
+         r="4"
+         style="fill:#aec7e8"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text845"
+         y="-5.9689798"
+         text-anchor="start"
+         x="-35.526531"><tspan
+           class="text"
+           dy="0"
+           x="-24.006531"
+           id="tspan843">CO2</tspan></text>
+    </g>
+    <g
+       transform="translate(132.54793,351.50199)"
+       id="g854">
+      <circle
+         class="node metabolite"
+         id="nadph_c_ICDHyr"
+         r="4"
+         style="fill:#8ca252"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text852"
+         y="-7.0138774"
+         text-anchor="start"
+         x="-30.82449"><tspan
+           class="text"
+           dy="0"
+           x="-19.304491"
+           id="tspan850">NADPH</tspan></text>
+    </g>
+    <g
+       transform="translate(59.404428,314.58051)"
+       id="g861">
+      <circle
+         class="node metabolite"
+         id="q8_c_SUCDi"
+         r="4"
+         style="fill:#8ca252"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text859"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan857">FAD</tspan></text>
+    </g>
+    <g
+       transform="translate(60.479138,299.2468)"
+       id="g868">
+      <circle
+         class="node metabolite"
+         id="q8h2_c_SUCDi"
+         r="4"
+         style="fill:#8ca252"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text866"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan864">FADH2</tspan></text>
+    </g>
+    <g
+       transform="translate(196.13526,155.29452)"
+       id="g875">
+      <circle
+         class="node metabolite"
+         id="co2_c_ME1"
+         r="4"
+         style="fill:#aec7e8"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text873"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan871">CO2</tspan></text>
+    </g>
+    <g
+       transform="translate(177.14426,170.27589)"
+       id="g882">
+      <circle
+         class="node metabolite"
+         id="nadh_c_ME1"
+         r="4"
+         style="fill:#b5cf6b"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text880"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan878">NADH</tspan></text>
+    </g>
+    <g
+       transform="translate(94.463018,149.96035)"
+       id="g917">
+      <circle
+         class="node metabolite"
+         id="co2_c_PPC"
+         r="4"
+         style="fill:#aec7e8"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text915"
+         y="-8.653204"
+         text-anchor="start"
+         x="-22.326447"><tspan
+           class="text"
+           dy="0"
+           x="-10.806448"
+           id="tspan913">CO2</tspan></text>
+    </g>
+    <g
+       transform="translate(342.56411,97.74692)"
+       id="g931">
+      <circle
+         class="node metabolite"
+         id="co2_c_PYRDC"
+         r="4"
+         style="fill:#aec7e8"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text929"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan927">CO2</tspan></text>
+    </g>
+    <g
+       transform="translate(288.33872,70.90037)"
+       id="g938">
+      <circle
+         class="node metabolite"
+         id="co2_c_ACLS"
+         r="4"
+         style="fill:#aec7e8"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text936"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan934">CO2</tspan></text>
+    </g>
+    <g
+       transform="translate(161.6593,85.76329)"
+       id="g952">
+      <circle
+         class="node metabolite"
+         id="atp_c_PYK"
+         r="4"
+         style="fill:#ffbb78"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text950"
+         y="-7.1282225"
+         text-anchor="start"
+         x="-23.216444"><tspan
+           class="text"
+           dy="0"
+           x="-11.696445"
+           id="tspan948">ATP</tspan></text>
+    </g>
+    <g
+       transform="translate(379.25704,206.7663)"
+       id="g959">
+      <circle
+         class="node metabolite"
+         id="nadph_c_ALDD2y"
+         r="4"
+         style="fill:#8ca252"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text957"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan955">NADPH</tspan></text>
+    </g>
+    <g
+       transform="translate(277.99929,135.17966)"
+       id="g966">
+      <circle
+         class="node metabolite"
+         id="co2_c_PDH"
+         r="4"
+         style="fill:#aec7e8"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text964"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan962">CO2</tspan></text>
+    </g>
+    <g
+       transform="translate(273.71729,150.07474)"
+       id="g973">
+      <circle
+         class="node metabolite"
+         id="nadh_c_PDH"
+         r="4"
+         style="fill:#b5cf6b"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text971"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan969">NADH</tspan></text>
+    </g>
+    <g
+       transform="translate(270.18652,33.21343)"
+       id="g980">
+      <circle
+         class="node metabolite"
+         id="nadh_c_LDH_D"
+         r="4"
+         style="fill:#b5cf6b"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text978"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan976">NADH</tspan></text>
+    </g>
+    <g
+       transform="translate(379.07872,184.84647)"
+       id="g987">
+      <circle
+         class="node metabolite"
+         id="nadh_c_ALCD2x"
+         r="4"
+         style="fill:#b5cf6b"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text985"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan983">NADH</tspan></text>
+    </g>
+    <g
+       transform="translate(398.0792,113.13904)"
+       id="g994">
+      <circle
+         class="node metabolite"
+         id="nadh_c_BTDD_RR"
+         r="4"
+         style="fill:#b5cf6b"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text992"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan990">NADH</tspan></text>
+    </g>
+    <g
+       transform="translate(327.45627,243.18775)"
+       id="g1001">
+      <circle
+         class="node metabolite"
+         id="atp_c_ACKr"
+         r="4"
+         style="fill:#ffbb78"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text999"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan997">ATP</tspan></text>
+    </g>
+    <g
+       transform="translate(127.89596,224.134)"
+       id="g1008">
+      <circle
+         class="node metabolite"
+         id="nadh_c_MDH"
+         r="4"
+         style="fill:#b5cf6b"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel cofactor"
+         id="text1006"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1004">NADH</tspan></text>
+    </g>
+    <g
+       transform="translate(175.39557,373.4304)"
+       id="g1036">
+      <circle
+         class="node rxn hidden"
+         id="ICDHyr"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1034"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1032" /></text>
+    </g>
+    <g
+       transform="translate(32.010018,316.66534)"
+       id="g1043">
+      <circle
+         class="node rxn hidden"
+         id="SUCDi"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1041"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1039" /></text>
+    </g>
+    <g
+       transform="translate(192.61658,125.57091)"
+       id="g1050">
+      <circle
+         class="node rxn hidden"
+         id="ME1"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1048"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1046" /></text>
+    </g>
+    <g
+       transform="translate(145.30195,163.33397)"
+       id="g1092">
+      <circle
+         class="node rxn hidden inactive"
+         id="PPC"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel inactive rxn"
+         id="text1090"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1088" /></text>
+    </g>
+    <g
+       transform="translate(305.77115,118.42583)"
+       id="g1106">
+      <circle
+         class="node rxn hidden"
+         id="PYRDC"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1104"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1102" /></text>
+    </g>
+    <g
+       transform="translate(250.50589,57.25828)"
+       id="g1120">
+      <circle
+         class="node rxn hidden"
+         id="ACLS"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1118"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1116" /></text>
+    </g>
+    <g
+       transform="translate(47.343368,234.64419)"
+       id="g1134">
+      <circle
+         class="node rxn hidden"
+         id="FUM"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1132"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1130" /></text>
+    </g>
+    <g
+       transform="translate(175.06517,115.33511)"
+       id="g1141">
+      <circle
+         class="node rxn hidden"
+         id="PYK"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1139"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1137" /></text>
+    </g>
+    <g
+       transform="translate(252.27553,5)"
+       id="g1148">
+      <circle
+         class="node rxn hidden"
+         id="EDA"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1146"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1144" /></text>
+    </g>
+    <g
+       transform="translate(356.90276,179.88587)"
+       id="g1162">
+      <circle
+         class="node rxn hidden inactive"
+         id="ALDD2y"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel inactive rxn"
+         id="text1160"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1158" /></text>
+    </g>
+    <g
+       transform="translate(212.15362,234.98347)"
+       id="g1169">
+      <circle
+         class="node rxn hidden"
+         id="CS"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1167"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1165" /></text>
+    </g>
+    <g
+       transform="translate(234.2017,131.15079)"
+       id="g1176">
+      <circle
+         class="node rxn hidden"
+         id="PDH"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1174"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1172" /></text>
+    </g>
+    <g
+       transform="translate(260.68899,19.72794)"
+       id="g1183">
+      <circle
+         class="node rxn hidden"
+         id="LDH_D"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1181"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1179" /></text>
+    </g>
+    <g
+       transform="translate(411.19937,164.96639)"
+       id="g1197">
+      <circle
+         class="node rxn hidden"
+         id="ALCD2x"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1195"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1193" /></text>
+    </g>
+    <g
+       transform="translate(437.96038,100.43863)"
+       id="g1204">
+      <circle
+         class="node rxn hidden"
+         id="BTDD_RR"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1202"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1200" /></text>
+    </g>
+    <g
+       transform="translate(278.14111,185.10807)"
+       id="g1225">
+      <circle
+         class="node rxn hidden"
+         id="PTAr"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1223"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1221" /></text>
+    </g>
+    <g
+       transform="translate(328.30824,212.86034)"
+       id="g1232">
+      <circle
+         class="node rxn hidden"
+         id="ACKr"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1230"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1228" /></text>
+    </g>
+    <g
+       transform="translate(219.65523,315.16059)"
+       id="g1239">
+      <circle
+         class="node rxn hidden"
+         id="ACONT"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1237"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1235" /></text>
+    </g>
+    <g
+       transform="translate(358.92374,67.49782)"
+       id="g1246">
+      <circle
+         class="node rxn hidden"
+         id="ALDC"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1244"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1242" /></text>
+    </g>
+    <g
+       transform="translate(129.65199,191.48423)"
+       id="g1253">
+      <circle
+         class="node rxn hidden"
+         id="MDH"
+         r="5"
+         cx="0"
+         cy="0" />
+      <text
+         class="nodelabel rxn"
+         id="text1251"
+         y="0.34999999em"
+         text-anchor="start"><tspan
+           class="text"
+           dy="0"
+           x="0.89999998em"
+           id="tspan1249" /></text>
+    </g>
+    <path
+       class="link d3flux017ACONT"
+       marker-end="url(#d3flux017ACONT)"
+       stroke-width="1.53053"
+       stroke="#bbbbbb"
+       d="m 114.51854,389.34463 c -12.89345,-2.20717 -21.367622,-5.68517 -31.691912,-11.4789 -8.01641,-4.49861 -13.51233,-7.74405 -19.62246,-13.91589"
+       id="path4163"
+       sodipodi:nodetypes="csc"
+       style="stroke-width:1.531;stroke-miterlimit:4;stroke-dasharray:4.593, 4.593;stroke-dashoffset:0" />
+  </g>
+  <g
+     id="g7932"
+     transform="translate(-254.24148,-339.28901)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#5599ff;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       x="323.48254"
+       y="351.69653"
+       id="text2611"><tspan
+         sodipodi:role="line"
+         id="tspan2607"
+         x="323.48254"
+         y="351.69653"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:Arial;-inkscape-font-specification:Arial;fill:#5599ff;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">pH-dependent</tspan><tspan
+         sodipodi:role="line"
+         x="323.48254"
+         y="373.36316"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:Arial;-inkscape-font-specification:Arial;fill:#5599ff;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan2609">pathway deactivation</tspan></text>
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#5599ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 8;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker7114);stop-color:#000000"
+       d="m 274.95386,358.69406 h 30.64571"
+       id="path3911" />
+  </g>
+</svg>
