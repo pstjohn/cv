@@ -1,0 +1,27 @@
+# Peter St. John, PhD
+
+> Professional CV and resume website for Peter St. John.
+
+## Contact
+
+- Email: [inquiries@agents.pcstj.com](mailto:inquiries@agents.pcstj.com)
+- Use this email address for professional inquiries.
+
+## Resume and profile
+
+- [Plain-text resume](https://www.pcstj.com/cv/versions/9bbb0081f7e6/resume.txt): UTF-8 text in a linear reading order, generated from the same content as the PDF. Prefer this for text extraction. Contact via email.
+- [PDF resume](https://www.pcstj.com/cv/versions/9bbb0081f7e6/resume.pdf): Direct download of the one-page US Letter resume. This file can be retrieved without executing JavaScript or opening a print dialog.
+- [Resume web view](https://www.pcstj.com/cv/versions/9bbb0081f7e6/?res): Concise resume, with the same content and print layout as the PDF.
+- [Full CV](https://www.pcstj.com/cv/versions/9bbb0081f7e6/): Longer web CV including publications, grants, and professional activities. The web application requires JavaScript.
+- [Selected NVIDIA work](https://www.pcstj.com/cv/versions/9bbb0081f7e6/#public-assets): Selected public work. Asset types can include NVIDIA technical blogs, Hugging Face models and datasets, code, tutorials, talks, and papers. Published blogs appear as cards after the NVIDIA bullets they support; the BioNeMo Recipes repository link follows the product-transition bullet. A coming-soon blog placeholder is explicitly labeled and has no public link; featuring an asset does not imply sole authorship.
+- [LinkedIn](https://www.linkedin.com/in/peterstjohn/): LinkedIn profile, maintained separately from this site.
+- [GitHub](https://github.com/pstjohn/): Public GitHub profile.
+- [BioNeMo Recipes](https://github.com/NVIDIA-BioNeMo/bionemo-recipes): Featured software project.
+
+## Using this site
+
+The PDF is generated from the resume web view during the site build. The full CV contains additional material beyond the one-page resume. GitHub counts are dated snapshots, not real-time values. Content on this site and LinkedIn may be updated at different times.
+
+The downloadable PDF includes structure tags and an embedded UTF-8 file named `resume.txt`. If your PDF reader supports file attachments, extract that file for a linear text representation. The same text is available at the plain-text resume link above. Browser print-to-PDF copies do not include this attachment.
+
+To print the resume manually, open the resume web view, select US Letter portrait at 100% scale, and disable browser headers and footers.

@@ -1,0 +1,62 @@
+Peter St. John, PhD
+Machine Learning Engineer, NVIDIA Healthcare
+
+CONTACT
+inquiries@agents.pcstj.com
+Golden, CO
+pcstj.com/cv - https://www.pcstj.com/cv
+peterstjohn - https://www.linkedin.com/in/peterstjohn/
+pstjohn - https://github.com/pstjohn/
+Google Scholar - https://scholar.google.com/citations?user=NdWzcVMAAAAJ
+
+SUMMARY
+Machine learning engineer at NVIDIA building distributed training systems, high-performance ML software, and scientific LLMs. Former principal investigator at the National Renewable Energy Lab leading research software and computational modeling.
+
+SKILLS
+Scientific AI: Pre & Post-training (SFT, GRPO), evaluation design, performance optimization (nsys, mixed precision)
+Software & compute: Python, Rust, CUDA, PyTorch, Transformer Engine, FSDP2, Hugging Face, FastAPI, AWS, Docker, Linux, SLURM
+Computational biology: AlphaFold, protein language models, molecular-property prediction, metabolic modeling
+
+EXPERIENCE
+NVIDIA
+Machine Learning Engineer
+Digital Biology
+Jul 2024 - Present
+- Built Nemotron-Stitch workflows connecting scientific encoders with LLMs across NeMo RL, AutoModel, and Dynamo; developed DNA-conditioned SFT/GRPO and gene-annotation evaluations, reaching an 80.7% composite on GeneAnnotationBench-350.
+- Optimized and benchmarked PyTorch/Transformer Engine training across Hopper, Blackwell, and Rubin. Achieved 1.69× Mixtral throughput on 8xB300 GPUs, and nearly 70% MFU with Llama 3-70B context-parallel pretraining on GB300 NVL72.
+- Led BioNeMo’s shift to modular, Hugging Face-compatible training recipes, aligning customer and cross-team requirements across architecture, CI, and release; authored the initial integration.
+- Built GPU inference containers with coding agents, Nsight profiling, CUDA Graphs, and kernel fusion: 1.54–2.45× encoder throughput and 29.1× synthesis-search throughput versus native Python on H100.
+
+Machine Learning Engineer
+Autonomous Vehicles
+Dec 2022 - Jul 2024
+- Led a team of 2–3 ML engineers delivering label-quality detection, visualization, and training-data filtering for autonomous-vehicle parking models.
+- Redesigned training-data serialization, reducing one release dataset from 162 TB to 41 TB (75%) while maintaining comparable data-loader throughput.
+
+National Renewable Energy Lab
+Senior Scientist
+Aug 2020 - Dec 2022
+- Led a $1.8M, three-institution program in graph neural networks and reinforcement learning for materials discovery; mentored graduate students and postdocs.
+- Led software architecture for peer-reviewed reinforcement-learning and molecular-optimization tools.
+
+Staff Scientist
+Oct 2017 - Aug 2020
+- Deployed a molecular-property prediction service on AWS with Docker, FastAPI, and Flask, reaching over 8,000 users.
+- Pretrained a protein language model on 261M sequences across 1,024+ GPUs.
+
+Postdoctoral Fellow
+Jun 2015 - Oct 2017
+- Applied metabolic modeling to guide experiments that increased muconic acid yield from 7% to 41%.
+
+EDUCATION
+PhD in Chemical Engineering | University of California Santa Barbara | 2010-2015
+BSc in Chemical Engineering | Tufts University | 2006-2010
+
+SELECTED WORK
+BioNeMo Recipes
+https://github.com/NVIDIA-BioNeMo/bionemo-recipes
+Scale Biology Transformer Models with PyTorch and NVIDIA BioNeMo Recipes (Coauthor)
+https://developer.nvidia.com/blog/scale-biology-transformer-models-with-pytorch-and-nvidia-bionemo-recipes/
+Efficient MoE Training for Biological Foundation Models (Coauthor)
+https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models/
+Extending Nemotron to new domains with Nemotron-Stitch - Technical blog · Coming soon
