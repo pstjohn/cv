@@ -19,13 +19,13 @@
         "Built Nemotron-Stitch workflows connecting scientific encoders with LLMs across NeMo RL, AutoModel, and Dynamo; developed DNA-conditioned SFT/GRPO and gene-annotation evaluations, reaching an 80.7% composite on GeneAnnotationBench-350.",
         "Optimized and benchmarked PyTorch/Transformer Engine training across Hopper, Blackwell, and Rubin. Achieved 1.69× Mixtral throughput on 8xB300 GPUs, and nearly 70% MFU with Llama 3-70B context-parallel pretraining on GB300 NVL72.",
         "Led BioNeMo’s shift to modular, Hugging Face-compatible training recipes, aligning customer and cross-team requirements across architecture, CI, and release; authored the initial integration.",
-        "Applied coding agents to Nsight-guided GPU optimization, CUDA Graphs, and CUDA kernel fusion; residual-normalization fusion increased H100 serving throughput 6.6%."
+        "Built GPU inference containers with coding agents, Nsight profiling, CUDA Graphs, and kernel fusion: 1.54–2.45× encoder throughput and 29.1× synthesis-search throughput versus native Python on H100."
       ],
       "cvBullets": [
         "Built Nemotron-Stitch workflows connecting scientific encoders with LLMs across NeMo RL, AutoModel, and Dynamo; developed DNA-conditioned SFT/GRPO and gene-annotation evaluations, reaching an 80.7% composite on GeneAnnotationBench-350.",
         "Optimized and benchmarked PyTorch/Transformer Engine training across Hopper, Blackwell, and Rubin. Achieved 1.69× Mixtral throughput on 8xB300 GPUs, and nearly 70% MFU with Llama 3-70B context-parallel pretraining on GB300 NVL72.",
         "Led BioNeMo’s shift to modular, Hugging Face-compatible training recipes, aligning customer and cross-team requirements across architecture, CI, and release; authored the initial integration.",
-        "Applied coding agents to Nsight-guided GPU optimization, CUDA Graphs, and CUDA kernel fusion; residual-normalization fusion increased H100 serving throughput 6.6%.",
+        "Built GPU inference containers with coding agents, Nsight profiling, CUDA Graphs, and kernel fusion: 1.54–2.45× encoder throughput and 29.1× synthesis-search throughput versus native Python on H100.",
         "Partnered with biotechnology, genomics, and diagnostics customers on protein-model training and evaluation, Transformer Engine/MoE requirements, and multimodal research scoping.",
         "Upstreamed Transformer Engine fixes for FSDP2/FP8 memory retention and added MXFP8 recipe support to Hugging Face Accelerate."
       ],
